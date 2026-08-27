@@ -71,7 +71,8 @@
   .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(330px,1fr));gap:14px}
   .card{background:var(--card);border:1px solid var(--line);border-radius:11px;padding:16px 17px;transition:.15s;display:flex;flex-direction:column}
   .card:hover{border-color:var(--blue);box-shadow:0 3px 12px rgba(0,82,217,.10)}
-  .card .pcbadge{display:inline-block;font-size:11px;font-weight:600;color:var(--blue);background:var(--blue-soft);padding:2px 9px;border-radius:10px;margin-bottom:8px;align-self:flex-start}
+  .card .pcbadge{display:inline-block;font-size:11px;font-weight:600;color:var(--blue);background:var(--blue-soft);padding:2px 9px;border-radius:10px;align-self:flex-start}
+  .card .badges{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:8px}
   .card h3{font-size:15px;font-weight:600;line-height:1.45;margin-bottom:7px}
   .card h3 a{color:var(--ink);text-decoration:none}
   .card h3 a:hover{color:var(--blue)}
@@ -177,6 +178,19 @@ fetch('./data/site.json')
 
 const PC_NAME = ()=>{const m=Object.fromEntries(DATA.productCenters.map(p=>[p.id,p.name])); if(DATA.comprehensive) m[DATA.comprehensive.id]=DATA.comprehensive.name; return m;};
 const PROD_NAME = ()=>{const m={};const all=(DATA.comprehensive?[DATA.comprehensive]:[]).concat(DATA.productCenters); all.forEach(p=>p.products.forEach(pr=>m[pr.id]=pr.name));return m;};
+// 多产品标签：新数据用 products[]，旧数据回落单值 product（向后兼容）
+function prodsOf(a){
+  if(Array.isArray(a.products) && a.products.length) return a.products;
+  return a.product ? [a.product] : [];
+}
+// 文章所属中心：由 products 推导，兼容旧数据的 productCenter
+const PROD_CENTER = ()=>{const m={};const all=(DATA.comprehensive?[DATA.comprehensive]:[]).concat(DATA.productCenters); all.forEach(c=>c.products.forEach(pr=>m[pr.id]=c.id));return m;};
+function centersOf(a){
+  const pm=PROD_CENTER();
+  const cs=(prodsOf(a).map(p=>pm[p]).filter(Boolean));
+  if(cs.length) return Array.from(new Set(cs));
+  return a.productCenter ? [a.productCenter] : [];
+}
 // 链接按真实渠道命名（不写模糊的"交叉验证"）
 function chLabel(url){
   if(!url) return '暂无原文链接';
@@ -226,7 +240,8 @@ function buildStatsView(){
   // 1) 内容分布（环形）：3 产品中心 + 跨中心综合
   const groups=(DATA.comprehensive?[DATA.comprehensive]:[]).concat(DATA.productCenters);
   const cc={}; groups.forEach(g=>cc[g.id]=0);
-  arts.forEach(a=>{cc[a.productCenter]=(cc[a.productCenter]||0)+1;});
+  // 多标签计数：一篇文章挂多个中心时各计一次（总和可能 > 总篇数，属预期）
+  arts.forEach(a=>{centersOf(a).forEach(c=>{cc[c]=(cc[c]||0)+1;});});
   const palette={'base':'#0052D9','wedata':'#00a870','tbds':'#ff8800','zonghe':'#86909c'};
   const colors=groups.map(g=>palette[g.id]||'#86909c');
   const total=arts.length;
@@ -254,7 +269,8 @@ function buildStatsView(){
 
   // 2) Top 产品线（横向条）
   const pc={};
-  arts.forEach(a=>{pc[a.product]=(pc[a.product]||0)+1;});
+  // 多标签计数：一篇文章挂多个产品时各计一次
+  arts.forEach(a=>{prodsOf(a).forEach(p=>{pc[p]=(pc[p]||0)+1;});});
   const prodN=PROD_NAME();
   const top=Object.entries(pc).sort((x,y)=>y[1]-x[1]).slice(0,12);
   const maxp=Math.max(1,...top.map(x=>x[1]));
@@ -293,7 +309,7 @@ function buildStatsView(){
 
 function countFor(pcId, prodId){
   return DATA.articles.filter(a=>
-    (!pcId || a.productCenter===pcId) && (!prodId || a.product===prodId)).length;
+    (!pcId || centersOf(a).includes(pcId)) && (!prodId || prodsOf(a).includes(prodId))).length;
 }
 
 function buildTree(){
@@ -366,8 +382,8 @@ function buildTagBar(){
 
 function currentList(){
   let list=DATA.articles.slice();
-  if(state.pc) list=list.filter(a=>a.productCenter===state.pc);
-  if(state.prod) list=list.filter(a=>a.product===state.prod);
+  if(state.pc) list=list.filter(a=>centersOf(a).includes(state.pc));
+  if(state.prod) list=list.filter(a=>prodsOf(a).includes(state.prod));
   if(state.tag) list=list.filter(a=>(a.tags||[]).includes(state.tag));
   if(state.q){
     const q=state.q.toLowerCase();
@@ -399,9 +415,18 @@ function applyFilters(){
   if(!list.length){grid.innerHTML='<div class="empty">该筛选下暂无文章。试试重置筛选，或后续把真实文章灌入 data/site.json。</div>';return;}
   grid.innerHTML=list.map(a=>{
     const tags=(a.tags||[]).map(t=>`<span>${t}</span>`).join('');
-    const badge = a.product==='综合' ? (pcN[a.productCenter]||'') : ((pcN[a.productCenter]||'')+' · '+(prodN[a.product]||''));
+    // 多产品标签：每个命中的产品显示一枚徽标（跨中心时各归各的中心）
+    const pm=PROD_CENTER();
+    const badges = prodsOf(a).map(p=>{
+      const c=pm[p]||a.productCenter;
+      const cn=(pcN[c]||'');
+      return p==='综合' ? cn : (cn?cn+' · ':'')+(prodN[p]||p);
+    }).filter(Boolean);
+    const badgeHtml = badges.length
+      ? badges.map(b=>`<span class="pcbadge">${b}</span>`).join('')
+      : `<span class="pcbadge">${pcN[a.productCenter]||''}</span>`;
     return `<div class="card">
-      <span class="pcbadge">${badge}</span>
+      <div class="badges">${badgeHtml}</div>
       <h3><a href="${a.link}" target="_blank" rel="noopener">${a.title}</a></h3>
       <div class="topic">主题：${a.topic||'—'}</div>
       <div class="sum">${a.summary||''}</div>
