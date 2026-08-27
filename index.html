@@ -73,6 +73,7 @@
   .card:hover{border-color:var(--blue);box-shadow:0 3px 12px rgba(0,82,217,.10)}
   .card .pcbadge{display:inline-block;font-size:11px;font-weight:600;color:var(--blue);background:var(--blue-soft);padding:2px 9px;border-radius:10px;align-self:flex-start}
   .card .badges{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:8px}
+  .card .pcbadge.more{background:#f1efe8;color:#5f5e5a;cursor:help}
   .card h3{font-size:15px;font-weight:600;line-height:1.45;margin-bottom:7px}
   .card h3 a{color:var(--ink);text-decoration:none}
   .card h3 a:hover{color:var(--blue)}
@@ -417,14 +418,22 @@ function applyFilters(){
     const tags=(a.tags||[]).map(t=>`<span>${t}</span>`).join('');
     // 多产品标签：每个命中的产品显示一枚徽标（跨中心时各归各的中心）
     const pm=PROD_CENTER();
-    const badges = prodsOf(a).map(p=>{
+    const allBadges = prodsOf(a).map(p=>{
       const c=pm[p]||a.productCenter;
       const cn=(pcN[c]||'');
       return p==='综合' ? cn : (cn?cn+' · ':'')+(prodN[p]||p);
     }).filter(Boolean);
-    const badgeHtml = badges.length
-      ? badges.map(b=>`<span class="pcbadge">${b}</span>`).join('')
-      : `<span class="pcbadge">${pcN[a.productCenter]||''}</span>`;
+    // 徽标超过 2 枚折叠为 +N（悬停看全部），避免一张卡片挂太多导致版面凌乱
+    const MAXB=2;
+    let badgeHtml;
+    if(!allBadges.length){
+      badgeHtml=`<span class="pcbadge">${pcN[a.productCenter]||''}</span>`;
+    }else if(allBadges.length<=MAXB){
+      badgeHtml=allBadges.map(b=>`<span class="pcbadge">${b}</span>`).join('');
+    }else{
+      badgeHtml=allBadges.slice(0,MAXB).map(b=>`<span class="pcbadge">${b}</span>`).join('')
+        +`<span class="pcbadge more" title="全部产品：${allBadges.join('　')}">+${allBadges.length-MAXB}</span>`;
+    }
     return `<div class="card">
       <div class="badges">${badgeHtml}</div>
       <h3><a href="${a.link}" target="_blank" rel="noopener">${a.title}</a></h3>
