@@ -1,0 +1,3592 @@
+{
+  "meta": {
+    "source": "腾讯云大数据 微信公众号",
+    "subtitle": "内容营销参考看板（内部参考）· 严格限定腾讯云大数据官方发布渠道",
+    "updated": "2026-08-27",
+    "range": "2024-02-07 ~ 2026-08-26",
+    "counts": {
+      "total": 165,
+      "withLink": 158,
+      "noLink": 7
+    },
+    "sourceChannels": [
+      "企微排期文档底表（_content_plan_data.json，一手源，含公众号原文链接）",
+      "腾讯云大数据 微信公众号（主发布渠道）",
+      "腾讯云开发者社区 / CSDN 官方账号（交叉验证）"
+    ],
+    "note": "权威数据源为企微排期文档底表（腾讯云大数据内容营销排期），已发布条目带公众号原文链接（mp.weixin.qq.com/s/...），分类采用表内官方 product/category 口径。综合类为跨中心的腾讯云大数据层面内容（高于产品中心）。无原文链接的少量条目（视频号/外部媒体）留空，不指向社区或博客主页。"
+  },
+  "productCenters": [
+    {
+      "id": "base",
+      "name": "基础产品中心",
+      "products": [
+        {
+          "id": "EMR",
+          "name": "EMR",
+          "pos": "面向 Data+AI 的数据智能平台（Hadoop/Spark/Meson/Xpark/TCRay，CPU+GPU 混合调度）",
+          "kw": [
+            "数据智能平台",
+            "CPU+GPU混合调度",
+            "Meson引擎",
+            "存算分离",
+            "弹性伸缩",
+            "AI-Ready"
+          ]
+        },
+        {
+          "id": "DLC",
+          "name": "DLC",
+          "pos": "Serverless 数据湖分析与计算服务（Spark + TC-Iceberg + Alluxio）",
+          "kw": [
+            "Serverless",
+            "实时湖仓",
+            "Iceberg",
+            "百万级/秒入湖",
+            "亚秒级查询",
+            "Alluxio缓存"
+          ]
+        },
+        {
+          "id": "ES",
+          "name": "ES",
+          "pos": "全托管海量数据检索分析 + RAG（Elasticsearch 自研内核 + 混合搜索）",
+          "kw": [
+            "自研内核",
+            "向量检索",
+            "RAG",
+            "混合搜索",
+            "Serverless",
+            "自治索引"
+          ]
+        },
+        {
+          "id": "TCHouse-C",
+          "name": "TCHouse-C",
+          "pos": "全托管实时 OLAP 数仓（100% 兼容 ClickHouse）",
+          "kw": [
+            "OLAP",
+            "100%兼容ClickHouse",
+            "冷热分层",
+            "实时OLAP",
+            "万亿级数据"
+          ]
+        },
+        {
+          "id": "TCHouse-D",
+          "name": "TCHouse-D",
+          "pos": "全托管实时 OLAP 分析数仓（Apache Doris，3.0 存算分离）",
+          "kw": [
+            "Apache Doris",
+            "实时数仓",
+            "物化视图",
+            "存算分离",
+            "秒级查询"
+          ]
+        },
+        {
+          "id": "TCHouse-X",
+          "name": "TCHouse-X",
+          "pos": "云原生数仓（TCHouse 新成员）",
+          "kw": [
+            "云原生数仓",
+            "TCHouse-X"
+          ]
+        },
+        {
+          "id": "TCLake",
+          "name": "TCLake",
+          "pos": "统一多模态智能数据湖底座（TCIceberg + Lance 兼容 + 智能自治）",
+          "kw": [
+            "多模态数据湖",
+            "AI数据底座",
+            "TCIceberg",
+            "Lance兼容"
+          ]
+        },
+        {
+          "id": "Meson",
+          "name": "Meson",
+          "pos": "自研高性能向量化查询引擎（Spark 无感加速，TPCDS 2.7x）",
+          "kw": [
+            "向量化引擎",
+            "Spark加速",
+            "TPCDS 2.7x",
+            "零代码改造"
+          ]
+        },
+        {
+          "id": "DIaaS",
+          "name": "DIaaS",
+          "pos": "数据智能即服务平台（四个统一：多模态存储/计算/调度/自治）",
+          "kw": [
+            "数据智能即服务",
+            "AI-Ready",
+            "四个统一",
+            "多模态"
+          ]
+        },
+        {
+          "id": "TCDataAgent",
+          "name": "TCDataAgent",
+          "pos": "数据分析智能体（NL2SQL 全球前三、国内第一）",
+          "kw": [
+            "NL2SQL国内第一",
+            "数据分析智能体",
+            "BIRD-Bench"
+          ]
+        },
+        {
+          "id": "TCInsight",
+          "name": "TCInsight",
+          "pos": "AI 驱动大数据自治运维（调优/运维/预测三 Agent）",
+          "kw": [
+            "AIOps",
+            "智能运维",
+            "大数据自治"
+          ]
+        },
+        {
+          "id": "Xpark",
+          "name": "Xpark",
+          "pos": "多模态数据计算引擎（Python 原生，跨模态算子 + AI Function）",
+          "kw": [
+            "Python原生",
+            "多模态计算",
+            "跨模态算子"
+          ]
+        },
+        {
+          "id": "TCRay",
+          "name": "TCRay",
+          "pos": "增强版 Ray 统一调度引擎（CPU+GPU 混合，全 AI 工作负载）",
+          "kw": [
+            "CPU+GPU调度",
+            "Ray增强",
+            "全AI工作负载"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "wedata",
+      "name": "WeData 产品中心",
+      "products": [
+        {
+          "id": "WeData",
+          "name": "WeData",
+          "pos": "Data+AI 一体化数据智能平台（IDC 份额第二 + DIOps 首家认证）",
+          "kw": [
+            "Data+AI一体化",
+            "DIOps首家认证",
+            "数据治理",
+            "信创适配",
+            "Setats流湖"
+          ]
+        },
+        {
+          "id": "Oceanus",
+          "name": "Oceanus",
+          "pos": "企业级实时大数据分析平台（Apache Flink，亚秒延时）",
+          "kw": [
+            "Apache Flink",
+            "实时计算",
+            "实时数仓",
+            "实时风控",
+            "CDC"
+          ]
+        },
+        {
+          "id": "Setats",
+          "name": "Setats",
+          "pos": "流批增量一体的流湖引擎（WeData 核心组件，秒级可见）",
+          "kw": [
+            "流湖引擎",
+            "流批一体",
+            "Flink兼容",
+            "秒级可见"
+          ]
+        },
+        {
+          "id": "腾讯云BI",
+          "name": "腾讯云 BI",
+          "pos": "全流程敏捷自助式 BI 平台（40+ 组件，多端适配）",
+          "kw": [
+            "自助BI",
+            "敏捷分析",
+            "ChatBI",
+            "多端适配"
+          ]
+        },
+        {
+          "id": "ChatBI",
+          "name": "ChatBI",
+          "pos": "基于大模型的对话式数据分析助手（NL2SQL）",
+          "kw": [
+            "对话式BI",
+            "NL2SQL",
+            "自然语言分析",
+            "波动归因"
+          ]
+        },
+        {
+          "id": "DataInLong",
+          "name": "DataInLong",
+          "pos": "万亿级全场景异构数据源集成平台（Apache InLong）",
+          "kw": [
+            "数据集成",
+            "InLong",
+            "批流一体",
+            "跨云跨网"
+          ]
+        },
+        {
+          "id": "RayData",
+          "name": "RayData",
+          "pos": "3D 数据可视化产品（三维数据资产呈现）",
+          "kw": [
+            "3D可视化",
+            "三维可视化",
+            "数据资产"
+          ]
+        },
+        {
+          "id": "DataBuddy",
+          "name": "DataBuddy",
+          "pos": "面向 Data+AI 的一站式数据开发治理智能体平台（WeData 旗下，DIOps 体系）",
+          "kw": [
+            "Data+AI",
+            "DIOps",
+            "数据开发治理",
+            "智能体"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tbds",
+      "name": "TBDS 产品中心",
+      "products": [
+        {
+          "id": "TBDS",
+          "name": "TBDS",
+          "pos": "企业级私有化大数据处理套件（湖仓一体 + 金融信创）",
+          "kw": [
+            "私有化",
+            "信创",
+            "湖仓一体",
+            "CDH迁移",
+            "星环替换",
+            "BDR灾备"
+          ]
+        },
+        {
+          "id": "TCHouse-P",
+          "name": "TCHouse-P",
+          "pos": "自研云原生分布式分析型数仓（PostgreSQL，行列混合存储）",
+          "kw": [
+            "Oracle替换",
+            "云原生存算分离",
+            "行列混合",
+            "三权分立"
+          ]
+        }
+      ]
+    }
+  ],
+  "comprehensive": {
+    "id": "zonghe",
+    "name": "腾讯云大数据 · 综合",
+    "products": [
+      {
+        "id": "大数据品牌",
+        "name": "大数据品牌",
+        "pos": "腾讯云大数据整体品牌 / 综述 / 行业观点 / 活动 / 成绩单",
+        "kw": [
+          "品牌综述",
+          "行业观点",
+          "Data+AI",
+          "年度成绩单",
+          "活动"
+        ]
+      },
+      {
+        "id": "综合",
+        "name": "综合",
+        "pos": "腾讯云大数据跨中心内容（品牌 / 综述 / 行业观点 / 活动）",
+        "kw": [
+          "品牌综述",
+          "行业观点",
+          "Data+AI",
+          "活动"
+        ]
+      }
+    ]
+  },
+  "articles": [
+    {
+      "id": "2024-02-07-001",
+      "title": "海量数据处理技术，激发金融数据潜能",
+      "topic": "海量数据处理技术，激发金融数据潜能",
+      "summary": "腾讯云大数据跨中心内容（品牌 / 综述 / 行业观点 / 活动）",
+      "tags": [
+        "品牌发布",
+        "品牌综述",
+        "行业观点",
+        "Data+AI"
+      ],
+      "productCenter": "zonghe",
+      "product": "综合",
+      "date": "2024-02-07",
+      "abc": "B",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://cloud.tencent.com/developer/article/2388619",
+      "verify": "",
+      "linkSrc": "2024 真实官方文（腾讯云开发者社区同步）"
+    },
+    {
+      "id": "2024-04-24-002",
+      "title": "2024IT市场权威榜单发布！腾讯云TBDS斩获两大奖项！",
+      "topic": "2024IT市场权威榜单发布！腾讯云TBDS斩获两大奖项！",
+      "summary": "企业级私有化大数据处理套件（湖仓一体 + 金融信创）",
+      "tags": [
+        "品牌发布",
+        "私有化",
+        "信创",
+        "湖仓一体"
+      ],
+      "productCenter": "tbds",
+      "product": "TBDS",
+      "date": "2024-04-24",
+      "abc": "B",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://cloud.tencent.com/developer/article/2411832",
+      "verify": "",
+      "linkSrc": "2024 真实官方文（腾讯云开发者社区同步）"
+    },
+    {
+      "id": "2024-05-13-003",
+      "title": "腾讯云大数据TBDS数据湖荣获IDC金融领域最佳实践案例",
+      "topic": "TBDS数据湖荣获IDC金融领域最佳实践案例",
+      "summary": "企业级私有化大数据处理套件（湖仓一体 + 金融信创）",
+      "tags": [
+        "客户案例",
+        "私有化",
+        "信创",
+        "湖仓一体"
+      ],
+      "productCenter": "tbds",
+      "product": "TBDS",
+      "date": "2024-05-13",
+      "abc": "A",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://cloud.tencent.com/developer/article/2416975",
+      "verify": "",
+      "linkSrc": "2024 真实官方文（腾讯云开发者社区同步）"
+    },
+    {
+      "id": "2024-06-13-004",
+      "title": "自建迁移EMR实践案例",
+      "topic": "自建迁移EMR实践案例",
+      "summary": "面向 Data+AI 的数据智能平台（Hadoop/Spark/Meson/Xpark/TCRay，CPU+GPU 混合调度）",
+      "tags": [
+        "技术干货",
+        "存算分离",
+        "弹性伸缩",
+        "Meson引擎"
+      ],
+      "productCenter": "base",
+      "product": "EMR",
+      "date": "2024-06-13",
+      "abc": "C",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://cloud.tencent.com/developer/article/2242651",
+      "verify": "",
+      "linkSrc": "2024 真实官方文（腾讯云开发者社区同步）"
+    },
+    {
+      "id": "2024-06-24-005",
+      "title": "腾讯云流计算 Oceanus：新版弹性方案，助力实时业务降本超30%",
+      "topic": "流计算 Oceanus：新版弹性方案，助力实时业务降本超30%",
+      "summary": "企业级实时大数据分析平台（Apache Flink，亚秒延时）",
+      "tags": [
+        "技术干货",
+        "实时计算",
+        "Flink",
+        "实时数仓"
+      ],
+      "productCenter": "wedata",
+      "product": "Oceanus",
+      "date": "2024-06-24",
+      "abc": "C",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://cloud.tencent.com/developer/article/2431148",
+      "verify": "",
+      "linkSrc": "2024 真实官方文（腾讯云开发者社区同步）"
+    },
+    {
+      "id": "2024-07-01-006",
+      "title": "腾讯云首发大数据高性能计算引擎Meson，支持三大产品线性能升级",
+      "topic": "首发大数据高性能计算引擎Meson，支持三大产品线性能升级",
+      "summary": "面向 Data+AI 的数据智能平台（Hadoop/Spark/Meson/Xpark/TCRay，CPU+GPU 混合调度）",
+      "tags": [
+        "品牌发布",
+        "存算分离",
+        "弹性伸缩",
+        "Meson引擎"
+      ],
+      "productCenter": "base",
+      "product": "EMR",
+      "date": "2024-07-01",
+      "abc": "B",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://cloud.tencent.com/developer/article/2433149",
+      "verify": "",
+      "linkSrc": "2024 真实官方文（腾讯云开发者社区同步）"
+    },
+    {
+      "id": "2024-08-16-007",
+      "title": "成本直降50%！为了做好leader，这位同学拼了！",
+      "topic": "成本直降50%！为了做好leader，这位同学拼了！",
+      "summary": "全托管实时 OLAP 分析数仓（Apache Doris，3.0 存算分离）",
+      "tags": [
+        "品牌发布",
+        "实时数仓",
+        "Apache Doris",
+        "存算分离"
+      ],
+      "productCenter": "base",
+      "product": "TCHouse-D",
+      "date": "2024-08-16",
+      "abc": "B",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://cloud.tencent.com/developer/article/2445632",
+      "verify": "",
+      "linkSrc": "2024 真实官方文（腾讯云开发者社区同步）"
+    },
+    {
+      "id": "2024-09-11-008",
+      "title": "MNode大揭秘！腾讯云EMR如何实现免运维与计算成本降本超30%",
+      "topic": "MNode大揭秘！腾讯云EMR如何实现免运维与计算成本降本超30%",
+      "summary": "面向 Data+AI 的数据智能平台（Hadoop/Spark/Meson/Xpark/TCRay，CPU+GPU 混合调度）",
+      "tags": [
+        "客户案例",
+        "存算分离",
+        "弹性伸缩",
+        "Meson引擎"
+      ],
+      "productCenter": "base",
+      "product": "EMR",
+      "date": "2024-09-11",
+      "abc": "A",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://cloud.tencent.com/developer/article/2450682",
+      "verify": "",
+      "linkSrc": "2024 真实官方文（腾讯云开发者社区同步）"
+    },
+    {
+      "id": "2024-10-16-009",
+      "title": "国内首个！腾讯云WeData通过中国信通院大模型驱动的智能数据开发平台专项测试",
+      "topic": "国内首个！腾讯云WeData通过中国信通院大模型驱动的智能数据开发平台专项测试",
+      "summary": "Data+AI 一体化数据智能平台（IDC 份额第二 + DIOps 首家认证）",
+      "tags": [
+        "品牌发布",
+        "数据治理",
+        "Data+AI",
+        "信创"
+      ],
+      "productCenter": "wedata",
+      "product": "WeData",
+      "date": "2024-10-16",
+      "abc": "B",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://cloud.tencent.com/developer/article/2459958",
+      "verify": "",
+      "linkSrc": "2024 真实官方文（腾讯云开发者社区同步）"
+    },
+    {
+      "id": "2024-10-18-010",
+      "title": "数智技术驱动，打造极致性价比",
+      "topic": "数智技术驱动，打造极致性价比",
+      "summary": "面向 Data+AI 的数据智能平台（Hadoop/Spark/Meson/Xpark/TCRay，CPU+GPU 混合调度）",
+      "tags": [
+        "技术干货",
+        "存算分离",
+        "弹性伸缩",
+        "Meson引擎"
+      ],
+      "productCenter": "base",
+      "product": "EMR",
+      "date": "2024-10-18",
+      "abc": "C",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://cloud.tencent.com/developer/article/2459954",
+      "verify": "",
+      "linkSrc": "2024 真实官方文（腾讯云开发者社区同步）"
+    },
+    {
+      "id": "2024-11-18-011",
+      "title": "腾讯云数据资产管理能力获IDC认可，WeData七项满分成行业标杆",
+      "topic": "数据资产管理能力获IDC认可，WeData七项满分成行业标杆",
+      "summary": "Data+AI 一体化数据智能平台（IDC 份额第二 + DIOps 首家认证）",
+      "tags": [
+        "品牌发布",
+        "数据治理",
+        "Data+AI",
+        "信创"
+      ],
+      "productCenter": "wedata",
+      "product": "WeData",
+      "date": "2024-11-18",
+      "abc": "B",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://cloud.tencent.com/developer/article/2466456",
+      "verify": "",
+      "linkSrc": "2024 真实官方文（腾讯云开发者社区同步）"
+    },
+    {
+      "id": "2024-12-09-012",
+      "title": "腾讯云流式湖仓统一存储实践",
+      "topic": "流式湖仓统一存储实践",
+      "summary": "企业级实时大数据分析平台（Apache Flink，亚秒延时）",
+      "tags": [
+        "技术干货",
+        "实时计算",
+        "Flink",
+        "实时数仓"
+      ],
+      "productCenter": "wedata",
+      "product": "Oceanus",
+      "date": "2024-12-09",
+      "abc": "C",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://cloud.tencent.com/developer/article/2474839",
+      "verify": "",
+      "linkSrc": "2024 真实官方文（腾讯云开发者社区同步）"
+    },
+    {
+      "id": "2025-01-03-013",
+      "title": "【新闻稿】太平人寿携手腾讯云落地保险业湖仓一体架构，入选信通院大数据“星河”典型案例",
+      "topic": "太平人寿携手腾讯云落地保险业湖仓一体架构，入选信通院大数据“星河”典型案例",
+      "summary": "Data+AI 一体化数据智能平台（IDC 份额第二 + DIOps 首家认证）　渠道：腾讯云、腾讯云大数据，社区、媒体",
+      "tags": [
+        "客户案例",
+        "数据治理",
+        "Data+AI",
+        "信创"
+      ],
+      "productCenter": "wedata",
+      "product": "WeData",
+      "date": "2025-01-03",
+      "abc": "A",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://mp.weixin.qq.com/s/rMoeUrSS_S6ZNWdWCpabyw",
+      "verify": "",
+      "linkSrc": "企微排期文档（公众号原文）"
+    },
+    {
+      "id": "2025-01-03-014",
+      "title": "腾讯云大数据智能管家：AI驱动管理效能飞升",
+      "topic": "智能管家：AI驱动管理效能飞升",
+      "summary": "面向 Data+AI 的数据智能平台（Hadoop/Spark/Meson/Xpark/TCRay，CPU+GPU 混合调度）　渠道：腾讯云大数据，社区",
+      "tags": [
+        "客户案例",
+        "存算分离",
+        "弹性伸缩",
+        "Meson引擎"
+      ],
+      "productCenter": "base",
+      "product": "EMR",
+      "date": "2025-01-03",
+      "abc": "A",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://mp.weixin.qq.com/s/y4WH34R5mKF1d5L8YAnsCQ",
+      "verify": "",
+      "linkSrc": "企微排期文档（公众号原文）"
+    },
+    {
+      "id": "2025-01-10-015",
+      "title": "Apache Iceberg Meetup 2025深圳站活动预告",
+      "topic": "Apache Iceberg Meetup 2025深圳站活动预告",
+      "summary": "Serverless 数据湖分析与计算服务（Spark + TC-Iceberg + Alluxio）　渠道：腾讯云大数据，iceberg社区、",
+      "tags": [
+        "品牌发布",
+        "实时湖仓",
+        "Iceberg",
+        "Serverless"
+      ],
+      "productCenter": "base",
+      "product": "DLC",
+      "date": "2025-01-10",
+      "abc": "B",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://mp.weixin.qq.com/s/hqmp5PZGHvs5UTutSjo0NQ",
+      "verify": "",
+      "linkSrc": "企微排期文档（公众号原文）"
+    },
+    {
+      "id": "2025-01-10-016",
+      "title": "转载：韩锋频道 破局数据复杂架构，从TCHouse-X 发布谈起",
+      "topic": "转载：韩锋频道 破局数据复杂架构，从TCHouse-X 发布谈起",
+      "summary": "云原生数仓（TCHouse 新成员）　渠道：腾讯云大数据",
+      "tags": [
+        "技术干货",
+        "云原生数仓"
+      ],
+      "productCenter": "base",
+      "product": "TCHouse-X",
+      "date": "2025-01-10",
+      "abc": "C",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://mp.weixin.qq.com/s/TsxSM0Jh5rOBcau0n4GYzA",
+      "verify": "",
+      "linkSrc": "企微排期文档（公众号原文）"
+    },
+    {
+      "id": "2025-01-10-017",
+      "title": "TBDS Metaservice 引领新时代的元数据管理创新",
+      "topic": "TBDS Metaservice 引领新时代的元数据管理创新",
+      "summary": "企业级私有化大数据处理套件（湖仓一体 + 金融信创）　渠道：腾讯云大数据，社区",
+      "tags": [
+        "技术干货",
+        "私有化",
+        "信创",
+        "湖仓一体"
+      ],
+      "productCenter": "tbds",
+      "product": "TBDS",
+      "date": "2025-01-10",
+      "abc": "C",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://mp.weixin.qq.com/s/fK9vZkuSgY7Rq9KaUO8FsA",
+      "verify": "",
+      "linkSrc": "企微排期文档（公众号原文）"
+    },
+    {
+      "id": "2025-01-23-018",
+      "title": "60秒带你了解TCHouse-X",
+      "topic": "60秒带你了解TCHouse-X",
+      "summary": "云原生数仓（TCHouse 新成员）　渠道：腾讯云大数据",
+      "tags": [
+        "技术干货",
+        "云原生数仓"
+      ],
+      "productCenter": "base",
+      "product": "TCHouse-X",
+      "date": "2025-01-23",
+      "abc": "C",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://mp.weixin.qq.com/s/MlK5e4qvKeXGtiNuDJERWQ",
+      "verify": "",
+      "linkSrc": "企微排期文档（公众号原文）"
+    },
+    {
+      "id": "2025-01-23-019",
+      "title": "基于腾讯云ES混合搜索与DeepSeek，十分钟构建RAG 应用",
+      "topic": "基于腾讯云ES混合搜索与DeepSeek，十分钟构建RAG 应用",
+      "summary": "全托管海量数据检索分析 + RAG（Elasticsearch 自研内核 + 混合搜索）　渠道：腾讯云大数据，社区",
+      "tags": [
+        "技术干货",
+        "向量检索",
+        "RAG",
+        "混合搜索"
+      ],
+      "productCenter": "base",
+      "product": "ES",
+      "date": "2025-01-23",
+      "abc": "C",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://mp.weixin.qq.com/s/HOHb3GWjUTN5RPHZf1mhLg",
+      "verify": "",
+      "linkSrc": "企微排期文档（公众号原文）"
+    },
+    {
+      "id": "2025-01-23-020",
+      "title": "云厂商开源全球贡献第一！腾讯云数据仓库TCHouse-D亮相 Apache Doris 社区年度峰会，荣获社区卓越贡献奖",
+      "topic": "云厂商开源全球贡献第一！腾讯云数据仓库TCHouse-D亮相 Apache Doris 社区年度峰会，荣获社区卓越贡献奖",
+      "summary": "全托管实时 OLAP 分析数仓（Apache Doris，3.0 存算分离）　渠道：腾讯云大数据，社区",
+      "tags": [
+        "技术干货",
+        "实时数仓",
+        "Apache Doris",
+        "存算分离"
+      ],
+      "productCenter": "base",
+      "product": "TCHouse-D",
+      "date": "2025-01-23",
+      "abc": "C",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://mp.weixin.qq.com/s/HT0jjKwxttaU_SUMok6ENw",
+      "verify": "",
+      "linkSrc": "企微排期文档（公众号原文）"
+    },
+    {
+      "id": "2025-01-25-021",
+      "title": "重磅发布｜腾讯云大数据2024年度成绩单来了！",
+      "topic": "重磅发布｜腾讯云大数据2024年度成绩单来了！",
+      "summary": "腾讯云大数据跨中心内容（品牌 / 综述 / 行业观点 / 活动）　渠道：腾讯云大数据",
+      "tags": [
+        "品牌发布",
+        "品牌综述",
+        "行业观点",
+        "Data+AI"
+      ],
+      "productCenter": "zonghe",
+      "product": "综合",
+      "date": "2025-01-25",
+      "abc": "B",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://mp.weixin.qq.com/s/-AShyzd0-355hLTWed-v0Q",
+      "verify": "",
+      "linkSrc": "企微排期文档（公众号原文）"
+    },
+    {
+      "id": "2025-01-25-022",
+      "title": "免费领取！专属红包封面来啦！",
+      "topic": "免费领取！专属红包封面来啦！",
+      "summary": "腾讯云大数据跨中心内容（品牌 / 综述 / 行业观点 / 活动）　渠道：腾讯云大数据",
+      "tags": [
+        "品牌发布",
+        "品牌综述",
+        "行业观点",
+        "Data+AI"
+      ],
+      "productCenter": "zonghe",
+      "product": "综合",
+      "date": "2025-01-25",
+      "abc": "B",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://mp.weixin.qq.com/s/xQMbaIJsBSifpuEXy05p_A",
+      "verify": "",
+      "linkSrc": "企微排期文档（公众号原文）"
+    },
+    {
+      "id": "2025-01-25-023",
+      "title": "为矿业数据治理提供系统参考，腾讯云联合云鼎科技发布《矿业数据治理白皮书》",
+      "topic": "为矿业数据治理提供系统参考，腾讯云联合云鼎科技发布《矿业数据治理白皮书》",
+      "summary": "Data+AI 一体化数据智能平台（IDC 份额第二 + DIOps 首家认证）　渠道：腾讯云大数据",
+      "tags": [
+        "客户案例",
+        "数据治理",
+        "Data+AI",
+        "信创"
+      ],
+      "productCenter": "wedata",
+      "product": "WeData",
+      "date": "2025-01-25",
+      "abc": "A",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://mp.weixin.qq.com/s/PwyCeic0eHn3on_nau5-UQ",
+      "verify": "",
+      "linkSrc": "企微排期文档（公众号原文）"
+    },
+    {
+      "id": "2025-01-26-024",
+      "title": "腾讯云大数据祝大家过个团圆年！",
+      "topic": "祝大家过个团圆年！",
+      "summary": "腾讯云大数据跨中心内容（品牌 / 综述 / 行业观点 / 活动）　渠道：腾讯云大数据",
+      "tags": [
+        "品牌发布",
+        "品牌综述",
+        "行业观点",
+        "Data+AI"
+      ],
+      "productCenter": "zonghe",
+      "product": "综合",
+      "date": "2025-01-26",
+      "abc": "B",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://mp.weixin.qq.com/s/DjYUQZD0bhAuN6ISzN-GqQ",
+      "verify": "",
+      "linkSrc": "企微排期文档（公众号原文）"
+    },
+    {
+      "id": "2025-02-01-025",
+      "title": "deepseek+ 传播：es rag应用",
+      "topic": "deepseek+ 传播：es rag应用",
+      "summary": "腾讯云大数据跨中心内容（品牌 / 综述 / 行业观点 / 活动）　渠道：腾讯云、自媒体",
+      "tags": [
+        "品牌发布",
+        "品牌综述",
+        "行业观点",
+        "Data+AI"
+      ],
+      "productCenter": "zonghe",
+      "product": "综合",
+      "date": "2025-02-01",
+      "abc": "B",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://mp.weixin.qq.com/s/_hGAm_orYHZU7SMScN53ww",
+      "verify": "",
+      "linkSrc": "企微排期文档（公众号原文）"
+    },
+    {
+      "id": "2025-02-15-026",
+      "title": "哪吒2破百亿，大数据助力精准预测（热点视频）",
+      "topic": "哪吒2破百亿，大数据助力精准预测（热点视频）",
+      "summary": "腾讯云大数据跨中心内容（品牌 / 综述 / 行业观点 / 活动）　渠道：腾讯云，腾讯云大数据视频号",
+      "tags": [
+        "客户案例",
+        "品牌综述",
+        "行业观点",
+        "Data+AI"
+      ],
+      "productCenter": "zonghe",
+      "product": "综合",
+      "date": "2025-02-15",
+      "abc": "A",
+      "platform": "腾讯云大数据 公众号",
+      "link": "",
+      "verify": "",
+      "linkSrc": "企微排期文档（公众号原文）"
+    },
+    {
+      "id": "2025-02-15-027",
+      "title": "基于腾讯云ES混合搜索与TI-ONE部署DeepSeek，快速构建RAG 应用",
+      "topic": "基于腾讯云ES混合搜索与TI-ONE部署DeepSeek，快速构建RAG 应用",
+      "summary": "全托管海量数据检索分析 + RAG（Elasticsearch 自研内核 + 混合搜索）　渠道：腾讯云大数据",
+      "tags": [
+        "技术干货",
+        "向量检索",
+        "RAG",
+        "混合搜索"
+      ],
+      "productCenter": "base",
+      "product": "ES",
+      "date": "2025-02-15",
+      "abc": "C",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://mp.weixin.qq.com/s/WOF1MwOyas6V1LiJqobrgg",
+      "verify": "",
+      "linkSrc": "企微排期文档（公众号原文）"
+    },
+    {
+      "id": "2025-02-15-028",
+      "title": "腾讯云ChatBI通过中国信通院大模型驱动的智能数据分析工具专项测试",
+      "topic": "ChatBI通过中国信通院大模型驱动的智能数据分析工具专项测试",
+      "summary": "Data+AI 一体化数据智能平台（IDC 份额第二 + DIOps 首家认证）　渠道：腾讯云大数据",
+      "tags": [
+        "技术干货",
+        "数据治理",
+        "Data+AI",
+        "信创"
+      ],
+      "productCenter": "wedata",
+      "product": "WeData",
+      "date": "2025-02-15",
+      "abc": "C",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://mp.weixin.qq.com/s/-fBLRpBYSUjB-_3e4EqSkg",
+      "verify": "",
+      "linkSrc": "企微排期文档（公众号原文）"
+    },
+    {
+      "id": "2025-02-17-029",
+      "title": "腾讯云ChatBI完成DeepSeek-R1接入，更会思考的智能分析师",
+      "topic": "ChatBI完成DeepSeek-R1接入，更会思考的智能分析师",
+      "summary": "全流程敏捷自助式 BI 平台（40+ 组件，多端适配）　渠道：腾讯云大数据",
+      "tags": [
+        "技术干货",
+        "自助BI",
+        "敏捷分析"
+      ],
+      "productCenter": "wedata",
+      "product": "腾讯云BI",
+      "date": "2025-02-17",
+      "abc": "C",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://mp.weixin.qq.com/s/mhSb8IM6BJ2r_D1td_vm0A",
+      "verify": "",
+      "linkSrc": "企微排期文档（公众号原文）"
+    },
+    {
+      "id": "2025-02-24-030",
+      "title": "deepseek+ 传播：chatbi",
+      "topic": "deepseek+ 传播：chatbi",
+      "summary": "腾讯云大数据跨中心内容（品牌 / 综述 / 行业观点 / 活动）　渠道：腾讯云、腾讯云大数据",
+      "tags": [
+        "品牌发布",
+        "品牌综述",
+        "行业观点",
+        "Data+AI"
+      ],
+      "productCenter": "zonghe",
+      "product": "综合",
+      "date": "2025-02-24",
+      "abc": "B",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://mp.weixin.qq.com/s/T8ZkR-awb1BceNU3173cDQ",
+      "verify": "",
+      "linkSrc": "企微排期文档（公众号原文）"
+    },
+    {
+      "id": "2025-03-03-031",
+      "title": "deepseek+ 传播：chatbi 视频",
+      "topic": "deepseek+ 传播：chatbi 视频",
+      "summary": "腾讯云大数据跨中心内容（品牌 / 综述 / 行业观点 / 活动）　渠道：鹅厂技术派、腾讯云大数据",
+      "tags": [
+        "品牌发布",
+        "品牌综述",
+        "行业观点",
+        "Data+AI"
+      ],
+      "productCenter": "zonghe",
+      "product": "综合",
+      "date": "2025-03-03",
+      "abc": "B",
+      "platform": "腾讯云大数据 公众号",
+      "link": "",
+      "verify": "",
+      "linkSrc": "企微排期文档（公众号原文）"
+    },
+    {
+      "id": "2025-03-07-032",
+      "title": "100%通过！腾讯云TBDS获金融信创实验室适配认证",
+      "topic": "100%通过！腾讯云TBDS获金融信创实验室适配认证",
+      "summary": "企业级私有化大数据处理套件（湖仓一体 + 金融信创）　渠道：腾讯云大数据，社区",
+      "tags": [
+        "品牌发布",
+        "私有化",
+        "信创",
+        "湖仓一体"
+      ],
+      "productCenter": "tbds",
+      "product": "TBDS",
+      "date": "2025-03-07",
+      "abc": "B",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://mp.weixin.qq.com/s/Hli7VdHYxZeBgdg2TCZUJA",
+      "verify": "",
+      "linkSrc": "企微排期文档（公众号原文）"
+    },
+    {
+      "id": "2025-03-07-033",
+      "title": "国内首场 Iceberg Meetup！腾讯云推出TC-Iceberg开放智能数据湖方案",
+      "topic": "国内首场 Iceberg Meetup！腾讯云推出TC-Iceberg开放智能数据湖方案",
+      "summary": "Serverless 数据湖分析与计算服务（Spark + TC-Iceberg + Alluxio）　渠道：腾讯云大数据，社区",
+      "tags": [
+        "品牌发布",
+        "实时湖仓",
+        "Iceberg",
+        "Serverless"
+      ],
+      "productCenter": "base",
+      "product": "DLC",
+      "date": "2025-03-07",
+      "abc": "B",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://mp.weixin.qq.com/s/b3cnFnvH-Fh4QGFrTvviWg",
+      "verify": "",
+      "linkSrc": "企微排期文档（公众号原文）"
+    },
+    {
+      "id": "2025-03-07-034",
+      "title": "腾讯云BI+DeepSeek：让数据呈现公益项目全貌，AI助你深挖潜力",
+      "topic": "BI+DeepSeek：让数据呈现公益项目全貌，AI助你深挖潜力",
+      "summary": "全流程敏捷自助式 BI 平台（40+ 组件，多端适配）　渠道：腾讯云大数据",
+      "tags": [
+        "客户案例",
+        "自助BI",
+        "敏捷分析"
+      ],
+      "productCenter": "wedata",
+      "product": "腾讯云BI",
+      "date": "2025-03-07",
+      "abc": "A",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://mp.weixin.qq.com/s/BDeaQ0NpmHB3bs7RloBNAQ",
+      "verify": "",
+      "linkSrc": "企微排期文档（公众号原文）"
+    },
+    {
+      "id": "2025-03-14-035",
+      "title": "太平人寿案例视频",
+      "topic": "太平人寿案例视频",
+      "summary": "腾讯云大数据跨中心内容（品牌 / 综述 / 行业观点 / 活动）　渠道：腾讯云大数据，腾讯云的朋友圈",
+      "tags": [
+        "品牌发布",
+        "品牌综述",
+        "行业观点",
+        "Data+AI"
+      ],
+      "productCenter": "zonghe",
+      "product": "综合",
+      "date": "2025-03-14",
+      "abc": "B",
+      "platform": "腾讯云大数据 公众号",
+      "link": "",
+      "verify": "",
+      "linkSrc": "企微排期文档（公众号原文）"
+    },
+    {
+      "id": "2025-03-14-036",
+      "title": "TCHouse-P 结合 DeepSeek的二次进化，解锁非结构化数据的智能时代",
+      "topic": "TCHouse-P 结合 DeepSeek的二次进化，解锁非结构化数据的智能时代",
+      "summary": "自研云原生分布式分析型数仓（PostgreSQL，行列混合存储）　渠道：腾讯云大数据",
+      "tags": [
+        "技术干货",
+        "Oracle替换",
+        "云原生存算分离",
+        "行列混合"
+      ],
+      "productCenter": "tbds",
+      "product": "TCHouse-P",
+      "date": "2025-03-14",
+      "abc": "C",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://mp.weixin.qq.com/s/PUqe0Vc3rkKcKRdyIQpy_g",
+      "verify": "",
+      "linkSrc": "企微排期文档（公众号原文）"
+    },
+    {
+      "id": "2025-03-14-037",
+      "title": "腾讯云WeData：解锁灵活高效的调度配置能力，轻松应对复杂业务场景",
+      "topic": "WeData：解锁灵活高效的调度配置能力，轻松应对复杂业务场景",
+      "summary": "Data+AI 一体化数据智能平台（IDC 份额第二 + DIOps 首家认证）　渠道：腾讯云大数据",
+      "tags": [
+        "技术干货",
+        "数据治理",
+        "Data+AI",
+        "信创"
+      ],
+      "productCenter": "wedata",
+      "product": "WeData",
+      "date": "2025-03-14",
+      "abc": "C",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://mp.weixin.qq.com/s/6FPwsMRQicWKEVBRSWCrFQ",
+      "verify": "",
+      "linkSrc": "企微排期文档（公众号原文）"
+    },
+    {
+      "id": "2025-03-21-038",
+      "title": "腾讯云EMR：Serverless HBase正式发布",
+      "topic": "EMR：Serverless HBase正式发布",
+      "summary": "面向 Data+AI 的数据智能平台（Hadoop/Spark/Meson/Xpark/TCRay，CPU+GPU 混合调度）　渠道：腾讯云大数据",
+      "tags": [
+        "技术干货",
+        "存算分离",
+        "弹性伸缩",
+        "Meson引擎"
+      ],
+      "productCenter": "base",
+      "product": "EMR",
+      "date": "2025-03-21",
+      "abc": "C",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://mp.weixin.qq.com/s/go31jSfXiANXVpoX6cIWfw",
+      "verify": "",
+      "linkSrc": "企微排期文档（公众号原文）"
+    },
+    {
+      "id": "2025-03-21-039",
+      "title": "腾讯云ChatBI上线数据解读及波动归因，带来更智能化的数据分析体验",
+      "topic": "ChatBI上线数据解读及波动归因，带来更智能化的数据分析体验",
+      "summary": "全流程敏捷自助式 BI 平台（40+ 组件，多端适配）　渠道：腾讯云大数据",
+      "tags": [
+        "技术干货",
+        "自助BI",
+        "敏捷分析"
+      ],
+      "productCenter": "wedata",
+      "product": "腾讯云BI",
+      "date": "2025-03-21",
+      "abc": "C",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://mp.weixin.qq.com/s/G1V8Fw6ShaOn3Iihpw-qoQ",
+      "verify": "",
+      "linkSrc": "企微排期文档（公众号原文）"
+    },
+    {
+      "id": "2025-03-21-040",
+      "title": "AI+BI，真爱梦想从业务数据里挖出效率与新机",
+      "topic": "AI+BI，真爱梦想从业务数据里挖出效率与新机",
+      "summary": "全流程敏捷自助式 BI 平台（40+ 组件，多端适配）　渠道：腾讯云大数据",
+      "tags": [
+        "客户案例",
+        "自助BI",
+        "敏捷分析"
+      ],
+      "productCenter": "wedata",
+      "product": "腾讯云BI",
+      "date": "2025-03-21",
+      "abc": "A",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://mp.weixin.qq.com/s/ua-NgZtq6dyBnb-GFjP0gA",
+      "verify": "",
+      "linkSrc": "企微排期文档（公众号原文）"
+    },
+    {
+      "id": "2025-03-21-041",
+      "title": "三维可视化的「黄金搭档」！腾讯云RayData让数据资产“活”起来（内含福利）",
+      "topic": "三维可视化的「黄金搭档」！腾讯云RayData让数据资产“活”起来（内含福利）",
+      "summary": "3D 数据可视化产品（三维数据资产呈现）　渠道：腾讯云大数据 /视频号",
+      "tags": [
+        "技术干货",
+        "3D可视化"
+      ],
+      "productCenter": "wedata",
+      "product": "RayData",
+      "date": "2025-03-21",
+      "abc": "C",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://mp.weixin.qq.com/s/BjJqgnurdl6Q9TVSAiUS2Q",
+      "verify": "",
+      "linkSrc": "企微排期文档（公众号原文）"
+    },
+    {
+      "id": "2025-04-01-042",
+      "title": "先锋集结 | Elastic Pioneer 先锋者计划启动，快来加入！",
+      "topic": "先锋集结 | Elastic Pioneer 先锋者计划启动，快来加入！",
+      "summary": "腾讯云大数据跨中心内容（品牌 / 综述 / 行业观点 / 活动）　渠道：腾讯云大数据，Elastic",
+      "tags": [
+        "品牌发布",
+        "品牌综述",
+        "行业观点",
+        "Data+AI"
+      ],
+      "productCenter": "zonghe",
+      "product": "综合",
+      "date": "2025-04-01",
+      "abc": "B",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://mp.weixin.qq.com/s/MzaDF-KRaysDMeUTIB2T_g",
+      "verify": "",
+      "linkSrc": "企微排期文档（公众号原文）"
+    },
+    {
+      "id": "2025-04-11-043",
+      "title": "EMR支持RSS服务",
+      "topic": "EMR支持RSS服务",
+      "summary": "面向 Data+AI 的数据智能平台（Hadoop/Spark/Meson/Xpark/TCRay，CPU+GPU 混合调度）　渠道：腾讯云大数据",
+      "tags": [
+        "技术干货",
+        "存算分离",
+        "弹性伸缩",
+        "Meson引擎"
+      ],
+      "productCenter": "base",
+      "product": "EMR",
+      "date": "2025-04-11",
+      "abc": "C",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://mp.weixin.qq.com/s/wTq9KqENfO6F_mgiwYS7gQ",
+      "verify": "",
+      "linkSrc": "企微排期文档（公众号原文）"
+    },
+    {
+      "id": "2025-04-18-044",
+      "title": "信通院大模型赋能数据分析实践沙龙回顾",
+      "topic": "信通院大模型赋能数据分析实践沙龙回顾",
+      "summary": "Data+AI 一体化数据智能平台（IDC 份额第二 + DIOps 首家认证）　渠道：腾讯云大数据，信通院",
+      "tags": [
+        "品牌发布",
+        "数据治理",
+        "Data+AI",
+        "信创"
+      ],
+      "productCenter": "wedata",
+      "product": "WeData",
+      "date": "2025-04-18",
+      "abc": "B",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://mp.weixin.qq.com/s/DTl-k8GZ9zIENJK-UOIk-w",
+      "verify": "",
+      "linkSrc": "企微排期文档（公众号原文）"
+    },
+    {
+      "id": "2025-04-18-045",
+      "title": "火花思维客户文章转发",
+      "topic": "火花思维客户文章转发",
+      "summary": "腾讯云大数据跨中心内容（品牌 / 综述 / 行业观点 / 活动）",
+      "tags": [
+        "客户案例",
+        "品牌综述",
+        "行业观点",
+        "Data+AI"
+      ],
+      "productCenter": "zonghe",
+      "product": "综合",
+      "date": "2025-04-18",
+      "abc": "A",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://mp.weixin.qq.com/s/cRg_uyBh4kaEi1vkXxm1mg",
+      "verify": "",
+      "linkSrc": "企微排期文档（公众号原文）"
+    },
+    {
+      "id": "2025-04-18-046",
+      "title": "亮相QCon：腾讯云大数据智能管家TCInsight解锁智能化运维新图景",
+      "topic": "亮相QCon：腾讯云大数据智能管家TCInsight解锁智能化运维新图景",
+      "summary": "面向 Data+AI 的数据智能平台（Hadoop/Spark/Meson/Xpark/TCRay，CPU+GPU 混合调度）　渠道：腾讯云大数据",
+      "tags": [
+        "客户案例",
+        "存算分离",
+        "弹性伸缩",
+        "Meson引擎"
+      ],
+      "productCenter": "base",
+      "product": "EMR",
+      "date": "2025-04-18",
+      "abc": "A",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://mp.weixin.qq.com/s/J4Uex_IZ7CBAfZO9fyzRWg",
+      "verify": "",
+      "linkSrc": "企微排期文档（公众号原文）"
+    },
+    {
+      "id": "2025-04-25-047",
+      "title": "ima（es）案例获评信通院DeepSeek+软件创新应用年度精选案例腾讯云获信通院“开源大模型+软件创新应用”精选案例奖 ：ES开源贡献全球第一，分钟级构建RAG应用",
+      "topic": "ima（es）案例获评信通院DeepSeek+软件创新应用年度精选案例腾讯云获信通院“开源大模型+软件创新应用”精选案例奖 ：ES开源贡献全球第一，分钟级构建RAG应用",
+      "summary": "全托管海量数据检索分析 + RAG（Elasticsearch 自研内核 + 混合搜索）　渠道：腾讯云大数据、媒体、腾讯云",
+      "tags": [
+        "客户案例",
+        "向量检索",
+        "RAG",
+        "混合搜索"
+      ],
+      "productCenter": "base",
+      "product": "ES",
+      "date": "2025-04-25",
+      "abc": "A",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://mp.weixin.qq.com/s/GMsvdiE1oMnQtQC6jp2z5A",
+      "verify": "",
+      "linkSrc": "企微排期文档（公众号原文）"
+    },
+    {
+      "id": "2025-04-25-048",
+      "title": "医疗信创白皮书，国产化大数据平台",
+      "topic": "医疗信创白皮书，国产化大数据平台",
+      "summary": "企业级私有化大数据处理套件（湖仓一体 + 金融信创）",
+      "tags": [
+        "客户案例",
+        "私有化",
+        "信创",
+        "湖仓一体"
+      ],
+      "productCenter": "tbds",
+      "product": "TBDS",
+      "date": "2025-04-25",
+      "abc": "A",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://mp.weixin.qq.com/s/wzrOiFkTfVrHJ9C49oIapQ",
+      "verify": "",
+      "linkSrc": "企微排期文档（公众号原文）"
+    },
+    {
+      "id": "2025-04-30-049",
+      "title": "腾讯云流湖引擎Setats正式发布！",
+      "topic": "流湖引擎Setats正式发布！",
+      "summary": "流批增量一体的流湖引擎（WeData 核心组件，秒级可见）　渠道：腾讯云大数据，媒体、腾讯云",
+      "tags": [
+        "品牌发布",
+        "流湖引擎",
+        "流批一体"
+      ],
+      "productCenter": "wedata",
+      "product": "Setats",
+      "date": "2025-04-30",
+      "abc": "B",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://mp.weixin.qq.com/s/8T9ieixnO8HjgOHccXv1Eg",
+      "verify": "",
+      "linkSrc": "企微排期文档（公众号原文）"
+    },
+    {
+      "id": "2025-04-30-050",
+      "title": "腾讯云WeData：解耦式数据质量监控架构的创新与实践",
+      "topic": "WeData：解耦式数据质量监控架构的创新与实践",
+      "summary": "Data+AI 一体化数据智能平台（IDC 份额第二 + DIOps 首家认证）　渠道：腾讯云大数据",
+      "tags": [
+        "技术干货",
+        "数据治理",
+        "Data+AI",
+        "信创"
+      ],
+      "productCenter": "wedata",
+      "product": "WeData",
+      "date": "2025-04-30",
+      "abc": "C",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://mp.weixin.qq.com/s/yX_l2dNitj8CPWmDWJfB9Q",
+      "verify": "",
+      "linkSrc": "企微排期文档（公众号原文）"
+    },
+    {
+      "id": "2025-05-17-051",
+      "title": "重磅！腾讯智能工作台ima，获信通院AI大模型应用精选案例奖",
+      "topic": "重磅！腾讯智能工作台ima，获信通院AI大模型应用精选案例奖",
+      "summary": "基于大模型的对话式数据分析助手（NL2SQL）　渠道：腾讯云大数据",
+      "tags": [
+        "客户案例",
+        "对话式BI",
+        "NL2SQL"
+      ],
+      "productCenter": "wedata",
+      "product": "ChatBI",
+      "date": "2025-05-17",
+      "abc": "A",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://mp.weixin.qq.com/s/FyZu1a9H3tXVjCFN3xF0fQ",
+      "verify": "",
+      "linkSrc": "企微排期文档（公众号原文）"
+    },
+    {
+      "id": "2025-05-17-052",
+      "title": "数据湖迈向 Data+AI 一体化平台的演进之路",
+      "topic": "数据湖迈向 Data+AI 一体化平台的演进之路",
+      "summary": "腾讯云大数据跨中心内容（品牌 / 综述 / 行业观点 / 活动）　渠道：腾讯云大数据，datafun",
+      "tags": [
+        "技术干货",
+        "品牌综述",
+        "行业观点",
+        "Data+AI"
+      ],
+      "productCenter": "zonghe",
+      "product": "综合",
+      "date": "2025-05-17",
+      "abc": "C",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://mp.weixin.qq.com/s/5_0lLu1TP1_VsK7QEKOTNg",
+      "verify": "",
+      "linkSrc": "企微排期文档（公众号原文）"
+    },
+    {
+      "id": "2025-05-17-053",
+      "title": "智能搜索开发",
+      "topic": "智能搜索开发",
+      "summary": "腾讯云大数据跨中心内容（品牌 / 综述 / 行业观点 / 活动）",
+      "tags": [
+        "技术干货",
+        "品牌综述",
+        "行业观点",
+        "Data+AI"
+      ],
+      "productCenter": "zonghe",
+      "product": "综合",
+      "date": "2025-05-17",
+      "abc": "C",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://mp.weixin.qq.com/s/x6hCUVkR8YgseBeDimL5ww",
+      "verify": "",
+      "linkSrc": "企微排期文档（公众号原文）"
+    },
+    {
+      "id": "2025-05-22-054",
+      "title": "数智工匠访谈 先导视频 1",
+      "topic": "数智工匠访谈 先导视频 1",
+      "summary": "腾讯云大数据跨中心内容（品牌 / 综述 / 行业观点 / 活动）　渠道：腾讯云，腾讯云大数据，云大说",
+      "tags": [
+        "品牌发布",
+        "品牌综述",
+        "行业观点",
+        "Data+AI"
+      ],
+      "productCenter": "zonghe",
+      "product": "综合",
+      "date": "2025-05-22",
+      "abc": "B",
+      "platform": "腾讯云大数据 公众号",
+      "link": "",
+      "verify": "",
+      "linkSrc": "企微排期文档（公众号原文）"
+    },
+    {
+      "id": "2025-05-23-055",
+      "title": "数智工匠访谈 先导视频 2",
+      "topic": "数智工匠访谈 先导视频 2",
+      "summary": "腾讯云大数据跨中心内容（品牌 / 综述 / 行业观点 / 活动）　渠道：腾讯云，腾讯云大数据，云大说",
+      "tags": [
+        "品牌发布",
+        "品牌综述",
+        "行业观点",
+        "Data+AI"
+      ],
+      "productCenter": "zonghe",
+      "product": "综合",
+      "date": "2025-05-23",
+      "abc": "B",
+      "platform": "腾讯云大数据 公众号",
+      "link": "",
+      "verify": "",
+      "linkSrc": "企微排期文档（公众号原文）"
+    },
+    {
+      "id": "2025-05-23-056",
+      "title": "腾讯五大协同办公产品AI升级：从单点提效迈向全流程智能\n（BI）",
+      "topic": "五大协同办公产品AI升级：从单点提效迈向全流程智能\n（BI）",
+      "summary": "全流程敏捷自助式 BI 平台（40+ 组件，多端适配）　渠道：大数据，媒体",
+      "tags": [
+        "品牌发布",
+        "自助BI",
+        "敏捷分析"
+      ],
+      "productCenter": "wedata",
+      "product": "腾讯云BI",
+      "date": "2025-05-23",
+      "abc": "B",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://mp.weixin.qq.com/s/noJGCNNcYOecUnu56sfliQ",
+      "verify": "",
+      "linkSrc": "企微排期文档（公众号原文）"
+    },
+    {
+      "id": "2025-05-23-057",
+      "title": "【专家说】游欣：国产大数据平台建设实践",
+      "topic": "游欣：国产大数据平台建设实践",
+      "summary": "腾讯云大数据跨中心内容（品牌 / 综述 / 行业观点 / 活动）　渠道：金融云，大数据",
+      "tags": [
+        "品牌发布",
+        "品牌综述",
+        "行业观点",
+        "Data+AI"
+      ],
+      "productCenter": "zonghe",
+      "product": "综合",
+      "date": "2025-05-23",
+      "abc": "B",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://mp.weixin.qq.com/s/Zf_dufYJVpUmGEZGIfr7cA",
+      "verify": "",
+      "linkSrc": "企微排期文档（公众号原文）"
+    },
+    {
+      "id": "2025-05-23-058",
+      "title": "腾讯云与南网数研院达成业务合作，推动打造能源产业新生态",
+      "topic": "与南网数研院达成业务合作，推动打造能源产业新生态",
+      "summary": "腾讯云大数据跨中心内容（品牌 / 综述 / 行业观点 / 活动）　渠道：能源，大数据",
+      "tags": [
+        "品牌发布",
+        "品牌综述",
+        "行业观点",
+        "Data+AI"
+      ],
+      "productCenter": "zonghe",
+      "product": "综合",
+      "date": "2025-05-23",
+      "abc": "B",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://mp.weixin.qq.com/s/VZ4o0_9B5yKmUIGwEahsxg",
+      "verify": "",
+      "linkSrc": "企微排期文档（公众号原文）"
+    },
+    {
+      "id": "2025-05-24-059",
+      "title": "数智工匠访谈 先导视频 3",
+      "topic": "数智工匠访谈 先导视频 3",
+      "summary": "腾讯云大数据跨中心内容（品牌 / 综述 / 行业观点 / 活动）　渠道：腾讯云，腾讯云大数据，云大说",
+      "tags": [
+        "品牌发布",
+        "品牌综述",
+        "行业观点",
+        "Data+AI"
+      ],
+      "productCenter": "zonghe",
+      "product": "综合",
+      "date": "2025-05-24",
+      "abc": "B",
+      "platform": "腾讯云大数据 公众号",
+      "link": "",
+      "verify": "",
+      "linkSrc": "企微排期文档（公众号原文）"
+    },
+    {
+      "id": "2025-05-28-060",
+      "title": "数智工匠访谈 正片及文字稿",
+      "topic": "数智工匠访谈 正片及文字稿",
+      "summary": "腾讯云大数据跨中心内容（品牌 / 综述 / 行业观点 / 活动）　渠道：腾讯云，腾讯云大数据，云大说",
+      "tags": [
+        "品牌发布",
+        "品牌综述",
+        "行业观点",
+        "Data+AI"
+      ],
+      "productCenter": "zonghe",
+      "product": "综合",
+      "date": "2025-05-28",
+      "abc": "B",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://mp.weixin.qq.com/s/LtqIlpWnEhN9M8zybGGRBA",
+      "verify": "",
+      "linkSrc": "企微排期文档（公众号原文）"
+    },
+    {
+      "id": "2025-05-28-061",
+      "title": "云顾问 × ES：助力“顶流客户”平稳度过618",
+      "topic": "云顾问 × ES：助力“顶流客户”平稳度过618",
+      "summary": "全托管海量数据检索分析 + RAG（Elasticsearch 自研内核 + 混合搜索）",
+      "tags": [
+        "客户案例",
+        "向量检索",
+        "RAG",
+        "混合搜索"
+      ],
+      "productCenter": "base",
+      "product": "ES",
+      "date": "2025-05-28",
+      "abc": "A",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://mp.weixin.qq.com/s/kMBleeJ_1ddWCSqu5II9sQ",
+      "verify": "",
+      "linkSrc": "企微排期文档（公众号原文）"
+    },
+    {
+      "id": "2025-06-01-062",
+      "title": "【新闻稿】敦煌研究院和腾讯联合推出“数字藏经洞”资源库网站",
+      "topic": "敦煌研究院和腾讯联合推出“数字藏经洞”资源库网站",
+      "summary": "腾讯云大数据跨中心内容（品牌 / 综述 / 行业观点 / 活动）　渠道：大数据，媒体",
+      "tags": [
+        "品牌发布",
+        "品牌综述",
+        "行业观点",
+        "Data+AI"
+      ],
+      "productCenter": "zonghe",
+      "product": "综合",
+      "date": "2025-06-01",
+      "abc": "B",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://mp.weixin.qq.com/s/QSkUxMJitYDhNurTHIXDew",
+      "verify": "",
+      "linkSrc": "企微排期文档（公众号原文）"
+    },
+    {
+      "id": "2025-06-01-063",
+      "title": "腾讯AI技术助力敦煌「数字藏经洞」全球上线",
+      "topic": "AI技术助力敦煌「数字藏经洞」全球上线",
+      "summary": "腾讯云大数据跨中心内容（品牌 / 综述 / 行业观点 / 活动）　渠道：腾讯云、腾讯大数据，媒体",
+      "tags": [
+        "品牌发布",
+        "品牌综述",
+        "行业观点",
+        "Data+AI"
+      ],
+      "productCenter": "zonghe",
+      "product": "综合",
+      "date": "2025-06-01",
+      "abc": "B",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://mp.weixin.qq.com/s/NARBrdxjWioUzOnAr_DiMw",
+      "verify": "",
+      "linkSrc": "企微排期文档（公众号原文）"
+    },
+    {
+      "id": "2025-06-01-064",
+      "title": "为什么我说我掌握了世间的奥义",
+      "topic": "为什么我说我掌握了世间的奥义",
+      "summary": "腾讯云大数据跨中心内容（品牌 / 综述 / 行业观点 / 活动）　渠道：鹅厂黑板报",
+      "tags": [
+        "品牌发布",
+        "品牌综述",
+        "行业观点",
+        "Data+AI"
+      ],
+      "productCenter": "zonghe",
+      "product": "综合",
+      "date": "2025-06-01",
+      "abc": "B",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://mp.weixin.qq.com/s/CjjCPKz-iNwUqJLs1tIBmw",
+      "verify": "",
+      "linkSrc": "企微排期文档（公众号原文）"
+    },
+    {
+      "id": "2025-06-06-065",
+      "title": "【专家说】杜俭峰：下一代银行数据体系演进",
+      "topic": "杜俭峰：下一代银行数据体系演进",
+      "summary": "腾讯云大数据跨中心内容（品牌 / 综述 / 行业观点 / 活动）　渠道：腾讯云大数据，金融云",
+      "tags": [
+        "客户案例",
+        "品牌综述",
+        "行业观点",
+        "Data+AI"
+      ],
+      "productCenter": "zonghe",
+      "product": "综合",
+      "date": "2025-06-06",
+      "abc": "A",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://mp.weixin.qq.com/s/gbNprjXEsh6PKFfua8-LGA",
+      "verify": "",
+      "linkSrc": "企微排期文档（公众号原文）"
+    },
+    {
+      "id": "2025-06-16-066",
+      "title": "腾讯×广发证券：下一个七年更加「AI」",
+      "topic": "×广发证券：下一个七年更加「AI」",
+      "summary": "腾讯云大数据跨中心内容（品牌 / 综述 / 行业观点 / 活动）　渠道：腾讯云、腾讯大数据",
+      "tags": [
+        "品牌发布",
+        "品牌综述",
+        "行业观点",
+        "Data+AI"
+      ],
+      "productCenter": "zonghe",
+      "product": "综合",
+      "date": "2025-06-16",
+      "abc": "B",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://mp.weixin.qq.com/s/OGn5VmnfXpb_W6T5QBqszg",
+      "verify": "",
+      "linkSrc": "企微排期文档（公众号原文）"
+    },
+    {
+      "id": "2025-06-16-067",
+      "title": "腾讯云对话CIO 中国五环用TCHouse、TBDS构建企业级数据中台。【视频】",
+      "topic": "对话CIO 中国五环用TCHouse、TBDS构建企业级数据中台。【视频】",
+      "summary": "腾讯云大数据跨中心内容（品牌 / 综述 / 行业观点 / 活动）　渠道：腾讯云、腾讯大数据视频号",
+      "tags": [
+        "品牌发布",
+        "品牌综述",
+        "行业观点",
+        "Data+AI"
+      ],
+      "productCenter": "zonghe",
+      "product": "综合",
+      "date": "2025-06-16",
+      "abc": "B",
+      "platform": "腾讯云大数据 公众号",
+      "link": "",
+      "verify": "",
+      "linkSrc": "企微排期文档（公众号原文）"
+    },
+    {
+      "id": "2025-06-18-068",
+      "title": "【新闻稿】腾讯云大数据助力火花思维：数据处理提效，跻身全球教育科技顶尖",
+      "topic": "助力火花思维：数据处理提效，跻身全球教育科技顶尖",
+      "summary": "腾讯云大数据跨中心内容（品牌 / 综述 / 行业观点 / 活动）　渠道：腾讯教育，媒体",
+      "tags": [
+        "客户案例",
+        "品牌综述",
+        "行业观点",
+        "Data+AI"
+      ],
+      "productCenter": "zonghe",
+      "product": "综合",
+      "date": "2025-06-18",
+      "abc": "A",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://mp.weixin.qq.com/s/1aMZay9mUcg6PCe_A2CSxA",
+      "verify": "",
+      "linkSrc": "企微排期文档（公众号原文）"
+    },
+    {
+      "id": "2025-06-18-069",
+      "title": "平均性能提升70%，盖雅工场基于腾讯云数据仓库 TCHouse-D 构建实时报表平台",
+      "topic": "平均性能提升70%，盖雅工场基于腾讯云数据仓库 TCHouse-D 构建实时报表平台",
+      "summary": "全托管实时 OLAP 分析数仓（Apache Doris，3.0 存算分离）　渠道：腾讯云大数据",
+      "tags": [
+        "技术干货",
+        "实时数仓",
+        "Apache Doris",
+        "存算分离"
+      ],
+      "productCenter": "base",
+      "product": "TCHouse-D",
+      "date": "2025-06-18",
+      "abc": "C",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://mp.weixin.qq.com/s/ZKeixjST3RV3BvjYEYCp5A",
+      "verify": "",
+      "linkSrc": "企微排期文档（公众号原文）"
+    },
+    {
+      "id": "2025-06-18-070",
+      "title": "腾讯云大数据TCIceberg亮相Iceberg全球技术峰会",
+      "topic": "TCIceberg亮相Iceberg全球技术峰会",
+      "summary": "Serverless 数据湖分析与计算服务（Spark + TC-Iceberg + Alluxio）",
+      "tags": [
+        "品牌发布",
+        "实时湖仓",
+        "Iceberg",
+        "Serverless"
+      ],
+      "productCenter": "base",
+      "product": "DLC",
+      "date": "2025-06-18",
+      "abc": "B",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://mp.weixin.qq.com/s/DpQbgnSXTgT4rMgeUCdtkA",
+      "verify": "",
+      "linkSrc": "企微排期文档（公众号原文）"
+    },
+    {
+      "id": "2025-06-20-071",
+      "title": "降本30%，提速2小时！腾讯云助力火花思维大数据引擎”换挡“升级",
+      "topic": "降本30%，提速2小时！腾讯云助力火花思维大数据引擎”换挡“升级",
+      "summary": "腾讯云大数据跨中心内容（品牌 / 综述 / 行业观点 / 活动）　渠道：腾讯云大数据",
+      "tags": [
+        "客户案例",
+        "品牌综述",
+        "行业观点",
+        "Data+AI"
+      ],
+      "productCenter": "zonghe",
+      "product": "综合",
+      "date": "2025-06-20",
+      "abc": "A",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://mp.weixin.qq.com/s/oPlJh-YWR-AhF_Oo48RWlw",
+      "verify": "",
+      "linkSrc": "企微排期文档（公众号原文）"
+    },
+    {
+      "id": "2025-06-20-072",
+      "title": "腾讯云ChatBI：数据解读重磅升级，深度挖掘数据价值",
+      "topic": "ChatBI：数据解读重磅升级，深度挖掘数据价值",
+      "summary": "全流程敏捷自助式 BI 平台（40+ 组件，多端适配）",
+      "tags": [
+        "技术干货",
+        "自助BI",
+        "敏捷分析"
+      ],
+      "productCenter": "wedata",
+      "product": "腾讯云BI",
+      "date": "2025-06-20",
+      "abc": "C",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://mp.weixin.qq.com/s/gm1hvXfZCYy7rIQr_5c9pQ",
+      "verify": "",
+      "linkSrc": "企微排期文档（公众号原文）"
+    },
+    {
+      "id": "2025-06-27-073",
+      "title": "【新闻稿】腾讯云联合 Gartner 发布《Data+AI下一代数智平台建设指南》",
+      "topic": "联合 Gartner 发布《Data+AI下一代数智平台建设指南》",
+      "summary": "腾讯云大数据跨中心内容（品牌 / 综述 / 行业观点 / 活动）　渠道：腾讯云大数据，媒体",
+      "tags": [
+        "品牌发布",
+        "品牌综述",
+        "行业观点",
+        "Data+AI"
+      ],
+      "productCenter": "zonghe",
+      "product": "综合",
+      "date": "2025-06-27",
+      "abc": "B",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://mp.weixin.qq.com/s/hbscd5SuB1N50hVihvcPbQ",
+      "verify": "",
+      "linkSrc": "企微排期文档（公众号原文）"
+    },
+    {
+      "id": "2025-06-27-074",
+      "title": "腾讯云BI：全新上线“简报”功能，数据可视化能力大跃升！",
+      "topic": "BI：全新上线“简报”功能，数据可视化能力大跃升！",
+      "summary": "全流程敏捷自助式 BI 平台（40+ 组件，多端适配）",
+      "tags": [
+        "技术干货",
+        "自助BI",
+        "敏捷分析"
+      ],
+      "productCenter": "wedata",
+      "product": "腾讯云BI",
+      "date": "2025-06-27",
+      "abc": "C",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://mp.weixin.qq.com/s/lRuiWJ0b33n8U2Azgn7MXQ",
+      "verify": "",
+      "linkSrc": "企微排期文档（公众号原文）"
+    },
+    {
+      "id": "2025-06-27-075",
+      "title": "RayData全新推出“行业解决方案模板”，助您快捷制作3D数据可视化作品",
+      "topic": "RayData全新推出“行业解决方案模板”，助您快捷制作3D数据可视化作品",
+      "summary": "3D 数据可视化产品（三维数据资产呈现）　渠道：腾讯云大数据",
+      "tags": [
+        "技术干货",
+        "3D可视化"
+      ],
+      "productCenter": "wedata",
+      "product": "RayData",
+      "date": "2025-06-27",
+      "abc": "C",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://mp.weixin.qq.com/s/bkSMfmhsDSsbLLPg4XAZYw",
+      "verify": "",
+      "linkSrc": "企微排期文档（公众号原文）"
+    },
+    {
+      "id": "2025-07-04-076",
+      "title": "腾讯云TCDataAgent：跻身国际Bird榜单前三，研究成果入选VLDB",
+      "topic": "TCDataAgent：跻身国际Bird榜单前三，研究成果入选VLDB",
+      "summary": "数据分析智能体（NL2SQL 全球前三、国内第一）　渠道：腾讯云大数据，媒体",
+      "tags": [
+        "品牌发布",
+        "NL2SQL",
+        "数据分析智能体"
+      ],
+      "productCenter": "base",
+      "product": "TCDataAgent",
+      "date": "2025-07-04",
+      "abc": "B",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://mp.weixin.qq.com/s/EcS1d_KmmUgj0-2rHodxGg",
+      "verify": "",
+      "linkSrc": "企微排期文档（公众号原文）"
+    },
+    {
+      "id": "2025-07-04-077",
+      "title": "腾讯云数据分析智能体：全球第三，国内第一！",
+      "topic": "数据分析智能体：全球第三，国内第一！",
+      "summary": "数据分析智能体（NL2SQL 全球前三、国内第一）　渠道：腾讯云",
+      "tags": [
+        "品牌发布",
+        "NL2SQL",
+        "数据分析智能体"
+      ],
+      "productCenter": "base",
+      "product": "TCDataAgent",
+      "date": "2025-07-04",
+      "abc": "B",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://mp.weixin.qq.com/s/xo6s_k-r1mplF5n9IHBWzA",
+      "verify": "",
+      "linkSrc": "企微排期文档（公众号原文）"
+    },
+    {
+      "id": "2025-07-04-078",
+      "title": "腾讯云与Gartner联合发布“Data+AI”白皮书，各行业领军企业分享最佳实践（AICon X 腾讯云 会后文章）",
+      "topic": "与Gartner联合发布“Data+AI”白皮书，各行业领军企业分享最佳实践（AICon X 腾讯云 会后文章）",
+      "summary": "腾讯云大数据跨中心内容（品牌 / 综述 / 行业观点 / 活动）　渠道：腾讯云大数据",
+      "tags": [
+        "品牌发布",
+        "品牌综述",
+        "行业观点",
+        "Data+AI"
+      ],
+      "productCenter": "zonghe",
+      "product": "综合",
+      "date": "2025-07-04",
+      "abc": "B",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://mp.weixin.qq.com/s/n0HAL9MsoABsbpgaklVGQg",
+      "verify": "",
+      "linkSrc": "企微排期文档（公众号原文）"
+    },
+    {
+      "id": "2025-07-04-079",
+      "title": "专家说】张帆：AI 时代下的金融大数据构建——深度解析 Data+AI 金融行业探索路径",
+      "topic": "专家说】张帆：AI 时代下的金融大数据构建——深度解析 Data+AI 金融行业探索路径",
+      "summary": "腾讯云大数据跨中心内容（品牌 / 综述 / 行业观点 / 活动）　渠道：腾讯云大数据，金融",
+      "tags": [
+        "客户案例",
+        "品牌综述",
+        "行业观点",
+        "Data+AI"
+      ],
+      "productCenter": "zonghe",
+      "product": "综合",
+      "date": "2025-07-04",
+      "abc": "A",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://mp.weixin.qq.com/s/MniPj1XWlIfW3PpSfUuv3Q",
+      "verify": "",
+      "linkSrc": "企微排期文档（公众号原文）"
+    },
+    {
+      "id": "2025-07-04-080",
+      "title": "腾讯云TCHouse-P通过中国信通院分布式分析型数据库四项测试",
+      "topic": "TCHouse-P通过中国信通院分布式分析型数据库四项测试",
+      "summary": "企业级私有化大数据处理套件（湖仓一体 + 金融信创）",
+      "tags": [
+        "技术干货",
+        "私有化",
+        "信创",
+        "湖仓一体"
+      ],
+      "productCenter": "tbds",
+      "product": "TBDS",
+      "date": "2025-07-04",
+      "abc": "C",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://mp.weixin.qq.com/s/gB7mQUHzNyPMrDhXD9FGBg",
+      "verify": "",
+      "linkSrc": "企微排期文档（公众号原文）"
+    },
+    {
+      "id": "2025-07-11-081",
+      "title": "腾讯云程彬：构建下一代数智平台，加速Data+AI融合落地",
+      "topic": "程彬：构建下一代数智平台，加速Data+AI融合落地",
+      "summary": "腾讯云大数据跨中心内容（品牌 / 综述 / 行业观点 / 活动）　渠道：腾讯云大数据，媒体",
+      "tags": [
+        "品牌发布",
+        "品牌综述",
+        "行业观点",
+        "Data+AI"
+      ],
+      "productCenter": "zonghe",
+      "product": "综合",
+      "date": "2025-07-11",
+      "abc": "B",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://mp.weixin.qq.com/s/4JZoeU2TA01RlfEwx_l-KA",
+      "verify": "",
+      "linkSrc": "企微排期文档（公众号原文）"
+    },
+    {
+      "id": "2025-07-18-082",
+      "title": "行业领先！腾讯云ChatBI在中国GenBI技术能力评估中斩获六项满分！",
+      "topic": "行业领先！腾讯云ChatBI在中国GenBI技术能力评估中斩获六项满分！",
+      "summary": "全流程敏捷自助式 BI 平台（40+ 组件，多端适配）　渠道：腾讯云大数据，媒体",
+      "tags": [
+        "品牌发布",
+        "自助BI",
+        "敏捷分析"
+      ],
+      "productCenter": "wedata",
+      "product": "腾讯云BI",
+      "date": "2025-07-18",
+      "abc": "B",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://mp.weixin.qq.com/s/O5Ghlw2mWR0BCAC0iuaMjw",
+      "verify": "",
+      "linkSrc": "企微排期文档（公众号原文）"
+    },
+    {
+      "id": "2025-07-18-083",
+      "title": "腾讯云ChatBI：多表关联重磅来袭，四大能力升级提升智能分析体验",
+      "topic": "ChatBI：多表关联重磅来袭，四大能力升级提升智能分析体验",
+      "summary": "全流程敏捷自助式 BI 平台（40+ 组件，多端适配）　渠道：公众号",
+      "tags": [
+        "技术干货",
+        "自助BI",
+        "敏捷分析"
+      ],
+      "productCenter": "wedata",
+      "product": "腾讯云BI",
+      "date": "2025-07-18",
+      "abc": "C",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://mp.weixin.qq.com/s/uf5d8N2aeKa5KxHQWRPibQ",
+      "verify": "",
+      "linkSrc": "企微排期文档（公众号原文）"
+    },
+    {
+      "id": "2025-07-18-084",
+      "title": "AI大模型结合专家经验，开启大数据系统智能调优分析新标杆",
+      "topic": "AI大模型结合专家经验，开启大数据系统智能调优分析新标杆",
+      "summary": "AI 驱动大数据自治运维（调优/运维/预测三 Agent）　渠道：腾讯云大数据",
+      "tags": [
+        "客户案例",
+        "AIOps",
+        "智能运维"
+      ],
+      "productCenter": "base",
+      "product": "TCInsight",
+      "date": "2025-07-18",
+      "abc": "A",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://mp.weixin.qq.com/s/X8XYCHbZ0kyJsADItXDhHw",
+      "verify": "",
+      "linkSrc": "企微排期文档（公众号原文）"
+    },
+    {
+      "id": "2025-07-25-085",
+      "title": "《TCHouse云原生数仓在AI时代的演进（内附完整视频）》",
+      "topic": "《TCHouse云原生数仓在AI时代的演进（内附完整视频）》",
+      "summary": "云原生数仓（TCHouse 新成员）　渠道：腾讯云大数据",
+      "tags": [
+        "技术干货",
+        "云原生数仓"
+      ],
+      "productCenter": "base",
+      "product": "TCHouse-X",
+      "date": "2025-07-25",
+      "abc": "C",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://mp.weixin.qq.com/s/ORlYDjxt1gO436J6ePuiIw",
+      "verify": "",
+      "linkSrc": "企微排期文档（公众号原文）"
+    },
+    {
+      "id": "2025-07-25-086",
+      "title": "RayData赋能文旅：可视化产品提升四大场景运营效率",
+      "topic": "RayData赋能文旅：可视化产品提升四大场景运营效率",
+      "summary": "3D 数据可视化产品（三维数据资产呈现）　渠道：公众号",
+      "tags": [
+        "客户案例",
+        "3D可视化"
+      ],
+      "productCenter": "wedata",
+      "product": "RayData",
+      "date": "2025-07-25",
+      "abc": "A",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://mp.weixin.qq.com/s/znw582O4l65-OW59Ou-1hw",
+      "verify": "",
+      "linkSrc": "企微排期文档（公众号原文）"
+    },
+    {
+      "id": "2025-08-01-087",
+      "title": "腾讯云蝉联Gartner亚太区“客户之选”第一象限，Data+AI能力驱动数据管理新纪元",
+      "topic": "蝉联Gartner亚太区“客户之选”第一象限，Data+AI能力驱动数据管理新纪元",
+      "summary": "腾讯云大数据跨中心内容（品牌 / 综述 / 行业观点 / 活动）",
+      "tags": [
+        "品牌发布",
+        "品牌综述",
+        "行业观点",
+        "Data+AI"
+      ],
+      "productCenter": "zonghe",
+      "product": "综合",
+      "date": "2025-08-01",
+      "abc": "B",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://mp.weixin.qq.com/s/ePekRYgeE2ZOykb0ocpewA",
+      "verify": "",
+      "linkSrc": "企微排期文档（公众号原文）"
+    },
+    {
+      "id": "2025-08-01-088",
+      "title": "腾讯云ChatBI全新支持“生成报告”，支持更灵活全面的分析场景",
+      "topic": "ChatBI全新支持“生成报告”，支持更灵活全面的分析场景",
+      "summary": "全流程敏捷自助式 BI 平台（40+ 组件，多端适配）　渠道：公众号",
+      "tags": [
+        "技术干货",
+        "自助BI",
+        "敏捷分析"
+      ],
+      "productCenter": "wedata",
+      "product": "腾讯云BI",
+      "date": "2025-08-01",
+      "abc": "C",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://mp.weixin.qq.com/s/OdhQsUo9HvJl1uYrOZ6fNA",
+      "verify": "",
+      "linkSrc": "企微排期文档（公众号原文）"
+    },
+    {
+      "id": "2025-08-07-089",
+      "title": "腾讯云数据仓库 TCHouse-C 登上 clickbench 性能排行榜",
+      "topic": "数据仓库 TCHouse-C 登上 clickbench 性能排行榜",
+      "summary": "全托管实时 OLAP 数仓（100% 兼容 ClickHouse）　渠道：腾讯云大数据，腾讯云，媒体",
+      "tags": [
+        "品牌发布",
+        "OLAP",
+        "ClickHouse兼容",
+        "冷热分层"
+      ],
+      "productCenter": "base",
+      "product": "TCHouse-C",
+      "date": "2025-08-07",
+      "abc": "B",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://mp.weixin.qq.com/s/QrX7A4JVCjGxKRTY4OmYhA",
+      "verify": "",
+      "linkSrc": "企微排期文档（公众号原文）"
+    },
+    {
+      "id": "2025-08-07-090",
+      "title": "对抗乌卡时代：大宗贸易的数字化巨变",
+      "topic": "对抗乌卡时代：大宗贸易的数字化巨变",
+      "summary": "腾讯云大数据跨中心内容（品牌 / 综述 / 行业观点 / 活动）　渠道：自媒体董指导",
+      "tags": [
+        "客户案例",
+        "品牌综述",
+        "行业观点",
+        "Data+AI"
+      ],
+      "productCenter": "zonghe",
+      "product": "综合",
+      "date": "2025-08-07",
+      "abc": "A",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://mp.weixin.qq.com/s/vJNdXZD5X1FZ0VCfOm15Hw",
+      "verify": "",
+      "linkSrc": "企微排期文档（公众号原文）"
+    },
+    {
+      "id": "2025-08-08-091",
+      "title": "腾讯云X中基宁波：数据中台「稳」住千亿外贸",
+      "topic": "X中基宁波：数据中台「稳」住千亿外贸",
+      "summary": "腾讯云大数据跨中心内容（品牌 / 综述 / 行业观点 / 活动）　渠道：腾讯云，腾讯云大数据",
+      "tags": [
+        "客户案例",
+        "品牌综述",
+        "行业观点",
+        "Data+AI"
+      ],
+      "productCenter": "zonghe",
+      "product": "综合",
+      "date": "2025-08-08",
+      "abc": "A",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://mp.weixin.qq.com/s/BSlGq6KQzYMSXg-8kALVHw",
+      "verify": "",
+      "linkSrc": "企微排期文档（公众号原文）"
+    },
+    {
+      "id": "2025-08-08-092",
+      "title": "腾讯云携手中基宁波集团，打造算得快、看得清、走得稳的数据中台",
+      "topic": "携手中基宁波集团，打造算得快、看得清、走得稳的数据中台",
+      "summary": "腾讯云大数据跨中心内容（品牌 / 综述 / 行业观点 / 活动）　渠道：腾讯云大数据，媒体",
+      "tags": [
+        "客户案例",
+        "品牌综述",
+        "行业观点",
+        "Data+AI"
+      ],
+      "productCenter": "zonghe",
+      "product": "综合",
+      "date": "2025-08-08",
+      "abc": "A",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://mp.weixin.qq.com/s/DArbB9L7WIXDBNxGVErBGg",
+      "verify": "",
+      "linkSrc": "企微排期文档（公众号原文）"
+    },
+    {
+      "id": "2025-08-08-093",
+      "title": "腾讯云宋企皋：Data x AI构建数据管理新范式",
+      "topic": "宋企皋：Data x AI构建数据管理新范式",
+      "summary": "腾讯云大数据跨中心内容（品牌 / 综述 / 行业观点 / 活动）",
+      "tags": [
+        "品牌发布",
+        "品牌综述",
+        "行业观点",
+        "Data+AI"
+      ],
+      "productCenter": "zonghe",
+      "product": "综合",
+      "date": "2025-08-08",
+      "abc": "B",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://mp.weixin.qq.com/s/V8wdJvtnBrIkLlh_PEIG2g",
+      "verify": "",
+      "linkSrc": "企微排期文档（公众号原文）"
+    },
+    {
+      "id": "2025-09-01-094",
+      "title": "腾讯云大数据TBDS重磅升级，助力金融行业构建Data+AI一体化数智新范式",
+      "topic": "TBDS重磅升级，助力金融行业构建Data+AI一体化数智新范式",
+      "summary": "企业级私有化大数据处理套件（湖仓一体 + 金融信创）　渠道：腾讯云大数据、媒体",
+      "tags": [
+        "品牌发布",
+        "私有化",
+        "信创",
+        "湖仓一体"
+      ],
+      "productCenter": "tbds",
+      "product": "TBDS",
+      "date": "2025-09-01",
+      "abc": "B",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://mp.weixin.qq.com/s/KQP1eoQ_ZvuZVe5z-xX0LQ",
+      "verify": "",
+      "linkSrc": "企微排期文档（公众号原文）"
+    },
+    {
+      "id": "2025-09-04-095",
+      "title": "IDC MarketScape：腾讯云位居国内生成式AI数据基础设施“领导者”象限",
+      "topic": "IDC MarketScape：腾讯云位居国内生成式AI数据基础设施“领导者”象限",
+      "summary": "腾讯云大数据跨中心内容（品牌 / 综述 / 行业观点 / 活动）　渠道：腾讯云大数据、媒体",
+      "tags": [
+        "品牌发布",
+        "品牌综述",
+        "行业观点",
+        "Data+AI"
+      ],
+      "productCenter": "zonghe",
+      "product": "综合",
+      "date": "2025-09-04",
+      "abc": "B",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://mp.weixin.qq.com/s/GE8FMaX_LNAUd-X3VjgvtA",
+      "verify": "",
+      "linkSrc": "企微排期文档（公众号原文）"
+    },
+    {
+      "id": "2025-09-05-096",
+      "title": "数字生态大会 倒计时两周！9月17日，这场直播不容错过！",
+      "topic": "数字生态大会 倒计时两周！9月17日，这场直播不容错过！",
+      "summary": "腾讯云大数据跨中心内容（品牌 / 综述 / 行业观点 / 活动）　渠道：腾讯云大数据",
+      "tags": [
+        "品牌发布",
+        "品牌综述",
+        "行业观点",
+        "Data+AI"
+      ],
+      "productCenter": "zonghe",
+      "product": "综合",
+      "date": "2025-09-05",
+      "abc": "B",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://mp.weixin.qq.com/s/sIZF6hmJwvf7Q6xmL819eA",
+      "verify": "",
+      "linkSrc": "企微排期文档（公众号原文）"
+    },
+    {
+      "id": "2025-09-19-097",
+      "title": "腾讯云大数据Data+AI专场圆桌论坛实录",
+      "topic": "Data+AI专场圆桌论坛实录",
+      "summary": "腾讯云大数据跨中心内容（品牌 / 综述 / 行业观点 / 活动）　渠道：腾讯云大数据",
+      "tags": [
+        "品牌发布",
+        "品牌综述",
+        "行业观点",
+        "Data+AI"
+      ],
+      "productCenter": "zonghe",
+      "product": "综合",
+      "date": "2025-09-19",
+      "abc": "B",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://mp.weixin.qq.com/s/smf1ngvez9PwwBVk5PLqqg",
+      "verify": "",
+      "linkSrc": "企微排期文档（公众号原文）"
+    },
+    {
+      "id": "2025-09-19-098",
+      "title": "千亿级数据秒级响应、成本降低50%，TCHouse-C云原生版在合合信息决策平台的应用",
+      "topic": "千亿级数据秒级响应、成本降低50%，TCHouse-C云原生版在合合信息决策平台的应用",
+      "summary": "全托管实时 OLAP 数仓（100% 兼容 ClickHouse）　渠道：腾讯云大数据",
+      "tags": [
+        "客户案例",
+        "OLAP",
+        "ClickHouse兼容",
+        "冷热分层"
+      ],
+      "productCenter": "base",
+      "product": "TCHouse-C",
+      "date": "2025-09-19",
+      "abc": "A",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://mp.weixin.qq.com/s/ETHlBP7UDYtOyRZhq58w1g",
+      "verify": "",
+      "linkSrc": "企微排期文档（公众号原文）"
+    },
+    {
+      "id": "2025-09-19-099",
+      "title": "腾讯云大数据升级Data+AI能力体系，构建AI-Ready的智能大数据平台",
+      "topic": "升级Data+AI能力体系，构建AI-Ready的智能大数据平台",
+      "summary": "统一多模态智能数据湖底座（TCIceberg + Lance 兼容 + 智能自治）　渠道：腾讯云大数据、媒体",
+      "tags": [
+        "品牌发布",
+        "多模态数据湖",
+        "AI数据底座"
+      ],
+      "productCenter": "base",
+      "product": "TCLake",
+      "date": "2025-09-19",
+      "abc": "B",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://mp.weixin.qq.com/s/aSMmZOetCT5RBlJVFu0r-A",
+      "verify": "",
+      "linkSrc": "企微排期文档（公众号原文）"
+    },
+    {
+      "id": "2025-09-28-100",
+      "title": "【Joyme】腾讯云助力Joyme出海：大数据与AI让成本减半、效率翻倍",
+      "topic": "助力Joyme出海：大数据与AI让成本减半、效率翻倍",
+      "summary": "腾讯云大数据跨中心内容（品牌 / 综述 / 行业观点 / 活动）　渠道：腾讯云大数据、媒体",
+      "tags": [
+        "客户案例",
+        "品牌综述",
+        "行业观点",
+        "Data+AI"
+      ],
+      "productCenter": "zonghe",
+      "product": "综合",
+      "date": "2025-09-28",
+      "abc": "A",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://mp.weixin.qq.com/s/8H4jV8Gikkwo7QAgZEjSpA",
+      "verify": "",
+      "linkSrc": "企微排期文档（公众号原文）"
+    },
+    {
+      "id": "2025-09-28-101",
+      "title": "腾讯云 WeData：中国数据治理市场份额增长第一",
+      "topic": "WeData：中国数据治理市场份额增长第一",
+      "summary": "Data+AI 一体化数据智能平台（IDC 份额第二 + DIOps 首家认证）　渠道：腾讯云大数据",
+      "tags": [
+        "品牌发布",
+        "数据治理",
+        "Data+AI",
+        "信创"
+      ],
+      "productCenter": "wedata",
+      "product": "WeData",
+      "date": "2025-09-28",
+      "abc": "B",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://mp.weixin.qq.com/s/Xc9iMbA9xFks2VfOxkp0CA",
+      "verify": "",
+      "linkSrc": "企微排期文档（公众号原文）"
+    },
+    {
+      "id": "2025-09-28-102",
+      "title": "腾讯云大数据data+ai转型，获得三项研报第一",
+      "topic": "data+ai转型，获得三项研报第一",
+      "summary": "腾讯云大数据跨中心内容（品牌 / 综述 / 行业观点 / 活动）　渠道：腾讯云 腾讯云大数据",
+      "tags": [
+        "品牌发布",
+        "品牌综述",
+        "行业观点",
+        "Data+AI"
+      ],
+      "productCenter": "zonghe",
+      "product": "综合",
+      "date": "2025-09-28",
+      "abc": "B",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://mp.weixin.qq.com/s/ed6xJ0GmcjiUOVHubOCWxw",
+      "verify": "",
+      "linkSrc": "企微排期文档（公众号原文）"
+    },
+    {
+      "id": "2025-10-01-103",
+      "title": "Gartner 报告海外",
+      "topic": "Gartner 报告海外",
+      "summary": "腾讯云大数据跨中心内容（品牌 / 综述 / 行业观点 / 活动）",
+      "tags": [
+        "品牌发布",
+        "品牌综述",
+        "行业观点",
+        "Data+AI"
+      ],
+      "productCenter": "zonghe",
+      "product": "综合",
+      "date": "2025-10-01",
+      "abc": "B",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://www.prnewswire.com/apac/news-releases/tencent-cloud-recognized-as-a-representative-vendor-in-gartner-market-guide-for-data-lakehouse-platforms-302592224.html",
+      "verify": "",
+      "linkSrc": "企微排期文档（公众号原文）"
+    },
+    {
+      "id": "2025-10-01-104",
+      "title": "直播预约中 | AutoMQ 在腾讯云、腾讯音乐和京东的生产实践分享",
+      "topic": "直播预约中 | AutoMQ 在腾讯云、腾讯音乐和京东的生产实践分享",
+      "summary": "腾讯云大数据跨中心内容（品牌 / 综述 / 行业观点 / 活动）",
+      "tags": [
+        "客户案例",
+        "品牌综述",
+        "行业观点",
+        "Data+AI"
+      ],
+      "productCenter": "zonghe",
+      "product": "综合",
+      "date": "2025-10-01",
+      "abc": "A",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://mp.weixin.qq.com/s/QgBw8KABCj8Tt_biDuoaBQ",
+      "verify": "",
+      "linkSrc": "企微排期文档（公众号原文）"
+    },
+    {
+      "id": "2025-10-10-105",
+      "title": "千亿级数据秒级响应、成本降低50%，TCHouse-C云原生版在合合信息决策平台的应用",
+      "topic": "千亿级数据秒级响应、成本降低50%，TCHouse-C云原生版在合合信息决策平台的应用",
+      "summary": "全托管实时 OLAP 数仓（100% 兼容 ClickHouse）",
+      "tags": [
+        "客户案例",
+        "OLAP",
+        "ClickHouse兼容",
+        "冷热分层"
+      ],
+      "productCenter": "base",
+      "product": "TCHouse-C",
+      "date": "2025-10-10",
+      "abc": "A",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://mp.weixin.qq.com/s/7mqHPQ6_Db7hNjvOswMrjQ",
+      "verify": "",
+      "linkSrc": "企微排期文档（公众号原文）"
+    },
+    {
+      "id": "2025-10-17-106",
+      "title": "Gartner发布全球数据湖仓平台市场指南：腾讯云入选，系唯一中国厂商",
+      "topic": "Gartner发布全球数据湖仓平台市场指南：腾讯云入选，系唯一中国厂商",
+      "summary": "腾讯云大数据跨中心内容（品牌 / 综述 / 行业观点 / 活动）",
+      "tags": [
+        "品牌发布",
+        "品牌综述",
+        "行业观点",
+        "Data+AI"
+      ],
+      "productCenter": "zonghe",
+      "product": "综合",
+      "date": "2025-10-17",
+      "abc": "B",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://mp.weixin.qq.com/s/EKfFWwfyK6Md24W-2XJGLg",
+      "verify": "",
+      "linkSrc": "企微排期文档（公众号原文）"
+    },
+    {
+      "id": "2025-10-17-107",
+      "title": "腾讯云助力火花思维成功升级高性能向量化计算引擎Meson",
+      "topic": "助力火花思维成功升级高性能向量化计算引擎Meson",
+      "summary": "Serverless 数据湖分析与计算服务（Spark + TC-Iceberg + Alluxio）　渠道：腾讯云大大数据",
+      "tags": [
+        "技术干货",
+        "实时湖仓",
+        "Iceberg",
+        "Serverless"
+      ],
+      "productCenter": "base",
+      "product": "DLC",
+      "date": "2025-10-17",
+      "abc": "C",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://mp.weixin.qq.com/s/T4tQbZOgyeSOHFIiFygR0w",
+      "verify": "",
+      "linkSrc": "企微排期文档（公众号原文）"
+    },
+    {
+      "id": "2025-10-31-108",
+      "title": "腾讯云、复旦等：利用约束的力量革新NL2SQL翻译",
+      "topic": "、复旦等：利用约束的力量革新NL2SQL翻译",
+      "summary": "数据分析智能体（NL2SQL 全球前三、国内第一）",
+      "tags": [
+        "技术干货",
+        "NL2SQL",
+        "数据分析智能体"
+      ],
+      "productCenter": "base",
+      "product": "TCDataAgent",
+      "date": "2025-10-31",
+      "abc": "C",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://mp.weixin.qq.com/s/dChybHG5gYouYJd9I-x3PQ",
+      "verify": "",
+      "linkSrc": "企微排期文档（公众号原文）"
+    },
+    {
+      "id": "2025-10-31-109",
+      "title": "从“严格模式”到金融级合规：TBDS信创数据库适配实战录",
+      "topic": "从“严格模式”到金融级合规：TBDS信创数据库适配实战录",
+      "summary": "企业级私有化大数据处理套件（湖仓一体 + 金融信创）　渠道：腾讯云大大数据",
+      "tags": [
+        "技术干货",
+        "私有化",
+        "信创",
+        "湖仓一体"
+      ],
+      "productCenter": "tbds",
+      "product": "TBDS",
+      "date": "2025-10-31",
+      "abc": "C",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://mp.weixin.qq.com/s/fUmIrgjZQryxtJDMpTp_Dw",
+      "verify": "",
+      "linkSrc": "企微排期文档（公众号原文）"
+    },
+    {
+      "id": "2025-11-14-110",
+      "title": "腾讯Q3财报：「好用的AI」深入业务一线，To B营收达582亿元",
+      "topic": "Q3财报：「好用的AI」深入业务一线，To B营收达582亿元",
+      "summary": "腾讯云大数据跨中心内容（品牌 / 综述 / 行业观点 / 活动）　渠道：腾讯云、腾讯云大数据",
+      "tags": [
+        "品牌发布",
+        "品牌综述",
+        "行业观点",
+        "Data+AI"
+      ],
+      "productCenter": "zonghe",
+      "product": "综合",
+      "date": "2025-11-14",
+      "abc": "B",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://mp.weixin.qq.com/s/IjifmFlcoHIgmSmAHfQQlg",
+      "verify": "",
+      "linkSrc": "企微排期文档（公众号原文）"
+    },
+    {
+      "id": "2025-11-14-111",
+      "title": "腾讯云TBDS在海量Iceberg的治理之路",
+      "topic": "TBDS在海量Iceberg的治理之路",
+      "summary": "企业级私有化大数据处理套件（湖仓一体 + 金融信创）　渠道：腾讯云大数据",
+      "tags": [
+        "技术干货",
+        "私有化",
+        "信创",
+        "湖仓一体"
+      ],
+      "productCenter": "tbds",
+      "product": "TBDS",
+      "date": "2025-11-14",
+      "abc": "C",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://mp.weixin.qq.com/s/KiC_7W2kagtuX6VAJjehaQ",
+      "verify": "",
+      "linkSrc": "企微排期文档（公众号原文）"
+    },
+    {
+      "id": "2025-12-01-112",
+      "title": "腾讯云大数据专家工程师孙云龙：Data+AI重构数据管理新范式",
+      "topic": "专家工程师孙云龙：Data+AI重构数据管理新范式",
+      "summary": "腾讯云大数据跨中心内容（品牌 / 综述 / 行业观点 / 活动）　渠道：腾讯云大数据",
+      "tags": [
+        "技术干货",
+        "品牌综述",
+        "行业观点",
+        "Data+AI"
+      ],
+      "productCenter": "zonghe",
+      "product": "综合",
+      "date": "2025-12-01",
+      "abc": "C",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://mp.weixin.qq.com/s/m5nZSPsnTYVNHl-f02tveA",
+      "verify": "",
+      "linkSrc": "企微排期文档（公众号原文）"
+    },
+    {
+      "id": "2025-12-01-113",
+      "title": "中基宁波联手腾讯云 破题大宗贸易风控难题",
+      "topic": "中基宁波联手腾讯云 破题大宗贸易风控难题",
+      "summary": "腾讯云大数据跨中心内容（品牌 / 综述 / 行业观点 / 活动）　渠道：腾讯云大数据",
+      "tags": [
+        "客户案例",
+        "品牌综述",
+        "行业观点",
+        "Data+AI"
+      ],
+      "productCenter": "zonghe",
+      "product": "综合",
+      "date": "2025-12-01",
+      "abc": "A",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://mp.weixin.qq.com/s/Vf4Aawz_VDNiz70Vqopu0g",
+      "verify": "",
+      "linkSrc": "企微排期文档（公众号原文）"
+    },
+    {
+      "id": "2025-12-19-114",
+      "title": "中信银行大数据核心升级项目获评信通院2025“星河”典型案例",
+      "topic": "中信银行大数据核心升级项目获评信通院2025“星河”典型案例",
+      "summary": "腾讯云大数据跨中心内容（品牌 / 综述 / 行业观点 / 活动）　渠道：媒体，大数据",
+      "tags": [
+        "品牌发布",
+        "品牌综述",
+        "行业观点",
+        "Data+AI"
+      ],
+      "productCenter": "zonghe",
+      "product": "综合",
+      "date": "2025-12-19",
+      "abc": "B",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://mp.weixin.qq.com/s/lXIjqrIodaC8kBdK3bsWzQ",
+      "verify": "",
+      "linkSrc": "企微排期文档（公众号原文）"
+    },
+    {
+      "id": "2025-12-19-115",
+      "title": "腾讯云一体化知识库：通过数据构建不可替代的媒体生产系统",
+      "topic": "一体化知识库：通过数据构建不可替代的媒体生产系统",
+      "summary": "腾讯云大数据跨中心内容（品牌 / 综述 / 行业观点 / 活动）　渠道：腾讯云智慧金融，腾讯云大数据",
+      "tags": [
+        "客户案例",
+        "品牌综述",
+        "行业观点",
+        "Data+AI"
+      ],
+      "productCenter": "zonghe",
+      "product": "综合",
+      "date": "2025-12-19",
+      "abc": "A",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://mp.weixin.qq.com/s/lXIjqrIodaC8kBdK3bsWzQ",
+      "verify": "",
+      "linkSrc": "企微排期文档（公众号原文）"
+    },
+    {
+      "id": "2025-12-26-116",
+      "title": "【新闻稿】六成Top 10券商将大数据平台迁移至腾讯云",
+      "topic": "六成Top 10券商将大数据平台迁移至腾讯云",
+      "summary": "腾讯云大数据跨中心内容（品牌 / 综述 / 行业观点 / 活动）　渠道：智慧金融，腾讯云大数据",
+      "tags": [
+        "品牌发布",
+        "品牌综述",
+        "行业观点",
+        "Data+AI"
+      ],
+      "productCenter": "zonghe",
+      "product": "综合",
+      "date": "2025-12-26",
+      "abc": "B",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://mp.weixin.qq.com/s/lFkXn98W9xrnGWOp4YO4yQ",
+      "verify": "",
+      "linkSrc": "企微排期文档（公众号原文）"
+    },
+    {
+      "id": "2025-12-26-117",
+      "title": "《腾讯云wedata数据治理全面升级》",
+      "topic": "《腾讯云wedata数据治理全面升级》",
+      "summary": "Data+AI 一体化数据智能平台（IDC 份额第二 + DIOps 首家认证）　渠道：腾讯云官网",
+      "tags": [
+        "技术干货",
+        "数据治理",
+        "Data+AI",
+        "信创"
+      ],
+      "productCenter": "wedata",
+      "product": "WeData",
+      "date": "2025-12-26",
+      "abc": "C",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://mp.weixin.qq.com/s/zZe18L7QT9YwHM_ybFcXow",
+      "verify": "",
+      "linkSrc": "企微排期文档（公众号原文）"
+    },
+    {
+      "id": "2026-01-22-118",
+      "title": "腾讯云发布面向AI的数据湖方案：TCLake+EMR打造AI-Ready数据底座",
+      "topic": "发布面向AI的数据湖方案：TCLake+EMR打造AI-Ready数据底座",
+      "summary": "统一多模态智能数据湖底座（TCIceberg + Lance 兼容 + 智能自治）　渠道：腾讯云大数据、行业媒体",
+      "tags": [
+        "品牌发布",
+        "多模态数据湖",
+        "AI数据底座"
+      ],
+      "productCenter": "base",
+      "product": "TCLake",
+      "date": "2026-01-22",
+      "abc": "B",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://mp.weixin.qq.com/s/sW_KEb9-kr1qmNdo1mUq8A",
+      "verify": "",
+      "linkSrc": "企微排期文档（公众号原文）"
+    },
+    {
+      "id": "2026-01-22-119",
+      "title": "腾讯云与致宇信息、银兴智能达成渠道战略合作 共同推动国产化大数据平台与智能数据解决方案落地",
+      "topic": "与致宇信息、银兴智能达成渠道战略合作 共同推动国产化大数据平台与智能数据解决方案落地",
+      "summary": "企业级私有化大数据处理套件（湖仓一体 + 金融信创）　渠道：腾讯云大数据",
+      "tags": [
+        "品牌发布",
+        "私有化",
+        "信创",
+        "湖仓一体"
+      ],
+      "productCenter": "tbds",
+      "product": "TBDS",
+      "date": "2026-01-22",
+      "abc": "B",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://mp.weixin.qq.com/s/tarH0JXDRrgm8RyWNwpoVQ",
+      "verify": "",
+      "linkSrc": "企微排期文档（公众号原文）"
+    },
+    {
+      "id": "2026-01-30-120",
+      "title": "腾讯云WeData升级三大Data+AI能力，位居一体化数据智能平台市场第一！",
+      "topic": "WeData升级三大Data+AI能力，位居一体化数据智能平台市场第一！",
+      "summary": "Data+AI 一体化数据智能平台（IDC 份额第二 + DIOps 首家认证）",
+      "tags": [
+        "品牌发布",
+        "数据治理",
+        "Data+AI",
+        "信创"
+      ],
+      "productCenter": "wedata",
+      "product": "WeData",
+      "date": "2026-01-30",
+      "abc": "B",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://mp.weixin.qq.com/s/UxfWPs6_EcqEivirIuVupA",
+      "verify": "",
+      "linkSrc": "企微排期文档（公众号原文）"
+    },
+    {
+      "id": "2026-02-01-121",
+      "title": "吐梨德猫 AI Native 自媒体创作平台相关PR文章",
+      "topic": "吐梨德猫 AI Native 自媒体创作平台相关PR文章",
+      "summary": "全托管海量数据检索分析 + RAG（Elasticsearch 自研内核 + 混合搜索）　渠道：虎嗅、36kr、视频号、锌财经、蓝洞商业、20社等",
+      "tags": [
+        "品牌发布",
+        "向量检索",
+        "RAG",
+        "混合搜索"
+      ],
+      "productCenter": "base",
+      "product": "ES",
+      "date": "2026-02-01",
+      "abc": "B",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://36kr.com/p/3670525719716482",
+      "verify": "",
+      "linkSrc": "企微排期文档（公众号原文）"
+    },
+    {
+      "id": "2026-02-13-122",
+      "title": "腾讯云大数据2025年度成绩单",
+      "topic": "2025年度成绩单",
+      "summary": "腾讯云大数据跨中心内容（品牌 / 综述 / 行业观点 / 活动）　渠道：腾讯云大数据",
+      "tags": [
+        "品牌发布",
+        "品牌综述",
+        "行业观点",
+        "Data+AI"
+      ],
+      "productCenter": "zonghe",
+      "product": "综合",
+      "date": "2026-02-13",
+      "abc": "B",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://mp.weixin.qq.com/s/fXH2M0KPWmSEfmCx44zR_Q",
+      "verify": "",
+      "linkSrc": "企微排期文档（公众号原文）"
+    },
+    {
+      "id": "2026-02-13-123",
+      "title": "WeData 2026年2月版本发布： Data+AI，从数据开发到AI落地，一站式提效全链路",
+      "topic": "WeData 2026年2月版本发布： Data+AI，从数据开发到AI落地，一站式提效全链路",
+      "summary": "Data+AI 一体化数据智能平台（IDC 份额第二 + DIOps 首家认证）　渠道：腾讯云大数据",
+      "tags": [
+        "技术干货",
+        "数据治理",
+        "Data+AI",
+        "信创"
+      ],
+      "productCenter": "wedata",
+      "product": "WeData",
+      "date": "2026-02-13",
+      "abc": "C",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://mp.weixin.qq.com/s/uekSF4TrSxhnFSpRF9OvXg",
+      "verify": "",
+      "linkSrc": "企微排期文档（公众号原文）"
+    },
+    {
+      "id": "2026-03-05-124",
+      "title": "《腾讯云大数据 TCDataAgent 智能体发布与应用实战》",
+      "topic": "《腾讯云大数据 TCDataAgent 智能体发布与应用实战》",
+      "summary": "数据分析智能体（NL2SQL 全球前三、国内第一）　渠道：DatafunSummit",
+      "tags": [
+        "技术干货",
+        "NL2SQL",
+        "数据分析智能体"
+      ],
+      "productCenter": "base",
+      "product": "TCDataAgent",
+      "date": "2026-03-05",
+      "abc": "C",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://mp.weixin.qq.com/s/yiuQAmAuAsMW6xeB9feU7Q",
+      "verify": "",
+      "linkSrc": "企微排期文档（公众号原文）"
+    },
+    {
+      "id": "2026-03-06-125",
+      "title": "首家！腾讯云 WeData 率先通过中国信通院数智一体化平台（DIOps）技术要求专项测试",
+      "topic": "首家！腾讯云 WeData 率先通过中国信通院数智一体化平台（DIOps）技术要求专项测试",
+      "summary": "Data+AI 一体化数据智能平台（IDC 份额第二 + DIOps 首家认证）　渠道：信通院、腾讯云大数据",
+      "tags": [
+        "品牌发布",
+        "数据治理",
+        "Data+AI",
+        "信创"
+      ],
+      "productCenter": "wedata",
+      "product": "WeData",
+      "date": "2026-03-06",
+      "abc": "B",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://mp.weixin.qq.com/s/nPIkMASubUA-_QtrIm2YBw",
+      "verify": "",
+      "linkSrc": "企微排期文档（公众号原文）"
+    },
+    {
+      "id": "2026-03-27-126",
+      "title": "存算分离，性能跃升：盖雅工场TCHouse-D 3.0升级实现查询效率再提升60%",
+      "topic": "存算分离，性能跃升：盖雅工场TCHouse-D 3.0升级实现查询效率再提升60%",
+      "summary": "全托管实时 OLAP 分析数仓（Apache Doris，3.0 存算分离）　渠道：腾讯云大数据",
+      "tags": [
+        "客户案例",
+        "实时数仓",
+        "Apache Doris",
+        "存算分离"
+      ],
+      "productCenter": "base",
+      "product": "TCHouse-D",
+      "date": "2026-03-27",
+      "abc": "A",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://mp.weixin.qq.com/s/-CdX3erPH7n7msa9CjaLiQ",
+      "verify": "",
+      "linkSrc": "企微排期文档（公众号原文）"
+    },
+    {
+      "id": "2026-04-03-127",
+      "title": "腾讯云ES AI搜索最佳实践：基于ES与Dify的企业级RAG应用方案",
+      "topic": "ES AI搜索最佳实践：基于ES与Dify的企业级RAG应用方案",
+      "summary": "全托管海量数据检索分析 + RAG（Elasticsearch 自研内核 + 混合搜索）　渠道：腾讯云大数据",
+      "tags": [
+        "技术干货",
+        "向量检索",
+        "RAG",
+        "混合搜索"
+      ],
+      "productCenter": "base",
+      "product": "ES",
+      "date": "2026-04-03",
+      "abc": "C",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://mp.weixin.qq.com/s/pcrhE5x4Y1QdAkxOrHIlVA",
+      "verify": "",
+      "linkSrc": "企微排期文档（公众号原文）"
+    },
+    {
+      "id": "2026-04-03-128",
+      "title": "腾讯云一体化数据智能平台 WeData，助力企业筑牢AI Ready的数据底座",
+      "topic": "一体化数据智能平台 WeData，助力企业筑牢AI Ready的数据底座",
+      "summary": "Data+AI 一体化数据智能平台（IDC 份额第二 + DIOps 首家认证）　渠道：腾讯云大数据",
+      "tags": [
+        "技术干货",
+        "数据治理",
+        "Data+AI",
+        "信创"
+      ],
+      "productCenter": "wedata",
+      "product": "WeData",
+      "date": "2026-04-03",
+      "abc": "C",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://mp.weixin.qq.com/s/N-Npfd1I8C2PRfsyjCCuhA",
+      "verify": "",
+      "linkSrc": "企微排期文档（公众号原文）"
+    },
+    {
+      "id": "2026-04-10-129",
+      "title": "合规正在重塑中国企业出海的底层逻辑——从数据与技术舆情看新一轮全球化竞争",
+      "topic": "合规正在重塑中国企业出海的底层逻辑——从数据与技术舆情看新一轮全球化竞争",
+      "summary": "腾讯云大数据跨中心内容（品牌 / 综述 / 行业观点 / 活动）",
+      "tags": [
+        "客户案例",
+        "品牌综述",
+        "行业观点",
+        "Data+AI"
+      ],
+      "productCenter": "zonghe",
+      "product": "综合",
+      "date": "2026-04-10",
+      "abc": "A",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://mp.weixin.qq.com/s/GnWNwng81Kr8xS7ll_VQOg",
+      "verify": "https://cloud.tencent.com/developer/article/2653651",
+      "linkSrc": "企微排期文档（公众号原文）"
+    },
+    {
+      "id": "2026-04-13-130",
+      "title": "合规正在重塑中国企业出海的底层逻辑——从数据与技术舆情看新一轮全球化竞争",
+      "topic": "合规正在重塑中国企业出海的底层逻辑——从数据与技术舆情看新一轮全球化竞争",
+      "summary": "腾讯云大数据跨中心内容（品牌 / 综述 / 行业观点 / 活动）",
+      "tags": [
+        "品牌发布",
+        "品牌综述",
+        "行业观点",
+        "Data+AI"
+      ],
+      "productCenter": "zonghe",
+      "product": "综合",
+      "date": "2026-04-13",
+      "abc": "B",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://cloud.tencent.com/developer/article/2653651",
+      "verify": "",
+      "linkSrc": "腾讯云开发者社区（公众号同步）"
+    },
+    {
+      "id": "2026-04-17-131",
+      "title": "腾讯云大数据出海实践：一套架构支撑跨国企业的全球数据平台",
+      "topic": "出海实践：一套架构支撑跨国企业的全球数据平台",
+      "summary": "腾讯云大数据跨中心内容（品牌 / 综述 / 行业观点 / 活动）",
+      "tags": [
+        "客户案例",
+        "品牌综述",
+        "行业观点",
+        "Data+AI"
+      ],
+      "productCenter": "zonghe",
+      "product": "综合",
+      "date": "2026-04-17",
+      "abc": "A",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://mp.weixin.qq.com/s/c7jlzXi6obx6Glr0v4sMQQ",
+      "verify": "https://cloud.tencent.com/developer/article/2657084",
+      "linkSrc": "企微排期文档（公众号原文）"
+    },
+    {
+      "id": "2026-04-20-132",
+      "title": "腾讯云大数据出海实践：一套架构支撑跨国企业的全球数据平台",
+      "topic": "出海实践：一套架构支撑跨国企业的全球数据平台",
+      "summary": "腾讯云大数据跨中心内容（品牌 / 综述 / 行业观点 / 活动）",
+      "tags": [
+        "品牌发布",
+        "品牌综述",
+        "行业观点",
+        "Data+AI"
+      ],
+      "productCenter": "zonghe",
+      "product": "综合",
+      "date": "2026-04-20",
+      "abc": "B",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://cloud.tencent.com/developer/article/2657084",
+      "verify": "",
+      "linkSrc": "腾讯云开发者社区（公众号同步）"
+    },
+    {
+      "id": "2026-04-27-133",
+      "title": "TBDS面向AI时代构建多模态数据湖解决方案",
+      "topic": "TBDS面向AI时代构建多模态数据湖解决方案",
+      "summary": "企业级私有化大数据处理套件（湖仓一体 + 金融信创）",
+      "tags": [
+        "品牌发布",
+        "私有化",
+        "信创",
+        "湖仓一体"
+      ],
+      "productCenter": "tbds",
+      "product": "TBDS",
+      "date": "2026-04-27",
+      "abc": "B",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://cloud.tencent.com/developer/article/2661089",
+      "verify": "",
+      "linkSrc": "腾讯云开发者社区（公众号同步）"
+    },
+    {
+      "id": "2026-05-09-134",
+      "title": "ES实战 | 干掉 Python 中间件！Elasticsearch 原生 NER，数据写入那一刻就已经“读懂”了",
+      "topic": "ES实战 | 干掉 Python 中间件！Elasticsearch 原生 NER，数据写入那一刻就已经“读懂”了",
+      "summary": "全托管海量数据检索分析 + RAG（Elasticsearch 自研内核 + 混合搜索）",
+      "tags": [
+        "品牌发布",
+        "向量检索",
+        "RAG",
+        "混合搜索"
+      ],
+      "productCenter": "base",
+      "product": "ES",
+      "date": "2026-05-09",
+      "abc": "B",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://cloud.tencent.com/developer/article/2666306",
+      "verify": "",
+      "linkSrc": "腾讯云开发者社区（公众号同步）"
+    },
+    {
+      "id": "2026-05-18-135",
+      "title": "腾讯云联合复旦大学提出 CYANSQL：基于聚类的Test-Time Scaling方法，提升复杂 NL2SQL 生成能力",
+      "topic": "联合复旦大学提出 CYANSQL：基于聚类的Test-Time Scaling方法，提升复杂 NL2SQL 生成能力",
+      "summary": "数据分析智能体（NL2SQL 全球前三、国内第一）",
+      "tags": [
+        "品牌发布",
+        "NL2SQL",
+        "数据分析智能体"
+      ],
+      "productCenter": "base",
+      "product": "TCDataAgent",
+      "date": "2026-05-18",
+      "abc": "B",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://cloud.tencent.com/developer/article/2670027",
+      "verify": "",
+      "linkSrc": "腾讯云开发者社区（公众号同步）"
+    },
+    {
+      "id": "2026-05-22-136",
+      "title": "腾讯云与 CCSA TC601 联合发布白皮书，提出 Data+AI 时代大数据平台融合创新演进路径",
+      "topic": "与 CCSA TC601 联合发布白皮书，提出 Data+AI 时代大数据平台融合创新演进路径",
+      "summary": "腾讯云大数据跨中心内容（品牌 / 综述 / 行业观点 / 活动）",
+      "tags": [
+        "品牌发布",
+        "品牌综述",
+        "行业观点",
+        "Data+AI"
+      ],
+      "productCenter": "zonghe",
+      "product": "综合",
+      "date": "2026-05-22",
+      "abc": "B",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://cloud.tencent.com/developer/article/2672627",
+      "verify": "",
+      "linkSrc": "腾讯云开发者社区（公众号同步）"
+    },
+    {
+      "id": "2026-05-22-137",
+      "title": "欢迎新Buddy：DataBuddy",
+      "topic": "欢迎新Buddy：DataBuddy",
+      "summary": "面向 Data+AI 的一站式数据开发治理智能体平台（WeData 旗下，DIOps 体系）",
+      "tags": [
+        "品牌发布",
+        "Data+AI",
+        "DIOps",
+        "智能体"
+      ],
+      "productCenter": "wedata",
+      "product": "DataBuddy",
+      "date": "2026-05-22",
+      "abc": "B",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://cloud.tencent.com/developer/article/2672626",
+      "verify": "",
+      "linkSrc": "腾讯云开发者社区（公众号同步）"
+    },
+    {
+      "id": "2026-06-01-138",
+      "title": "TCIceberg 实时入湖：百万级/秒背后的六大技术",
+      "topic": "TCIceberg 实时入湖：百万级/秒背后的六大技术",
+      "summary": "Serverless 数据湖分析与计算服务（Spark + TC-Iceberg + Alluxio）",
+      "tags": [
+        "品牌发布",
+        "实时湖仓",
+        "Iceberg",
+        "Serverless"
+      ],
+      "productCenter": "base",
+      "product": "DLC",
+      "date": "2026-06-01",
+      "abc": "B",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://cloud.tencent.com/developer/article/2679743",
+      "verify": "",
+      "linkSrc": "腾讯云开发者社区（公众号同步）"
+    },
+    {
+      "id": "2026-06-05-139",
+      "title": "收好这份参会指南！明日与腾讯云大数据共同探索Agentic AI浪潮下的企业数智融合新范式",
+      "topic": "收好这份参会指南！明日与腾讯云大数据共同探索Agentic AI浪潮下的企业数智融合新范式",
+      "summary": "数据分析智能体（NL2SQL 全球前三、国内第一）",
+      "tags": [
+        "品牌发布",
+        "NL2SQL",
+        "数据分析智能体"
+      ],
+      "productCenter": "base",
+      "product": "TCDataAgent",
+      "date": "2026-06-05",
+      "abc": "B",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://cloud.tencent.com/developer/article/2682692",
+      "verify": "",
+      "linkSrc": "腾讯云开发者社区（公众号同步）"
+    },
+    {
+      "id": "2026-06-08-140",
+      "title": "一图看懂腾讯云Agent-Ready数据平台",
+      "topic": "一图看懂腾讯云Agent-Ready数据平台",
+      "summary": "腾讯云大数据跨中心内容（品牌 / 综述 / 行业观点 / 活动）",
+      "tags": [
+        "品牌发布",
+        "品牌综述",
+        "行业观点",
+        "Data+AI"
+      ],
+      "productCenter": "zonghe",
+      "product": "综合",
+      "date": "2026-06-08",
+      "abc": "B",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://cloud.tencent.com/developer/article/2684076",
+      "verify": "",
+      "linkSrc": "腾讯云开发者社区（公众号同步）"
+    },
+    {
+      "id": "2026-06-08-141",
+      "title": "腾讯云面向Agent升级数据平台：DataBuddy、WeData与AI原生数据底座亮相",
+      "topic": "面向Agent升级数据平台：DataBuddy、WeData与AI原生数据底座亮相",
+      "summary": "Data+AI 一体化数据智能平台（IDC 份额第二 + DIOps 首家认证）",
+      "tags": [
+        "品牌发布",
+        "数据治理",
+        "Data+AI",
+        "信创"
+      ],
+      "productCenter": "wedata",
+      "product": "WeData",
+      "date": "2026-06-08",
+      "abc": "B",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://cloud.tencent.com/developer/article/2684075",
+      "verify": "",
+      "linkSrc": "腾讯云开发者社区（公众号同步）"
+    },
+    {
+      "id": "2026-06-12-142",
+      "title": "腾讯云大数据：从 AI-Ready 到 Agent-Ready，AI 原生数据底座全栈升级",
+      "topic": "从 AI-Ready 到 Agent-Ready，AI 原生数据底座全栈升级",
+      "summary": "统一多模态智能数据湖底座（TCIceberg + Lance 兼容 + 智能自治）",
+      "tags": [
+        "品牌发布",
+        "多模态数据湖",
+        "AI数据底座"
+      ],
+      "productCenter": "base",
+      "product": "TCLake",
+      "date": "2026-06-12",
+      "abc": "B",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://cloud.tencent.com/developer/article/2687263",
+      "verify": "",
+      "linkSrc": "腾讯云开发者社区（公众号同步）"
+    },
+    {
+      "id": "2026-06-12-143",
+      "title": "【计算智能】ES x ADP 打通，成为 ADP 知识库存储企业级首选",
+      "topic": "ES x ADP 打通，成为 ADP 知识库存储企业级首选",
+      "summary": "全托管海量数据检索分析 + RAG（Elasticsearch 自研内核 + 混合搜索）",
+      "tags": [
+        "品牌发布",
+        "向量检索",
+        "RAG",
+        "混合搜索"
+      ],
+      "productCenter": "base",
+      "product": "ES",
+      "date": "2026-06-12",
+      "abc": "B",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://cloud.tencent.com/developer/article/2687262",
+      "verify": "",
+      "linkSrc": "腾讯云开发者社区（公众号同步）"
+    },
+    {
+      "id": "2026-06-23-144",
+      "title": "腾讯云大数据计算智能：从结构化 SQL 到多模态 AI Workload 的融合范式",
+      "topic": "计算智能：从结构化 SQL 到多模态 AI Workload 的融合范式",
+      "summary": "面向 Data+AI 的数据智能平台（Hadoop/Spark/Meson/Xpark/TCRay，CPU+GPU 混合调度）",
+      "tags": [
+        "品牌发布",
+        "存算分离",
+        "弹性伸缩",
+        "Meson引擎"
+      ],
+      "productCenter": "base",
+      "product": "EMR",
+      "date": "2026-06-23",
+      "abc": "B",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://cloud.tencent.com/developer/article/2696192",
+      "verify": "",
+      "linkSrc": "腾讯云开发者社区（公众号同步）"
+    },
+    {
+      "id": "2026-06-23-145",
+      "title": "腾讯云TBDS面向AI时代的多模态智算平台，助力企业AI转型",
+      "topic": "TBDS面向AI时代的多模态智算平台，助力企业AI转型",
+      "summary": "企业级私有化大数据处理套件（湖仓一体 + 金融信创）",
+      "tags": [
+        "品牌发布",
+        "私有化",
+        "信创",
+        "湖仓一体"
+      ],
+      "productCenter": "tbds",
+      "product": "TBDS",
+      "date": "2026-06-23",
+      "abc": "B",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://cloud.tencent.com/developer/article/2696189",
+      "verify": "",
+      "linkSrc": "腾讯云开发者社区（公众号同步）"
+    },
+    {
+      "id": "2026-07-06-146",
+      "title": "让数据平台为Agent而生：存储智能与下一代Agentic Lakehouse",
+      "topic": "让数据平台为Agent而生：存储智能与下一代Agentic Lakehouse",
+      "summary": "腾讯云大数据跨中心内容（品牌 / 综述 / 行业观点 / 活动）",
+      "tags": [
+        "品牌发布",
+        "品牌综述",
+        "行业观点",
+        "Data+AI"
+      ],
+      "productCenter": "zonghe",
+      "product": "综合",
+      "date": "2026-07-06",
+      "abc": "B",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://cloud.tencent.com/developer/article/2703775",
+      "verify": "",
+      "linkSrc": "腾讯云开发者社区（公众号同步）"
+    },
+    {
+      "id": "2026-07-06-147",
+      "title": "你的AI为什么总落不了地？腾讯云DataBuddy用DIOps给了一种解法",
+      "topic": "你的AI为什么总落不了地？腾讯云DataBuddy用DIOps给了一种解法",
+      "summary": "面向 Data+AI 的一站式数据开发治理智能体平台（WeData 旗下，DIOps 体系）",
+      "tags": [
+        "品牌发布",
+        "Data+AI",
+        "DIOps",
+        "智能体"
+      ],
+      "productCenter": "wedata",
+      "product": "DataBuddy",
+      "date": "2026-07-06",
+      "abc": "B",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://cloud.tencent.com/developer/article/2703727",
+      "verify": "",
+      "linkSrc": "腾讯云开发者社区（公众号同步）"
+    },
+    {
+      "id": "2026-07-06-148",
+      "title": "腾讯云大数据携手工商银行——存算分离架构落地实践，共绘数智金融新蓝图",
+      "topic": "携手工商银行——存算分离架构落地实践，共绘数智金融新蓝图",
+      "summary": "企业级私有化大数据处理套件（湖仓一体 + 金融信创）",
+      "tags": [
+        "品牌发布",
+        "私有化",
+        "信创",
+        "湖仓一体"
+      ],
+      "productCenter": "tbds",
+      "product": "TBDS",
+      "date": "2026-07-06",
+      "abc": "B",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://cloud.tencent.com/developer/article/2703721",
+      "verify": "",
+      "linkSrc": "腾讯云开发者社区（公众号同步）"
+    },
+    {
+      "id": "2026-07-06-149",
+      "title": "腾讯云数据智能：构建可信、可控、可演进的Data Agent",
+      "topic": "数据智能：构建可信、可控、可演进的Data Agent",
+      "summary": "数据分析智能体（NL2SQL 全球前三、国内第一）",
+      "tags": [
+        "品牌发布",
+        "NL2SQL",
+        "数据分析智能体"
+      ],
+      "productCenter": "base",
+      "product": "TCDataAgent",
+      "date": "2026-07-06",
+      "abc": "B",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://cloud.tencent.com/developer/article/2703714",
+      "verify": "",
+      "linkSrc": "腾讯云开发者社区（公众号同步）"
+    },
+    {
+      "id": "2026-07-06-150",
+      "title": "2026 Elastic Meetup 深圳站报名开启",
+      "topic": "2026 Elastic Meetup 深圳站报名开启",
+      "summary": "腾讯云大数据跨中心内容（品牌 / 综述 / 行业观点 / 活动）",
+      "tags": [
+        "品牌发布",
+        "品牌综述",
+        "行业观点",
+        "Data+AI"
+      ],
+      "productCenter": "zonghe",
+      "product": "综合",
+      "date": "2026-07-06",
+      "abc": "B",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://cloud.tencent.com/developer/article/2703711",
+      "verify": "",
+      "linkSrc": "腾讯云开发者社区（公众号同步）"
+    },
+    {
+      "id": "2026-07-13-151",
+      "title": "国内首个生产级Spark+Ray智能数据湖平台来了！",
+      "topic": "国内首个生产级Spark+Ray智能数据湖平台来了！",
+      "summary": "Serverless 数据湖分析与计算服务（Spark + TC-Iceberg + Alluxio）",
+      "tags": [
+        "品牌发布",
+        "实时湖仓",
+        "Iceberg",
+        "Serverless"
+      ],
+      "productCenter": "base",
+      "product": "DLC",
+      "date": "2026-07-13",
+      "abc": "B",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://cloud.tencent.com/developer/article/2708037",
+      "verify": "",
+      "linkSrc": "腾讯云开发者社区（公众号同步）"
+    },
+    {
+      "id": "2026-07-13-152",
+      "title": "别再写SQL了！DataBuddy数据工程实践指南来了",
+      "topic": "别再写SQL了！DataBuddy数据工程实践指南来了",
+      "summary": "面向 Data+AI 的一站式数据开发治理智能体平台（WeData 旗下，DIOps 体系）",
+      "tags": [
+        "品牌发布",
+        "Data+AI",
+        "DIOps",
+        "智能体"
+      ],
+      "productCenter": "wedata",
+      "product": "DataBuddy",
+      "date": "2026-07-13",
+      "abc": "B",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://cloud.tencent.com/developer/article/2708032",
+      "verify": "",
+      "linkSrc": "腾讯云开发者社区（公众号同步）"
+    },
+    {
+      "id": "2026-07-20-153",
+      "title": "从「人操作工具」到「Agent替人干活」：拆解DataBuddy的三大设计哲学",
+      "topic": "从「人操作工具」到「Agent替人干活」：拆解DataBuddy的三大设计哲学",
+      "summary": "面向 Data+AI 的一站式数据开发治理智能体平台（WeData 旗下，DIOps 体系）",
+      "tags": [
+        "品牌发布",
+        "Data+AI",
+        "DIOps",
+        "智能体"
+      ],
+      "productCenter": "wedata",
+      "product": "DataBuddy",
+      "date": "2026-07-20",
+      "abc": "B",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://cloud.tencent.com/developer/article/2712712",
+      "verify": "",
+      "linkSrc": "腾讯云开发者社区（公众号同步）"
+    },
+    {
+      "id": "2026-07-20-154",
+      "title": "越智能，越难运维？数据平台需要新一代系统智能升级",
+      "topic": "越智能，越难运维？数据平台需要新一代系统智能升级",
+      "summary": "AI 驱动大数据自治运维（调优/运维/预测三 Agent）",
+      "tags": [
+        "品牌发布",
+        "AIOps",
+        "智能运维"
+      ],
+      "productCenter": "base",
+      "product": "TCInsight",
+      "date": "2026-07-20",
+      "abc": "B",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://cloud.tencent.com/developer/article/2712710",
+      "verify": "",
+      "linkSrc": "腾讯云开发者社区（公众号同步）"
+    },
+    {
+      "id": "2026-07-20-155",
+      "title": "让Spark和Ray跑在同一平台：腾讯云AI DLC即将发布",
+      "topic": "让Spark和Ray跑在同一平台：腾讯云AI DLC即将发布",
+      "summary": "Serverless 数据湖分析与计算服务（Spark + TC-Iceberg + Alluxio）",
+      "tags": [
+        "品牌发布",
+        "实时湖仓",
+        "Iceberg",
+        "Serverless"
+      ],
+      "productCenter": "base",
+      "product": "DLC",
+      "date": "2026-07-20",
+      "abc": "B",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://cloud.tencent.com/developer/article/2712709",
+      "verify": "",
+      "linkSrc": "腾讯云开发者社区（公众号同步）"
+    },
+    {
+      "id": "2026-07-27-156",
+      "title": "腾讯云发布智能数据湖计算AI DLC  支持Spark和Ray同一平台运行",
+      "topic": "发布智能数据湖计算AI DLC  支持Spark和Ray同一平台运行",
+      "summary": "Serverless 数据湖分析与计算服务（Spark + TC-Iceberg + Alluxio）",
+      "tags": [
+        "品牌发布",
+        "实时湖仓",
+        "Iceberg",
+        "Serverless"
+      ],
+      "productCenter": "base",
+      "product": "DLC",
+      "date": "2026-07-27",
+      "abc": "B",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://cloud.tencent.com/developer/article/2716202",
+      "verify": "",
+      "linkSrc": "腾讯云开发者社区（公众号同步）"
+    },
+    {
+      "id": "2026-07-28-157",
+      "title": "DataBuddy正式面向海外开放免费体验！",
+      "topic": "DataBuddy正式面向海外开放免费体验！",
+      "summary": "面向 Data+AI 的一站式数据开发治理智能体平台（WeData 旗下，DIOps 体系）",
+      "tags": [
+        "品牌发布",
+        "Data+AI",
+        "DIOps",
+        "智能体"
+      ],
+      "productCenter": "wedata",
+      "product": "DataBuddy",
+      "date": "2026-07-28",
+      "abc": "B",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://blog.csdn.net/cloudbigdata/article/details/163266062",
+      "verify": "",
+      "linkSrc": "CSDN 官方账号（公众号发布）"
+    },
+    {
+      "id": "2026-08-05-158",
+      "title": "基于Ray构建企业级多模态数据智算平台与一体化实践",
+      "topic": "基于Ray构建企业级多模态数据智算平台与一体化实践",
+      "summary": "企业级私有化大数据处理套件（湖仓一体 + 金融信创）",
+      "tags": [
+        "品牌发布",
+        "私有化",
+        "信创",
+        "湖仓一体"
+      ],
+      "productCenter": "tbds",
+      "product": "TBDS",
+      "date": "2026-08-05",
+      "abc": "B",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://cloud.tencent.com/developer/article/2721326",
+      "verify": "",
+      "linkSrc": "腾讯云开发者社区（公众号同步）"
+    },
+    {
+      "id": "2026-08-05-159",
+      "title": "从多模态数据处理到模型训练：腾讯云EMR-Ray打通Data+AI全流程",
+      "topic": "从多模态数据处理到模型训练：腾讯云EMR-Ray打通Data+AI全流程",
+      "summary": "面向 Data+AI 的数据智能平台（Hadoop/Spark/Meson/Xpark/TCRay，CPU+GPU 混合调度）",
+      "tags": [
+        "品牌发布",
+        "存算分离",
+        "弹性伸缩",
+        "Meson引擎"
+      ],
+      "productCenter": "base",
+      "product": "EMR",
+      "date": "2026-08-05",
+      "abc": "B",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://cloud.tencent.com/developer/article/2721270",
+      "verify": "",
+      "linkSrc": "腾讯云开发者社区（公众号同步）"
+    },
+    {
+      "id": "2026-08-05-160",
+      "title": "腾讯云智能数据湖计算AI DLC发布会回顾：Spark+Ray一体化，面向Agent重构数据底座",
+      "topic": "智能数据湖计算AI DLC发布会回顾：Spark+Ray一体化，面向Agent重构数据底座",
+      "summary": "Serverless 数据湖分析与计算服务（Spark + TC-Iceberg + Alluxio）",
+      "tags": [
+        "品牌发布",
+        "实时湖仓",
+        "Iceberg",
+        "Serverless"
+      ],
+      "productCenter": "base",
+      "product": "DLC",
+      "date": "2026-08-05",
+      "abc": "B",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://cloud.tencent.com/developer/article/2721243",
+      "verify": "",
+      "linkSrc": "腾讯云开发者社区（公众号同步）"
+    },
+    {
+      "id": "2026-08-07-161",
+      "title": "报名开启｜腾讯云 × Elastic AI搜索技术大会，8月21日深圳见",
+      "topic": "报名开启｜腾讯云 × Elastic AI搜索技术大会，8月21日深圳见",
+      "summary": "腾讯云大数据跨中心内容（品牌 / 综述 / 行业观点 / 活动）",
+      "tags": [
+        "品牌发布",
+        "品牌综述",
+        "行业观点",
+        "Data+AI"
+      ],
+      "productCenter": "zonghe",
+      "product": "综合",
+      "date": "2026-08-07",
+      "abc": "B",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://cloud.tencent.com/developer/article/2722478",
+      "verify": "",
+      "linkSrc": "腾讯云开发者社区（公众号同步）"
+    },
+    {
+      "id": "2026-08-07-162",
+      "title": "腾讯云AI Native数据平台功能发布合集【7月】",
+      "topic": "AI Native数据平台功能发布合集【7月】",
+      "summary": "腾讯云大数据跨中心内容（品牌 / 综述 / 行业观点 / 活动）",
+      "tags": [
+        "品牌发布",
+        "品牌综述",
+        "行业观点",
+        "Data+AI"
+      ],
+      "productCenter": "zonghe",
+      "product": "综合",
+      "date": "2026-08-07",
+      "abc": "B",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://cloud.tencent.com/developer/article/2722444",
+      "verify": "",
+      "linkSrc": "腾讯云开发者社区（公众号同步）"
+    },
+    {
+      "id": "2026-08-25-163",
+      "title": "腾讯刷新TPC-DS世界纪录，100TB数据分析性能提升10倍",
+      "topic": "刷新TPC-DS世界纪录，100TB数据分析性能提升10倍",
+      "summary": "腾讯云大数据跨中心内容（品牌 / 综述 / 行业观点 / 活动）",
+      "tags": [
+        "品牌发布",
+        "品牌综述",
+        "行业观点",
+        "Data+AI"
+      ],
+      "productCenter": "zonghe",
+      "product": "综合",
+      "date": "2026-08-25",
+      "abc": "B",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://cloud.tencent.com/developer/article/2731890",
+      "verify": "",
+      "linkSrc": "腾讯云开发者社区（公众号同步）"
+    },
+    {
+      "id": "2026-08-25-164",
+      "title": "腾讯云与Elastic战略合作再升级，共筑AI时代上下文基础设施",
+      "topic": "与Elastic战略合作再升级，共筑AI时代上下文基础设施",
+      "summary": "腾讯云大数据跨中心内容（品牌 / 综述 / 行业观点 / 活动）",
+      "tags": [
+        "品牌发布",
+        "品牌综述",
+        "行业观点",
+        "Data+AI"
+      ],
+      "productCenter": "zonghe",
+      "product": "综合",
+      "date": "2026-08-25",
+      "abc": "B",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://cloud.tencent.com/developer/article/2731784",
+      "verify": "",
+      "linkSrc": "腾讯云开发者社区（公众号同步）"
+    },
+    {
+      "id": "2026-08-26-165",
+      "title": "AI时代的数据基础设施展望",
+      "topic": "AI时代的数据基础设施展望",
+      "summary": "腾讯云大数据跨中心内容（品牌 / 综述 / 行业观点 / 活动）",
+      "tags": [
+        "品牌发布",
+        "品牌综述",
+        "行业观点",
+        "Data+AI"
+      ],
+      "productCenter": "zonghe",
+      "product": "综合",
+      "date": "2026-08-26",
+      "abc": "B",
+      "platform": "腾讯云大数据 公众号",
+      "link": "https://cloud.tencent.com/developer/article/2732191",
+      "verify": "",
+      "linkSrc": "腾讯云开发者社区（公众号同步）"
+    }
+  ]
+}
