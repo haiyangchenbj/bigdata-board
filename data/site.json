@@ -5,8 +5,8 @@
   "updated": "2026-08-27",
   "range": "2024-02-07 ~ 2026-08-26",
   "counts": {
-   "total": 165,
-   "withLink": 158,
+   "total": 162,
+   "withLink": 155,
    "noLink": 7
   },
   "sourceChannels": [
@@ -343,6 +343,7 @@
    "link": "https://cloud.tencent.com/developer/article/2388619",
    "verify": "",
    "linkSrc": "2024 真实官方文（腾讯云开发者社区同步）",
+   "src": "y2024",
    "products": [
     "综合"
    ],
@@ -370,6 +371,7 @@
    "link": "https://cloud.tencent.com/developer/article/2411832",
    "verify": "",
    "linkSrc": "2024 真实官方文（腾讯云开发者社区同步）",
+   "src": "y2024",
    "products": [
     "TBDS"
    ],
@@ -397,6 +399,7 @@
    "link": "https://cloud.tencent.com/developer/article/2416975",
    "verify": "",
    "linkSrc": "2024 真实官方文（腾讯云开发者社区同步）",
+   "src": "y2024",
    "products": [
     "TBDS"
    ],
@@ -424,6 +427,7 @@
    "link": "https://cloud.tencent.com/developer/article/2242651",
    "verify": "",
    "linkSrc": "2024 真实官方文（腾讯云开发者社区同步）",
+   "src": "y2024",
    "products": [
     "EMR"
    ],
@@ -451,6 +455,7 @@
    "link": "https://cloud.tencent.com/developer/article/2431148",
    "verify": "",
    "linkSrc": "2024 真实官方文（腾讯云开发者社区同步）",
+   "src": "y2024",
    "products": [
     "Oceanus"
    ],
@@ -477,6 +482,7 @@
    "link": "https://cloud.tencent.com/developer/article/2433149",
    "verify": "",
    "linkSrc": "2024 真实官方文（腾讯云开发者社区同步）",
+   "src": "y2024",
    "products": [
     "Meson"
    ],
@@ -504,6 +510,7 @@
    "link": "https://cloud.tencent.com/developer/article/2445632",
    "verify": "",
    "linkSrc": "2024 真实官方文（腾讯云开发者社区同步）",
+   "src": "y2024",
    "products": [
     "TCHouse-D"
    ],
@@ -531,6 +538,7 @@
    "link": "https://cloud.tencent.com/developer/article/2450682",
    "verify": "",
    "linkSrc": "2024 真实官方文（腾讯云开发者社区同步）",
+   "src": "y2024",
    "products": [
     "EMR"
    ],
@@ -558,6 +566,7 @@
    "link": "https://cloud.tencent.com/developer/article/2459958",
    "verify": "",
    "linkSrc": "2024 真实官方文（腾讯云开发者社区同步）",
+   "src": "y2024",
    "products": [
     "WeData"
    ],
@@ -585,6 +594,7 @@
    "link": "https://cloud.tencent.com/developer/article/2459954",
    "verify": "",
    "linkSrc": "2024 真实官方文（腾讯云开发者社区同步）",
+   "src": "y2024",
    "products": [
     "Meson",
     "EMR",
@@ -614,6 +624,7 @@
    "link": "https://cloud.tencent.com/developer/article/2466456",
    "verify": "",
    "linkSrc": "2024 真实官方文（腾讯云开发者社区同步）",
+   "src": "y2024",
    "products": [
     "WeData"
    ],
@@ -641,6 +652,7 @@
    "link": "https://cloud.tencent.com/developer/article/2474839",
    "verify": "",
    "linkSrc": "2024 真实官方文（腾讯云开发者社区同步）",
+   "src": "y2024",
    "products": [
     "Oceanus"
    ],
@@ -668,6 +680,7 @@
    "link": "https://cloud.tencent.com/developer/article/2483978",
    "verify": "",
    "linkSrc": "企微排期文档（公众号原文）",
+   "src": "plan",
    "products": [
     "WeData"
    ],
@@ -696,6 +709,7 @@
    "link": "https://cloud.tencent.com/developer/article/2483977",
    "verify": "",
    "linkSrc": "企微排期文档（公众号原文）",
+   "src": "plan",
    "products": [
     "EMR"
    ],
@@ -724,6 +738,7 @@
    "link": "https://cloud.tencent.com/developer/article/2503359",
    "verify": "",
    "linkSrc": "企微排期文档（公众号原文）",
+   "src": "plan",
    "products": [
     "综合"
    ],
@@ -750,6 +765,7 @@
    "link": "https://blog.csdn.net/cloudbigdata/article/details/145068988",
    "verify": "",
    "linkSrc": "企微排期文档（公众号原文）",
+   "src": "plan",
    "products": [
     "TCHouse-X"
    ],
@@ -778,6 +794,7 @@
    "link": "https://cloud.tencent.com/developer/article/2486126",
    "verify": "",
    "linkSrc": "企微排期文档（公众号原文）",
+   "src": "plan",
    "products": [
     "TBDS"
    ],
@@ -804,6 +821,7 @@
    "link": "https://cloud.tencent.com/developer/article/2677730",
    "verify": "",
    "linkSrc": "企微排期文档（公众号原文）",
+   "src": "plan",
    "products": [
     "TCHouse-X"
    ],
@@ -832,6 +850,7 @@
    "link": "https://cloud.tencent.com/developer/article/2496838",
    "verify": "",
    "linkSrc": "企微排期文档（公众号原文）",
+   "src": "plan",
    "products": [
     "ES"
    ],
@@ -860,6 +879,7 @@
    "link": "https://cloud.tencent.com/developer/article/2491185",
    "verify": "",
    "linkSrc": "企微排期文档（公众号原文）",
+   "src": "plan",
    "products": [
     "TCHouse-D"
    ],
@@ -888,6 +908,7 @@
    "link": "https://cloud.tencent.com/developer/article/2411832",
    "verify": "",
    "linkSrc": "企微排期文档（公众号原文）",
+   "src": "plan",
    "products": [
     "综合"
    ],
@@ -916,6 +937,7 @@
    "link": "https://cloud.tencent.com/developer/article/2698766",
    "verify": "",
    "linkSrc": "企微排期文档（公众号原文）",
+   "src": "plan",
    "products": [
     "综合"
    ],
@@ -944,6 +966,7 @@
    "link": "https://cloud.tencent.com/developer/article/2491132",
    "verify": "",
    "linkSrc": "企微排期文档（公众号原文）",
+   "src": "plan",
    "products": [
     "腾讯云BI"
    ],
@@ -972,6 +995,7 @@
    "link": "https://cloud.tencent.com/developer/article/2678970",
    "verify": "",
    "linkSrc": "企微排期文档（公众号原文）",
+   "src": "plan",
    "products": [
     "综合"
    ],
@@ -1000,6 +1024,7 @@
    "link": "https://cloud.tencent.com/developer/article/2517009",
    "verify": "",
    "linkSrc": "企微排期文档（公众号原文）",
+   "src": "plan",
    "products": [
     "ES"
    ],
@@ -1011,34 +1036,6 @@
   },
   {
    "id": "2025-02-15-026",
-   "title": "哪吒2破百亿，大数据助力精准预测（热点视频）",
-   "topic": "哪吒2破百亿，大数据助力精准预测（热点视频）",
-   "summary": "腾讯云大数据跨中心内容（品牌 / 综述 / 行业观点 / 活动）　渠道：腾讯云，腾讯云大数据视频号",
-   "tags": [
-    "客户案例",
-    "品牌综述",
-    "行业观点",
-    "Data+AI"
-   ],
-   "productCenter": "zonghe",
-   "product": "综合",
-   "date": "2025-02-15",
-   "abc": "A",
-   "platform": "腾讯云大数据 公众号",
-   "link": "",
-   "verify": "",
-   "linkSrc": "企微排期文档（公众号原文）",
-   "products": [
-    "综合"
-   ],
-   "needsReview": true,
-   "reviewReason": "正文未获取且标题无产品名（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
-   "centers": [
-    "zonghe"
-   ]
-  },
-  {
-   "id": "2025-02-15-027",
    "title": "基于腾讯云ES混合搜索与TI-ONE部署DeepSeek，快速构建RAG 应用",
    "topic": "基于腾讯云ES混合搜索与TI-ONE部署DeepSeek，快速构建RAG 应用",
    "summary": "全托管海量数据检索分析 + RAG（Elasticsearch 自研内核 + 混合搜索）　渠道：腾讯云大数据",
@@ -1056,6 +1053,7 @@
    "link": "https://blog.csdn.net/cloudbigdata/article/details/145332068",
    "verify": "",
    "linkSrc": "企微排期文档（公众号原文）",
+   "src": "plan",
    "products": [
     "ES"
    ],
@@ -1066,7 +1064,7 @@
    ]
   },
   {
-   "id": "2025-02-15-028",
+   "id": "2025-02-15-027",
    "title": "腾讯云ChatBI通过中国信通院大模型驱动的智能数据分析工具专项测试",
    "topic": "ChatBI通过中国信通院大模型驱动的智能数据分析工具专项测试",
    "summary": "Data+AI 一体化数据智能平台（IDC 份额第二 + DIOps 首家认证）　渠道：腾讯云大数据",
@@ -1084,6 +1082,7 @@
    "link": "https://cloud.tencent.com/developer/article/2423970",
    "verify": "",
    "linkSrc": "企微排期文档（公众号原文）",
+   "src": "plan",
    "products": [
     "ChatBI"
    ],
@@ -1091,6 +1090,35 @@
    "mpLink": "https://mp.weixin.qq.com/s/-fBLRpBYSUjB-_3e4EqSkg",
    "centers": [
     "wedata"
+   ]
+  },
+  {
+   "id": "2025-02-15-028",
+   "title": "哪吒2破百亿，大数据助力精准预测（热点视频）",
+   "topic": "哪吒2破百亿，大数据助力精准预测（热点视频）",
+   "summary": "腾讯云大数据跨中心内容（品牌 / 综述 / 行业观点 / 活动）　渠道：腾讯云，腾讯云大数据视频号",
+   "tags": [
+    "客户案例",
+    "品牌综述",
+    "行业观点",
+    "Data+AI"
+   ],
+   "productCenter": "zonghe",
+   "product": "综合",
+   "date": "2025-02-15",
+   "abc": "A",
+   "platform": "腾讯云大数据 公众号",
+   "link": "",
+   "verify": "",
+   "linkSrc": "企微排期文档（公众号原文）",
+   "src": "plan",
+   "products": [
+    "综合"
+   ],
+   "needsReview": true,
+   "reviewReason": "正文未获取且标题无产品名（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
+   "centers": [
+    "zonghe"
    ]
   },
   {
@@ -1111,6 +1139,7 @@
    "link": "https://cloud.tencent.com/developer/article/2503358",
    "verify": "",
    "linkSrc": "企微排期文档（公众号原文）",
+   "src": "plan",
    "products": [
     "ChatBI",
     "腾讯云BI"
@@ -1140,6 +1169,7 @@
    "link": "https://cloud.tencent.com/developer/article/2509910",
    "verify": "",
    "linkSrc": "企微排期文档（公众号原文）",
+   "src": "plan",
    "products": [
     "ChatBI"
    ],
@@ -1160,21 +1190,22 @@
     "行业观点",
     "Data+AI"
    ],
-   "productCenter": "wedata",
-   "product": "腾讯云BI",
+   "productCenter": "zonghe",
+   "product": "综合",
    "date": "2025-03-03",
    "abc": "B",
    "platform": "腾讯云大数据 公众号",
-   "link": "https://cloud.tencent.com/developer/article/2503358",
+   "link": "",
    "verify": "",
    "linkSrc": "企微排期文档（公众号原文）",
+   "src": "plan",
    "products": [
-    "腾讯云BI",
-    "ChatBI"
+    "综合"
    ],
-   "needsReview": false,
+   "needsReview": true,
+   "reviewReason": "正文未获取且标题无产品名（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
    "centers": [
-    "wedata"
+    "zonghe"
    ]
   },
   {
@@ -1196,6 +1227,7 @@
    "link": "https://cloud.tencent.com/developer/article/2503360",
    "verify": "",
    "linkSrc": "企微排期文档（公众号原文）",
+   "src": "plan",
    "products": [
     "TBDS"
    ],
@@ -1224,6 +1256,7 @@
    "link": "https://cloud.tencent.com/developer/article/2503359",
    "verify": "",
    "linkSrc": "企微排期文档（公众号原文）",
+   "src": "plan",
    "products": [
     "DLC"
    ],
@@ -1251,6 +1284,7 @@
    "link": "https://cloud.tencent.com/developer/article/2503358",
    "verify": "",
    "linkSrc": "企微排期文档（公众号原文）",
+   "src": "plan",
    "products": [
     "腾讯云BI",
     "ChatBI"
@@ -1263,34 +1297,6 @@
   },
   {
    "id": "2025-03-14-035",
-   "title": "太平人寿案例视频",
-   "topic": "太平人寿案例视频",
-   "summary": "腾讯云大数据跨中心内容（品牌 / 综述 / 行业观点 / 活动）　渠道：腾讯云大数据，腾讯云的朋友圈",
-   "tags": [
-    "品牌发布",
-    "品牌综述",
-    "行业观点",
-    "Data+AI"
-   ],
-   "productCenter": "zonghe",
-   "product": "综合",
-   "date": "2025-03-14",
-   "abc": "B",
-   "platform": "腾讯云大数据 公众号",
-   "link": "",
-   "verify": "",
-   "linkSrc": "企微排期文档（公众号原文）",
-   "products": [
-    "综合"
-   ],
-   "needsReview": true,
-   "reviewReason": "正文未获取且标题无产品名（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
-   "centers": [
-    "zonghe"
-   ]
-  },
-  {
-   "id": "2025-03-14-036",
    "title": "TCHouse-P 结合 DeepSeek的二次进化，解锁非结构化数据的智能时代",
    "topic": "TCHouse-P 结合 DeepSeek的二次进化，解锁非结构化数据的智能时代",
    "summary": "自研云原生分布式分析型数仓（PostgreSQL，行列混合存储）　渠道：腾讯云大数据",
@@ -1308,6 +1314,7 @@
    "link": "https://cloud.tencent.com/developer/article/2510535",
    "verify": "",
    "linkSrc": "企微排期文档（公众号原文）",
+   "src": "plan",
    "products": [
     "TCHouse-P"
    ],
@@ -1318,7 +1325,7 @@
    ]
   },
   {
-   "id": "2025-03-14-037",
+   "id": "2025-03-14-036",
    "title": "腾讯云WeData：解锁灵活高效的调度配置能力，轻松应对复杂业务场景",
    "topic": "WeData：解锁灵活高效的调度配置能力，轻松应对复杂业务场景",
    "summary": "Data+AI 一体化数据智能平台（IDC 份额第二 + DIOps 首家认证）　渠道：腾讯云大数据",
@@ -1336,6 +1343,7 @@
    "link": "https://cloud.tencent.com/developer/article/2548154",
    "verify": "",
    "linkSrc": "企微排期文档（公众号原文）",
+   "src": "plan",
    "products": [
     "WeData"
    ],
@@ -1343,6 +1351,35 @@
    "mpLink": "https://mp.weixin.qq.com/s/6FPwsMRQicWKEVBRSWCrFQ",
    "centers": [
     "wedata"
+   ]
+  },
+  {
+   "id": "2025-03-14-037",
+   "title": "太平人寿案例视频",
+   "topic": "太平人寿案例视频",
+   "summary": "腾讯云大数据跨中心内容（品牌 / 综述 / 行业观点 / 活动）　渠道：腾讯云大数据，腾讯云的朋友圈",
+   "tags": [
+    "品牌发布",
+    "品牌综述",
+    "行业观点",
+    "Data+AI"
+   ],
+   "productCenter": "zonghe",
+   "product": "综合",
+   "date": "2025-03-14",
+   "abc": "B",
+   "platform": "腾讯云大数据 公众号",
+   "link": "",
+   "verify": "",
+   "linkSrc": "企微排期文档（公众号原文）",
+   "src": "plan",
+   "products": [
+    "综合"
+   ],
+   "needsReview": true,
+   "reviewReason": "正文未获取且标题无产品名（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
+   "centers": [
+    "zonghe"
    ]
   },
   {
@@ -1364,6 +1401,7 @@
    "link": "https://cloud.tencent.com/developer/article/2507435",
    "verify": "",
    "linkSrc": "企微排期文档（公众号原文）",
+   "src": "plan",
    "products": [
     "EMR"
    ],
@@ -1391,6 +1429,7 @@
    "link": "https://cloud.tencent.com/developer/article/2595366",
    "verify": "",
    "linkSrc": "企微排期文档（公众号原文）",
+   "src": "plan",
    "products": [
     "ChatBI",
     "腾讯云BI"
@@ -1419,6 +1458,7 @@
    "link": "https://mp.weixin.qq.com/s/ua-NgZtq6dyBnb-GFjP0gA",
    "verify": "",
    "linkSrc": "企微排期文档（公众号原文）",
+   "src": "plan",
    "products": [
     "腾讯云BI"
    ],
@@ -1445,6 +1485,7 @@
    "link": "https://cloud.tencent.com/developer/article/2662869",
    "verify": "",
    "linkSrc": "企微排期文档（公众号原文）",
+   "src": "plan",
    "products": [
     "RayData"
    ],
@@ -1473,6 +1514,7 @@
    "link": "https://mp.weixin.qq.com/s/MzaDF-KRaysDMeUTIB2T_g",
    "verify": "",
    "linkSrc": "企微排期文档（公众号原文）",
+   "src": "plan",
    "products": [
     "综合"
    ],
@@ -1501,6 +1543,7 @@
    "link": "https://cloud.tencent.com/developer/article/2623822",
    "verify": "",
    "linkSrc": "企微排期文档（公众号原文）",
+   "src": "plan",
    "products": [
     "EMR",
     "Meson",
@@ -1531,6 +1574,7 @@
    "link": "https://cloud.tencent.com/developer/article/2497212",
    "verify": "",
    "linkSrc": "企微排期文档（公众号原文）",
+   "src": "plan",
    "products": [
     "ChatBI"
    ],
@@ -1559,6 +1603,7 @@
    "link": "https://mp.weixin.qq.com/s/cRg_uyBh4kaEi1vkXxm1mg",
    "verify": "",
    "linkSrc": "企微排期文档（公众号原文）",
+   "src": "plan",
    "products": [
     "综合"
    ],
@@ -1587,6 +1632,7 @@
    "link": "https://blog.csdn.net/cloudbigdata/article/details/147344439",
    "verify": "",
    "linkSrc": "企微排期文档（公众号原文）",
+   "src": "plan",
    "products": [
     "TCInsight"
    ],
@@ -1615,6 +1661,7 @@
    "link": "https://cloud.tencent.com/developer/article/2679634",
    "verify": "",
    "linkSrc": "企微排期文档（公众号原文）",
+   "src": "plan",
    "products": [
     "ES"
    ],
@@ -1643,6 +1690,7 @@
    "link": "https://mp.weixin.qq.com/s/wzrOiFkTfVrHJ9C49oIapQ",
    "verify": "",
    "linkSrc": "企微排期文档（公众号原文）",
+   "src": "plan",
    "products": [
     "TBDS"
    ],
@@ -1670,6 +1718,7 @@
    "link": "https://cloud.tencent.com/developer/article/2629855",
    "verify": "",
    "linkSrc": "企微排期文档（公众号原文）",
+   "src": "plan",
    "products": [
     "Setats"
    ],
@@ -1698,6 +1747,7 @@
    "link": "https://blog.csdn.net/cloudbigdata/article/details/147785358",
    "verify": "",
    "linkSrc": "企微排期文档（公众号原文）",
+   "src": "plan",
    "products": [
     "WeData"
    ],
@@ -1725,6 +1775,7 @@
    "link": "https://cloud.tencent.com/developer/article/2706885",
    "verify": "",
    "linkSrc": "企微排期文档（公众号原文）",
+   "src": "plan",
    "products": [
     "ChatBI"
    ],
@@ -1753,6 +1804,7 @@
    "link": "https://mp.weixin.qq.com/s/5_0lLu1TP1_VsK7QEKOTNg",
    "verify": "",
    "linkSrc": "企微排期文档（公众号原文）",
+   "src": "plan",
    "products": [
     "综合"
    ],
@@ -1781,6 +1833,7 @@
    "link": "https://cloud.tencent.com/developer/article/2656104",
    "verify": "",
    "linkSrc": "企微排期文档（公众号原文）",
+   "src": "plan",
    "products": [
     "综合"
    ],
@@ -1806,36 +1859,10 @@
    "date": "2025-05-22",
    "abc": "B",
    "platform": "腾讯云大数据 公众号",
-   "link": "https://cloud.tencent.com/developer/article/2194280",
-   "verify": "",
-   "linkSrc": "企微排期文档（公众号原文）",
-   "products": [
-    "综合"
-   ],
-   "needsReview": false,
-   "centers": [
-    "zonghe"
-   ]
-  },
-  {
-   "id": "2025-05-23-055",
-   "title": "数智工匠访谈 先导视频 2",
-   "topic": "数智工匠访谈 先导视频 2",
-   "summary": "腾讯云大数据跨中心内容（品牌 / 综述 / 行业观点 / 活动）　渠道：腾讯云，腾讯云大数据，云大说",
-   "tags": [
-    "品牌发布",
-    "品牌综述",
-    "行业观点",
-    "Data+AI"
-   ],
-   "productCenter": "zonghe",
-   "product": "综合",
-   "date": "2025-05-23",
-   "abc": "B",
-   "platform": "腾讯云大数据 公众号",
    "link": "",
    "verify": "",
    "linkSrc": "企微排期文档（公众号原文）",
+   "src": "plan",
    "products": [
     "综合"
    ],
@@ -1846,7 +1873,7 @@
    ]
   },
   {
-   "id": "2025-05-23-056",
+   "id": "2025-05-23-055",
    "title": "腾讯五大协同办公产品AI升级：从单点提效迈向全流程智能\n（BI）",
    "topic": "五大协同办公产品AI升级：从单点提效迈向全流程智能\n（BI）",
    "summary": "全流程敏捷自助式 BI 平台（40+ 组件，多端适配）　渠道：大数据，媒体",
@@ -1863,6 +1890,7 @@
    "link": "https://cloud.tencent.com/developer/article/2524521",
    "verify": "",
    "linkSrc": "企微排期文档（公众号原文）",
+   "src": "plan",
    "products": [
     "腾讯云BI",
     "ChatBI"
@@ -1874,7 +1902,7 @@
    ]
   },
   {
-   "id": "2025-05-23-057",
+   "id": "2025-05-23-056",
    "title": "【专家说】游欣：国产大数据平台建设实践",
    "topic": "游欣：国产大数据平台建设实践",
    "summary": "腾讯云大数据跨中心内容（品牌 / 综述 / 行业观点 / 活动）　渠道：金融云，大数据",
@@ -1892,6 +1920,7 @@
    "link": "https://mp.weixin.qq.com/s/Zf_dufYJVpUmGEZGIfr7cA",
    "verify": "",
    "linkSrc": "企微排期文档（公众号原文）",
+   "src": "plan",
    "products": [
     "综合"
    ],
@@ -1902,7 +1931,7 @@
    ]
   },
   {
-   "id": "2025-05-23-058",
+   "id": "2025-05-23-057",
    "title": "腾讯云与南网数研院达成业务合作，推动打造能源产业新生态",
    "topic": "与南网数研院达成业务合作，推动打造能源产业新生态",
    "summary": "腾讯云大数据跨中心内容（品牌 / 综述 / 行业观点 / 活动）　渠道：能源，大数据",
@@ -1920,11 +1949,41 @@
    "link": "https://cloud.tencent.com/developer/article/2546082",
    "verify": "",
    "linkSrc": "企微排期文档（公众号原文）",
+   "src": "plan",
    "products": [
     "综合"
    ],
    "needsReview": false,
    "mpLink": "https://mp.weixin.qq.com/s/VZ4o0_9B5yKmUIGwEahsxg",
+   "centers": [
+    "zonghe"
+   ]
+  },
+  {
+   "id": "2025-05-23-058",
+   "title": "数智工匠访谈 先导视频 2",
+   "topic": "数智工匠访谈 先导视频 2",
+   "summary": "腾讯云大数据跨中心内容（品牌 / 综述 / 行业观点 / 活动）　渠道：腾讯云，腾讯云大数据，云大说",
+   "tags": [
+    "品牌发布",
+    "品牌综述",
+    "行业观点",
+    "Data+AI"
+   ],
+   "productCenter": "zonghe",
+   "product": "综合",
+   "date": "2025-05-23",
+   "abc": "B",
+   "platform": "腾讯云大数据 公众号",
+   "link": "",
+   "verify": "",
+   "linkSrc": "企微排期文档（公众号原文）",
+   "src": "plan",
+   "products": [
+    "综合"
+   ],
+   "needsReview": true,
+   "reviewReason": "正文未获取且标题无产品名（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
    "centers": [
     "zonghe"
    ]
@@ -1948,6 +2007,7 @@
    "link": "",
    "verify": "",
    "linkSrc": "企微排期文档（公众号原文）",
+   "src": "plan",
    "products": [
     "综合"
    ],
@@ -1976,6 +2036,7 @@
    "link": "https://cloud.tencent.com/developer/article/2679201",
    "verify": "",
    "linkSrc": "企微排期文档（公众号原文）",
+   "src": "plan",
    "products": [
     "综合"
    ],
@@ -2004,6 +2065,7 @@
    "link": "https://cloud.tencent.com/developer/article/2629205",
    "verify": "",
    "linkSrc": "企微排期文档（公众号原文）",
+   "src": "plan",
    "products": [
     "ES",
     "Oceanus"
@@ -2034,6 +2096,7 @@
    "link": "https://mp.weixin.qq.com/s/QSkUxMJitYDhNurTHIXDew",
    "verify": "",
    "linkSrc": "企微排期文档（公众号原文）",
+   "src": "plan",
    "products": [
     "综合"
    ],
@@ -2062,6 +2125,7 @@
    "link": "https://mp.weixin.qq.com/s/NARBrdxjWioUzOnAr_DiMw",
    "verify": "",
    "linkSrc": "企微排期文档（公众号原文）",
+   "src": "plan",
    "products": [
     "综合"
    ],
@@ -2090,6 +2154,7 @@
    "link": "https://mp.weixin.qq.com/s/CjjCPKz-iNwUqJLs1tIBmw",
    "verify": "",
    "linkSrc": "企微排期文档（公众号原文）",
+   "src": "plan",
    "products": [
     "综合"
    ],
@@ -2118,6 +2183,7 @@
    "link": "https://cloud.tencent.com/developer/article/2529150",
    "verify": "",
    "linkSrc": "企微排期文档（公众号原文）",
+   "src": "plan",
    "products": [
     "综合"
    ],
@@ -2146,6 +2212,7 @@
    "link": "https://mp.weixin.qq.com/s/OGn5VmnfXpb_W6T5QBqszg",
    "verify": "",
    "linkSrc": "企微排期文档（公众号原文）",
+   "src": "plan",
    "products": [
     "综合"
    ],
@@ -2174,6 +2241,7 @@
    "link": "",
    "verify": "",
    "linkSrc": "企微排期文档（公众号原文）",
+   "src": "plan",
    "products": [
     "TCHouse",
     "TBDS"
@@ -2202,6 +2270,7 @@
    "link": "https://blog.csdn.net/cloudbigdata/article/details/148802373",
    "verify": "",
    "linkSrc": "企微排期文档（公众号原文）",
+   "src": "plan",
    "products": [
     "综合"
    ],
@@ -2231,6 +2300,7 @@
    "link": "https://cloud.tencent.com/developer/article/2647587",
    "verify": "",
    "linkSrc": "企微排期文档（公众号原文）",
+   "src": "plan",
    "products": [
     "TCHouse-D"
    ],
@@ -2259,6 +2329,7 @@
    "link": "https://mp.weixin.qq.com/s/DpQbgnSXTgT4rMgeUCdtkA",
    "verify": "",
    "linkSrc": "企微排期文档（公众号原文）",
+   "src": "plan",
    "products": [
     "DLC"
    ],
@@ -2287,6 +2358,7 @@
    "link": "https://cloud.tencent.com/developer/article/2578846",
    "verify": "",
    "linkSrc": "企微排期文档（公众号原文）",
+   "src": "plan",
    "products": [
     "Meson",
     "DLC"
@@ -2315,6 +2387,7 @@
    "link": "https://mp.weixin.qq.com/s/gm1hvXfZCYy7rIQr_5c9pQ",
    "verify": "",
    "linkSrc": "企微排期文档（公众号原文）",
+   "src": "plan",
    "products": [
     "ChatBI"
    ],
@@ -2342,6 +2415,7 @@
    "link": "https://mp.weixin.qq.com/s/hbscd5SuB1N50hVihvcPbQ",
    "verify": "",
    "linkSrc": "企微排期文档（公众号原文）",
+   "src": "plan",
    "products": [
     "综合"
    ],
@@ -2369,6 +2443,7 @@
    "link": "https://cloud.tencent.com/developer/article/2422049",
    "verify": "",
    "linkSrc": "企微排期文档（公众号原文）",
+   "src": "plan",
    "products": [
     "腾讯云BI"
    ],
@@ -2395,6 +2470,7 @@
    "link": "https://cloud.tencent.com/developer/article/2332515",
    "verify": "",
    "linkSrc": "企微排期文档（公众号原文）",
+   "src": "plan",
    "products": [
     "RayData"
    ],
@@ -2422,6 +2498,7 @@
    "link": "https://mp.weixin.qq.com/s/EcS1d_KmmUgj0-2rHodxGg",
    "verify": "",
    "linkSrc": "企微排期文档（公众号原文）",
+   "src": "plan",
    "products": [
     "TCDataAgent"
    ],
@@ -2448,6 +2525,7 @@
    "link": "https://cloud.tencent.com/developer/article/2571370",
    "verify": "",
    "linkSrc": "企微排期文档（公众号原文）",
+   "src": "plan",
    "products": [
     "WeData"
    ],
@@ -2476,6 +2554,7 @@
    "link": "https://mp.weixin.qq.com/s/n0HAL9MsoABsbpgaklVGQg",
    "verify": "",
    "linkSrc": "企微排期文档（公众号原文）",
+   "src": "plan",
    "products": [
     "综合"
    ],
@@ -2504,6 +2583,7 @@
    "link": "https://mp.weixin.qq.com/s/MniPj1XWlIfW3PpSfUuv3Q",
    "verify": "",
    "linkSrc": "企微排期文档（公众号原文）",
+   "src": "plan",
    "products": [
     "综合"
    ],
@@ -2532,6 +2612,7 @@
    "link": "https://cloud.tencent.com/developer/article/2648764",
    "verify": "",
    "linkSrc": "企微排期文档（公众号原文）",
+   "src": "plan",
    "products": [
     "TCHouse-P",
     "TCHouse-D",
@@ -2564,6 +2645,7 @@
    "link": "https://cloud.tencent.com/developer/article/2677602",
    "verify": "",
    "linkSrc": "企微排期文档（公众号原文）",
+   "src": "plan",
    "products": [
     "综合"
    ],
@@ -2591,6 +2673,7 @@
    "link": "https://cloud.tencent.com/developer/article/2423970",
    "verify": "",
    "linkSrc": "企微排期文档（公众号原文）",
+   "src": "plan",
    "products": [
     "ChatBI"
    ],
@@ -2618,6 +2701,7 @@
    "link": "https://cloud.tencent.com/developer/article/2436277",
    "verify": "",
    "linkSrc": "企微排期文档（公众号原文）",
+   "src": "plan",
    "products": [
     "ChatBI"
    ],
@@ -2645,6 +2729,7 @@
    "link": "https://mp.weixin.qq.com/s/X8XYCHbZ0kyJsADItXDhHw",
    "verify": "",
    "linkSrc": "企微排期文档（公众号原文）",
+   "src": "plan",
    "products": [
     "TCInsight"
    ],
@@ -2671,6 +2756,7 @@
    "link": "https://mp.weixin.qq.com/s/ORlYDjxt1gO436J6ePuiIw",
    "verify": "",
    "linkSrc": "企微排期文档（公众号原文）",
+   "src": "plan",
    "products": [
     "TCHouse"
    ],
@@ -2696,6 +2782,7 @@
    "link": "https://mp.weixin.qq.com/s/znw582O4l65-OW59Ou-1hw",
    "verify": "",
    "linkSrc": "企微排期文档（公众号原文）",
+   "src": "plan",
    "products": [
     "RayData"
    ],
@@ -2723,6 +2810,7 @@
    "link": "https://mp.weixin.qq.com/s/ePekRYgeE2ZOykb0ocpewA",
    "verify": "",
    "linkSrc": "企微排期文档（公众号原文）",
+   "src": "plan",
    "products": [
     "综合"
    ],
@@ -2750,6 +2838,7 @@
    "link": "https://mp.weixin.qq.com/s/OdhQsUo9HvJl1uYrOZ6fNA",
    "verify": "",
    "linkSrc": "企微排期文档（公众号原文）",
+   "src": "plan",
    "products": [
     "ChatBI"
    ],
@@ -2777,6 +2866,7 @@
    "link": "https://mp.weixin.qq.com/s/QrX7A4JVCjGxKRTY4OmYhA",
    "verify": "",
    "linkSrc": "企微排期文档（公众号原文）",
+   "src": "plan",
    "products": [
     "TCHouse-C"
    ],
@@ -2804,6 +2894,7 @@
    "link": "https://mp.weixin.qq.com/s/vJNdXZD5X1FZ0VCfOm15Hw",
    "verify": "",
    "linkSrc": "企微排期文档（公众号原文）",
+   "src": "plan",
    "products": [
     "综合"
    ],
@@ -2832,6 +2923,7 @@
    "link": "https://mp.weixin.qq.com/s/BSlGq6KQzYMSXg-8kALVHw",
    "verify": "",
    "linkSrc": "企微排期文档（公众号原文）",
+   "src": "plan",
    "products": [
     "综合"
    ],
@@ -2860,6 +2952,7 @@
    "link": "https://mp.weixin.qq.com/s/DArbB9L7WIXDBNxGVErBGg",
    "verify": "",
    "linkSrc": "企微排期文档（公众号原文）",
+   "src": "plan",
    "products": [
     "综合"
    ],
@@ -2888,6 +2981,7 @@
    "link": "https://mp.weixin.qq.com/s/V8wdJvtnBrIkLlh_PEIG2g",
    "verify": "",
    "linkSrc": "企微排期文档（公众号原文）",
+   "src": "plan",
    "products": [
     "综合"
    ],
@@ -2916,6 +3010,7 @@
    "link": "https://mp.weixin.qq.com/s/KQP1eoQ_ZvuZVe5z-xX0LQ",
    "verify": "",
    "linkSrc": "企微排期文档（公众号原文）",
+   "src": "plan",
    "products": [
     "TBDS"
    ],
@@ -2943,6 +3038,7 @@
    "link": "https://mp.weixin.qq.com/s/GE8FMaX_LNAUd-X3VjgvtA",
    "verify": "",
    "linkSrc": "企微排期文档（公众号原文）",
+   "src": "plan",
    "products": [
     "综合"
    ],
@@ -2970,6 +3066,7 @@
    "link": "https://mp.weixin.qq.com/s/sIZF6hmJwvf7Q6xmL819eA",
    "verify": "",
    "linkSrc": "企微排期文档（公众号原文）",
+   "src": "plan",
    "products": [
     "综合"
    ],
@@ -2997,6 +3094,7 @@
    "link": "https://mp.weixin.qq.com/s/smf1ngvez9PwwBVk5PLqqg",
    "verify": "",
    "linkSrc": "企微排期文档（公众号原文）",
+   "src": "plan",
    "products": [
     "综合"
    ],
@@ -3025,6 +3123,7 @@
    "link": "https://mp.weixin.qq.com/s/ETHlBP7UDYtOyRZhq58w1g",
    "verify": "",
    "linkSrc": "企微排期文档（公众号原文）",
+   "src": "plan",
    "products": [
     "TCHouse-C"
    ],
@@ -3051,6 +3150,7 @@
    "link": "https://mp.weixin.qq.com/s/aSMmZOetCT5RBlJVFu0r-A",
    "verify": "",
    "linkSrc": "企微排期文档（公众号原文）",
+   "src": "plan",
    "products": [
     "TCLake"
    ],
@@ -3079,6 +3179,7 @@
    "link": "https://mp.weixin.qq.com/s/8H4jV8Gikkwo7QAgZEjSpA",
    "verify": "",
    "linkSrc": "企微排期文档（公众号原文）",
+   "src": "plan",
    "products": [
     "综合"
    ],
@@ -3107,6 +3208,7 @@
    "link": "https://mp.weixin.qq.com/s/Xc9iMbA9xFks2VfOxkp0CA",
    "verify": "",
    "linkSrc": "企微排期文档（公众号原文）",
+   "src": "plan",
    "products": [
     "WeData"
    ],
@@ -3134,6 +3236,7 @@
    "link": "https://mp.weixin.qq.com/s/ed6xJ0GmcjiUOVHubOCWxw",
    "verify": "",
    "linkSrc": "企微排期文档（公众号原文）",
+   "src": "plan",
    "products": [
     "综合"
    ],
@@ -3145,34 +3248,6 @@
   },
   {
    "id": "2025-10-01-103",
-   "title": "Gartner 报告海外",
-   "topic": "Gartner 报告海外",
-   "summary": "腾讯云大数据跨中心内容（品牌 / 综述 / 行业观点 / 活动）",
-   "tags": [
-    "品牌发布",
-    "品牌综述",
-    "行业观点",
-    "Data+AI"
-   ],
-   "productCenter": "zonghe",
-   "product": "综合",
-   "date": "2025-10-01",
-   "abc": "B",
-   "platform": "腾讯云大数据 公众号",
-   "link": "https://www.prnewswire.com/apac/news-releases/tencent-cloud-recognized-as-a-representative-vendor-in-gartner-market-guide-for-data-lakehouse-platforms-302592224.html",
-   "verify": "",
-   "linkSrc": "企微排期文档（公众号原文）",
-   "products": [
-    "综合"
-   ],
-   "needsReview": true,
-   "reviewReason": "正文未获取且标题无产品名（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
-   "centers": [
-    "zonghe"
-   ]
-  },
-  {
-   "id": "2025-10-01-104",
    "title": "直播预约中 | AutoMQ 在腾讯云、腾讯音乐和京东的生产实践分享",
    "topic": "直播预约中 | AutoMQ 在腾讯云、腾讯音乐和京东的生产实践分享",
    "summary": "腾讯云大数据跨中心内容（品牌 / 综述 / 行业观点 / 活动）",
@@ -3190,6 +3265,36 @@
    "link": "https://mp.weixin.qq.com/s/QgBw8KABCj8Tt_biDuoaBQ",
    "verify": "",
    "linkSrc": "企微排期文档（公众号原文）",
+   "src": "plan",
+   "products": [
+    "综合"
+   ],
+   "needsReview": true,
+   "reviewReason": "正文未获取且标题无产品名（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
+   "centers": [
+    "zonghe"
+   ]
+  },
+  {
+   "id": "2025-10-01-104",
+   "title": "Gartner 报告海外",
+   "topic": "Gartner 报告海外",
+   "summary": "腾讯云大数据跨中心内容（品牌 / 综述 / 行业观点 / 活动）",
+   "tags": [
+    "品牌发布",
+    "品牌综述",
+    "行业观点",
+    "Data+AI"
+   ],
+   "productCenter": "zonghe",
+   "product": "综合",
+   "date": "2025-10-01",
+   "abc": "B",
+   "platform": "腾讯云大数据 公众号",
+   "link": "https://www.prnewswire.com/apac/news-releases/tencent-cloud-recognized-as-a-representative-vendor-in-gartner-market-guide-for-data-lakehouse-platforms-302592224.html",
+   "verify": "",
+   "linkSrc": "企微排期文档（公众号原文）",
+   "src": "plan",
    "products": [
     "综合"
    ],
@@ -3218,6 +3323,7 @@
    "link": "https://mp.weixin.qq.com/s/7mqHPQ6_Db7hNjvOswMrjQ",
    "verify": "",
    "linkSrc": "企微排期文档（公众号原文）",
+   "src": "plan",
    "products": [
     "TCHouse-C"
    ],
@@ -3245,6 +3351,7 @@
    "link": "https://mp.weixin.qq.com/s/EKfFWwfyK6Md24W-2XJGLg",
    "verify": "",
    "linkSrc": "企微排期文档（公众号原文）",
+   "src": "plan",
    "products": [
     "综合"
    ],
@@ -3271,6 +3378,7 @@
    "link": "https://mp.weixin.qq.com/s/T4tQbZOgyeSOHFIiFygR0w",
    "verify": "",
    "linkSrc": "企微排期文档（公众号原文）",
+   "src": "plan",
    "products": [
     "Meson"
    ],
@@ -3297,6 +3405,7 @@
    "link": "https://mp.weixin.qq.com/s/dChybHG5gYouYJd9I-x3PQ",
    "verify": "",
    "linkSrc": "企微排期文档（公众号原文）",
+   "src": "plan",
    "products": [
     "TCDataAgent"
    ],
@@ -3325,6 +3434,7 @@
    "link": "https://mp.weixin.qq.com/s/fUmIrgjZQryxtJDMpTp_Dw",
    "verify": "",
    "linkSrc": "企微排期文档（公众号原文）",
+   "src": "plan",
    "products": [
     "TBDS"
    ],
@@ -3352,6 +3462,7 @@
    "link": "https://mp.weixin.qq.com/s/IjifmFlcoHIgmSmAHfQQlg",
    "verify": "",
    "linkSrc": "企微排期文档（公众号原文）",
+   "src": "plan",
    "products": [
     "综合"
    ],
@@ -3379,6 +3490,7 @@
    "link": "https://mp.weixin.qq.com/s/KiC_7W2kagtuX6VAJjehaQ",
    "verify": "",
    "linkSrc": "企微排期文档（公众号原文）",
+   "src": "plan",
    "products": [
     "TBDS"
    ],
@@ -3406,6 +3518,7 @@
    "link": "https://mp.weixin.qq.com/s/m5nZSPsnTYVNHl-f02tveA",
    "verify": "",
    "linkSrc": "企微排期文档（公众号原文）",
+   "src": "plan",
    "products": [
     "综合"
    ],
@@ -3434,6 +3547,7 @@
    "link": "https://mp.weixin.qq.com/s/Vf4Aawz_VDNiz70Vqopu0g",
    "verify": "",
    "linkSrc": "企微排期文档（公众号原文）",
+   "src": "plan",
    "products": [
     "综合"
    ],
@@ -3462,6 +3576,12 @@
    "link": "https://mp.weixin.qq.com/s/lXIjqrIodaC8kBdK3bsWzQ",
    "verify": "",
    "linkSrc": "企微排期文档（公众号原文）",
+   "src": "plan",
+   "altTitles": [
+    "腾讯云一体化知识库：通过数据构建不可替代的媒体生产系统"
+   ],
+   "mergedSuspicious": true,
+   "mergeNote": "链接相同但标题无关联，疑为源表链接填错，请核对源数据",
    "products": [
     "综合"
    ],
@@ -3472,35 +3592,7 @@
    ]
   },
   {
-   "id": "2025-12-19-115",
-   "title": "腾讯云一体化知识库：通过数据构建不可替代的媒体生产系统",
-   "topic": "一体化知识库：通过数据构建不可替代的媒体生产系统",
-   "summary": "腾讯云大数据跨中心内容（品牌 / 综述 / 行业观点 / 活动）　渠道：腾讯云智慧金融，腾讯云大数据",
-   "tags": [
-    "客户案例",
-    "品牌综述",
-    "行业观点",
-    "Data+AI"
-   ],
-   "productCenter": "zonghe",
-   "product": "综合",
-   "date": "2025-12-19",
-   "abc": "A",
-   "platform": "腾讯云大数据 公众号",
-   "link": "https://mp.weixin.qq.com/s/lXIjqrIodaC8kBdK3bsWzQ",
-   "verify": "",
-   "linkSrc": "企微排期文档（公众号原文）",
-   "products": [
-    "综合"
-   ],
-   "needsReview": true,
-   "reviewReason": "正文未获取且标题无产品名（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
-   "centers": [
-    "zonghe"
-   ]
-  },
-  {
-   "id": "2025-12-26-116",
+   "id": "2025-12-26-115",
    "title": "【新闻稿】六成Top 10券商将大数据平台迁移至腾讯云",
    "topic": "六成Top 10券商将大数据平台迁移至腾讯云",
    "summary": "腾讯云大数据跨中心内容（品牌 / 综述 / 行业观点 / 活动）　渠道：智慧金融，腾讯云大数据",
@@ -3518,6 +3610,7 @@
    "link": "https://mp.weixin.qq.com/s/lFkXn98W9xrnGWOp4YO4yQ",
    "verify": "",
    "linkSrc": "企微排期文档（公众号原文）",
+   "src": "plan",
    "products": [
     "综合"
    ],
@@ -3528,7 +3621,7 @@
    ]
   },
   {
-   "id": "2025-12-26-117",
+   "id": "2025-12-26-116",
    "title": "《腾讯云wedata数据治理全面升级》",
    "topic": "《腾讯云wedata数据治理全面升级》",
    "summary": "Data+AI 一体化数据智能平台（IDC 份额第二 + DIOps 首家认证）　渠道：腾讯云官网",
@@ -3546,6 +3639,7 @@
    "link": "https://mp.weixin.qq.com/s/zZe18L7QT9YwHM_ybFcXow",
    "verify": "",
    "linkSrc": "企微排期文档（公众号原文）",
+   "src": "plan",
    "products": [
     "WeData"
    ],
@@ -3556,7 +3650,7 @@
    ]
   },
   {
-   "id": "2026-01-22-118",
+   "id": "2026-01-22-117",
    "title": "腾讯云发布面向AI的数据湖方案：TCLake+EMR打造AI-Ready数据底座",
    "topic": "发布面向AI的数据湖方案：TCLake+EMR打造AI-Ready数据底座",
    "summary": "统一多模态智能数据湖底座（TCIceberg + Lance 兼容 + 智能自治）　渠道：腾讯云大数据、行业媒体",
@@ -3573,6 +3667,7 @@
    "link": "https://mp.weixin.qq.com/s/sW_KEb9-kr1qmNdo1mUq8A",
    "verify": "",
    "linkSrc": "企微排期文档（公众号原文）",
+   "src": "plan",
    "products": [
     "TCLake",
     "EMR"
@@ -3583,7 +3678,7 @@
    ]
   },
   {
-   "id": "2026-01-22-119",
+   "id": "2026-01-22-118",
    "title": "腾讯云与致宇信息、银兴智能达成渠道战略合作 共同推动国产化大数据平台与智能数据解决方案落地",
    "topic": "与致宇信息、银兴智能达成渠道战略合作 共同推动国产化大数据平台与智能数据解决方案落地",
    "summary": "企业级私有化大数据处理套件（湖仓一体 + 金融信创）　渠道：腾讯云大数据",
@@ -3601,6 +3696,7 @@
    "link": "https://mp.weixin.qq.com/s/tarH0JXDRrgm8RyWNwpoVQ",
    "verify": "",
    "linkSrc": "企微排期文档（公众号原文）",
+   "src": "plan",
    "products": [
     "综合"
    ],
@@ -3610,7 +3706,7 @@
    ]
   },
   {
-   "id": "2026-01-30-120",
+   "id": "2026-01-30-119",
    "title": "腾讯云WeData升级三大Data+AI能力，位居一体化数据智能平台市场第一！",
    "topic": "WeData升级三大Data+AI能力，位居一体化数据智能平台市场第一！",
    "summary": "Data+AI 一体化数据智能平台（IDC 份额第二 + DIOps 首家认证）",
@@ -3628,6 +3724,7 @@
    "link": "https://mp.weixin.qq.com/s/UxfWPs6_EcqEivirIuVupA",
    "verify": "",
    "linkSrc": "企微排期文档（公众号原文）",
+   "src": "plan",
    "products": [
     "WeData"
    ],
@@ -3637,7 +3734,7 @@
    ]
   },
   {
-   "id": "2026-02-01-121",
+   "id": "2026-02-01-120",
    "title": "吐梨德猫 AI Native 自媒体创作平台相关PR文章",
    "topic": "吐梨德猫 AI Native 自媒体创作平台相关PR文章",
    "summary": "全托管海量数据检索分析 + RAG（Elasticsearch 自研内核 + 混合搜索）　渠道：虎嗅、36kr、视频号、锌财经、蓝洞商业、20社等",
@@ -3655,6 +3752,7 @@
    "link": "https://36kr.com/p/3670525719716482",
    "verify": "",
    "linkSrc": "企微排期文档（公众号原文）",
+   "src": "plan",
    "products": [
     "ES"
    ],
@@ -3665,7 +3763,7 @@
    ]
   },
   {
-   "id": "2026-02-13-122",
+   "id": "2026-02-13-121",
    "title": "腾讯云大数据2025年度成绩单",
    "topic": "2025年度成绩单",
    "summary": "腾讯云大数据跨中心内容（品牌 / 综述 / 行业观点 / 活动）　渠道：腾讯云大数据",
@@ -3683,6 +3781,7 @@
    "link": "https://mp.weixin.qq.com/s/fXH2M0KPWmSEfmCx44zR_Q",
    "verify": "",
    "linkSrc": "企微排期文档（公众号原文）",
+   "src": "plan",
    "products": [
     "综合"
    ],
@@ -3692,7 +3791,7 @@
    ]
   },
   {
-   "id": "2026-02-13-123",
+   "id": "2026-02-13-122",
    "title": "WeData 2026年2月版本发布： Data+AI，从数据开发到AI落地，一站式提效全链路",
    "topic": "WeData 2026年2月版本发布： Data+AI，从数据开发到AI落地，一站式提效全链路",
    "summary": "Data+AI 一体化数据智能平台（IDC 份额第二 + DIOps 首家认证）　渠道：腾讯云大数据",
@@ -3710,6 +3809,7 @@
    "link": "https://mp.weixin.qq.com/s/uekSF4TrSxhnFSpRF9OvXg",
    "verify": "",
    "linkSrc": "企微排期文档（公众号原文）",
+   "src": "plan",
    "products": [
     "WeData"
    ],
@@ -3719,7 +3819,7 @@
    ]
   },
   {
-   "id": "2026-03-05-124",
+   "id": "2026-03-05-123",
    "title": "《腾讯云大数据 TCDataAgent 智能体发布与应用实战》",
    "topic": "《腾讯云大数据 TCDataAgent 智能体发布与应用实战》",
    "summary": "数据分析智能体（NL2SQL 全球前三、国内第一）　渠道：DatafunSummit",
@@ -3736,6 +3836,7 @@
    "link": "https://mp.weixin.qq.com/s/yiuQAmAuAsMW6xeB9feU7Q",
    "verify": "",
    "linkSrc": "企微排期文档（公众号原文）",
+   "src": "plan",
    "products": [
     "TCDataAgent"
    ],
@@ -3745,7 +3846,7 @@
    ]
   },
   {
-   "id": "2026-03-06-125",
+   "id": "2026-03-06-124",
    "title": "首家！腾讯云 WeData 率先通过中国信通院数智一体化平台（DIOps）技术要求专项测试",
    "topic": "首家！腾讯云 WeData 率先通过中国信通院数智一体化平台（DIOps）技术要求专项测试",
    "summary": "Data+AI 一体化数据智能平台（IDC 份额第二 + DIOps 首家认证）　渠道：信通院、腾讯云大数据",
@@ -3763,6 +3864,7 @@
    "link": "https://mp.weixin.qq.com/s/nPIkMASubUA-_QtrIm2YBw",
    "verify": "",
    "linkSrc": "企微排期文档（公众号原文）",
+   "src": "plan",
    "products": [
     "WeData"
    ],
@@ -3772,7 +3874,7 @@
    ]
   },
   {
-   "id": "2026-03-27-126",
+   "id": "2026-03-27-125",
    "title": "存算分离，性能跃升：盖雅工场TCHouse-D 3.0升级实现查询效率再提升60%",
    "topic": "存算分离，性能跃升：盖雅工场TCHouse-D 3.0升级实现查询效率再提升60%",
    "summary": "全托管实时 OLAP 分析数仓（Apache Doris，3.0 存算分离）　渠道：腾讯云大数据",
@@ -3790,6 +3892,7 @@
    "link": "https://mp.weixin.qq.com/s/-CdX3erPH7n7msa9CjaLiQ",
    "verify": "",
    "linkSrc": "企微排期文档（公众号原文）",
+   "src": "plan",
    "products": [
     "TCHouse-D"
    ],
@@ -3799,7 +3902,7 @@
    ]
   },
   {
-   "id": "2026-04-03-127",
+   "id": "2026-04-03-126",
    "title": "腾讯云ES AI搜索最佳实践：基于ES与Dify的企业级RAG应用方案",
    "topic": "ES AI搜索最佳实践：基于ES与Dify的企业级RAG应用方案",
    "summary": "全托管海量数据检索分析 + RAG（Elasticsearch 自研内核 + 混合搜索）　渠道：腾讯云大数据",
@@ -3817,6 +3920,7 @@
    "link": "https://mp.weixin.qq.com/s/pcrhE5x4Y1QdAkxOrHIlVA",
    "verify": "",
    "linkSrc": "企微排期文档（公众号原文）",
+   "src": "plan",
    "products": [
     "ES"
    ],
@@ -3826,7 +3930,7 @@
    ]
   },
   {
-   "id": "2026-04-03-128",
+   "id": "2026-04-03-127",
    "title": "腾讯云一体化数据智能平台 WeData，助力企业筑牢AI Ready的数据底座",
    "topic": "一体化数据智能平台 WeData，助力企业筑牢AI Ready的数据底座",
    "summary": "Data+AI 一体化数据智能平台（IDC 份额第二 + DIOps 首家认证）　渠道：腾讯云大数据",
@@ -3844,6 +3948,7 @@
    "link": "https://mp.weixin.qq.com/s/N-Npfd1I8C2PRfsyjCCuhA",
    "verify": "",
    "linkSrc": "企微排期文档（公众号原文）",
+   "src": "plan",
    "products": [
     "WeData"
    ],
@@ -3853,35 +3958,7 @@
    ]
   },
   {
-   "id": "2026-04-10-129",
-   "title": "合规正在重塑中国企业出海的底层逻辑——从数据与技术舆情看新一轮全球化竞争",
-   "topic": "合规正在重塑中国企业出海的底层逻辑——从数据与技术舆情看新一轮全球化竞争",
-   "summary": "腾讯云大数据跨中心内容（品牌 / 综述 / 行业观点 / 活动）",
-   "tags": [
-    "客户案例",
-    "品牌综述",
-    "行业观点",
-    "Data+AI"
-   ],
-   "productCenter": "zonghe",
-   "product": "综合",
-   "date": "2026-04-10",
-   "abc": "A",
-   "platform": "腾讯云大数据 公众号",
-   "link": "https://mp.weixin.qq.com/s/GnWNwng81Kr8xS7ll_VQOg",
-   "verify": "https://cloud.tencent.com/developer/article/2653651",
-   "linkSrc": "企微排期文档（公众号原文）",
-   "products": [
-    "综合"
-   ],
-   "needsReview": true,
-   "reviewReason": "正文未获取且标题无产品名（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
-   "centers": [
-    "zonghe"
-   ]
-  },
-  {
-   "id": "2026-04-13-130",
+   "id": "2026-04-13-128",
    "title": "合规正在重塑中国企业出海的底层逻辑——从数据与技术舆情看新一轮全球化竞争",
    "topic": "合规正在重塑中国企业出海的底层逻辑——从数据与技术舆情看新一轮全球化竞争",
    "summary": "腾讯云大数据跨中心内容（品牌 / 综述 / 行业观点 / 活动）",
@@ -3897,8 +3974,9 @@
    "abc": "B",
    "platform": "腾讯云大数据 公众号",
    "link": "https://cloud.tencent.com/developer/article/2653651",
-   "verify": "",
+   "verify": "https://cloud.tencent.com/developer/article/2653651",
    "linkSrc": "腾讯云开发者社区（公众号同步）",
+   "src": "community",
    "products": [
     "综合"
    ],
@@ -3908,35 +3986,7 @@
    ]
   },
   {
-   "id": "2026-04-17-131",
-   "title": "腾讯云大数据出海实践：一套架构支撑跨国企业的全球数据平台",
-   "topic": "出海实践：一套架构支撑跨国企业的全球数据平台",
-   "summary": "腾讯云大数据跨中心内容（品牌 / 综述 / 行业观点 / 活动）",
-   "tags": [
-    "客户案例",
-    "品牌综述",
-    "行业观点",
-    "Data+AI"
-   ],
-   "productCenter": "zonghe",
-   "product": "综合",
-   "date": "2026-04-17",
-   "abc": "A",
-   "platform": "腾讯云大数据 公众号",
-   "link": "https://mp.weixin.qq.com/s/c7jlzXi6obx6Glr0v4sMQQ",
-   "verify": "https://cloud.tencent.com/developer/article/2657084",
-   "linkSrc": "企微排期文档（公众号原文）",
-   "products": [
-    "综合"
-   ],
-   "needsReview": true,
-   "reviewReason": "正文未获取且标题无产品名（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
-   "centers": [
-    "zonghe"
-   ]
-  },
-  {
-   "id": "2026-04-20-132",
+   "id": "2026-04-20-129",
    "title": "腾讯云大数据出海实践：一套架构支撑跨国企业的全球数据平台",
    "topic": "出海实践：一套架构支撑跨国企业的全球数据平台",
    "summary": "腾讯云大数据跨中心内容（品牌 / 综述 / 行业观点 / 活动）",
@@ -3952,8 +4002,9 @@
    "abc": "B",
    "platform": "腾讯云大数据 公众号",
    "link": "https://cloud.tencent.com/developer/article/2657084",
-   "verify": "",
+   "verify": "https://cloud.tencent.com/developer/article/2657084",
    "linkSrc": "腾讯云开发者社区（公众号同步）",
+   "src": "community",
    "products": [
     "EMR"
    ],
@@ -3963,7 +4014,7 @@
    ]
   },
   {
-   "id": "2026-04-27-133",
+   "id": "2026-04-27-130",
    "title": "TBDS面向AI时代构建多模态数据湖解决方案",
    "topic": "TBDS面向AI时代构建多模态数据湖解决方案",
    "summary": "企业级私有化大数据处理套件（湖仓一体 + 金融信创）",
@@ -3981,6 +4032,7 @@
    "link": "https://cloud.tencent.com/developer/article/2661089",
    "verify": "",
    "linkSrc": "腾讯云开发者社区（公众号同步）",
+   "src": "community",
    "products": [
     "TBDS"
    ],
@@ -3990,7 +4042,7 @@
    ]
   },
   {
-   "id": "2026-05-09-134",
+   "id": "2026-05-09-131",
    "title": "ES实战 | 干掉 Python 中间件！Elasticsearch 原生 NER，数据写入那一刻就已经“读懂”了",
    "topic": "ES实战 | 干掉 Python 中间件！Elasticsearch 原生 NER，数据写入那一刻就已经“读懂”了",
    "summary": "全托管海量数据检索分析 + RAG（Elasticsearch 自研内核 + 混合搜索）",
@@ -4008,6 +4060,7 @@
    "link": "https://cloud.tencent.com/developer/article/2666306",
    "verify": "",
    "linkSrc": "腾讯云开发者社区（公众号同步）",
+   "src": "community",
    "products": [
     "ES"
    ],
@@ -4017,7 +4070,7 @@
    ]
   },
   {
-   "id": "2026-05-18-135",
+   "id": "2026-05-18-132",
    "title": "腾讯云联合复旦大学提出 CYANSQL：基于聚类的Test-Time Scaling方法，提升复杂 NL2SQL 生成能力",
    "topic": "联合复旦大学提出 CYANSQL：基于聚类的Test-Time Scaling方法，提升复杂 NL2SQL 生成能力",
    "summary": "数据分析智能体（NL2SQL 全球前三、国内第一）",
@@ -4034,6 +4087,7 @@
    "link": "https://cloud.tencent.com/developer/article/2670027",
    "verify": "",
    "linkSrc": "腾讯云开发者社区（公众号同步）",
+   "src": "community",
    "products": [
     "TCDataAgent"
    ],
@@ -4043,7 +4097,7 @@
    ]
   },
   {
-   "id": "2026-05-22-136",
+   "id": "2026-05-22-133",
    "title": "腾讯云与 CCSA TC601 联合发布白皮书，提出 Data+AI 时代大数据平台融合创新演进路径",
    "topic": "与 CCSA TC601 联合发布白皮书，提出 Data+AI 时代大数据平台融合创新演进路径",
    "summary": "腾讯云大数据跨中心内容（品牌 / 综述 / 行业观点 / 活动）",
@@ -4061,6 +4115,7 @@
    "link": "https://cloud.tencent.com/developer/article/2672627",
    "verify": "",
    "linkSrc": "腾讯云开发者社区（公众号同步）",
+   "src": "community",
    "products": [
     "TBDS"
    ],
@@ -4070,7 +4125,7 @@
    ]
   },
   {
-   "id": "2026-05-22-137",
+   "id": "2026-05-22-134",
    "title": "欢迎新Buddy：DataBuddy",
    "topic": "欢迎新Buddy：DataBuddy",
    "summary": "面向 Data+AI 的一站式数据开发治理智能体平台（WeData 旗下，DIOps 体系）",
@@ -4088,6 +4143,7 @@
    "link": "https://cloud.tencent.com/developer/article/2672626",
    "verify": "",
    "linkSrc": "腾讯云开发者社区（公众号同步）",
+   "src": "community",
    "products": [
     "DataBuddy"
    ],
@@ -4097,7 +4153,7 @@
    ]
   },
   {
-   "id": "2026-06-01-138",
+   "id": "2026-06-01-135",
    "title": "TCIceberg 实时入湖：百万级/秒背后的六大技术",
    "topic": "TCIceberg 实时入湖：百万级/秒背后的六大技术",
    "summary": "Serverless 数据湖分析与计算服务（Spark + TC-Iceberg + Alluxio）",
@@ -4115,6 +4171,7 @@
    "link": "https://cloud.tencent.com/developer/article/2679743",
    "verify": "",
    "linkSrc": "腾讯云开发者社区（公众号同步）",
+   "src": "community",
    "products": [
     "DLC"
    ],
@@ -4124,7 +4181,7 @@
    ]
   },
   {
-   "id": "2026-06-05-139",
+   "id": "2026-06-05-136",
    "title": "收好这份参会指南！明日与腾讯云大数据共同探索Agentic AI浪潮下的企业数智融合新范式",
    "topic": "收好这份参会指南！明日与腾讯云大数据共同探索Agentic AI浪潮下的企业数智融合新范式",
    "summary": "数据分析智能体（NL2SQL 全球前三、国内第一）",
@@ -4141,6 +4198,7 @@
    "link": "https://cloud.tencent.com/developer/article/2682692",
    "verify": "",
    "linkSrc": "腾讯云开发者社区（公众号同步）",
+   "src": "community",
    "products": [
     "TCDataAgent"
    ],
@@ -4150,7 +4208,7 @@
    ]
   },
   {
-   "id": "2026-06-08-140",
+   "id": "2026-06-08-137",
    "title": "一图看懂腾讯云Agent-Ready数据平台",
    "topic": "一图看懂腾讯云Agent-Ready数据平台",
    "summary": "腾讯云大数据跨中心内容（品牌 / 综述 / 行业观点 / 活动）",
@@ -4168,6 +4226,7 @@
    "link": "https://cloud.tencent.com/developer/article/2684076",
    "verify": "",
    "linkSrc": "腾讯云开发者社区（公众号同步）",
+   "src": "community",
    "products": [
     "综合"
    ],
@@ -4177,7 +4236,7 @@
    ]
   },
   {
-   "id": "2026-06-08-141",
+   "id": "2026-06-08-138",
    "title": "腾讯云面向Agent升级数据平台：DataBuddy、WeData与AI原生数据底座亮相",
    "topic": "面向Agent升级数据平台：DataBuddy、WeData与AI原生数据底座亮相",
    "summary": "Data+AI 一体化数据智能平台（IDC 份额第二 + DIOps 首家认证）",
@@ -4195,6 +4254,7 @@
    "link": "https://cloud.tencent.com/developer/article/2684075",
    "verify": "",
    "linkSrc": "腾讯云开发者社区（公众号同步）",
+   "src": "community",
    "products": [
     "DataBuddy",
     "WeData"
@@ -4205,7 +4265,7 @@
    ]
   },
   {
-   "id": "2026-06-12-142",
+   "id": "2026-06-12-139",
    "title": "腾讯云大数据：从 AI-Ready 到 Agent-Ready，AI 原生数据底座全栈升级",
    "topic": "从 AI-Ready 到 Agent-Ready，AI 原生数据底座全栈升级",
    "summary": "统一多模态智能数据湖底座（TCIceberg + Lance 兼容 + 智能自治）",
@@ -4222,6 +4282,7 @@
    "link": "https://cloud.tencent.com/developer/article/2687263",
    "verify": "",
    "linkSrc": "腾讯云开发者社区（公众号同步）",
+   "src": "community",
    "products": [
     "TCLake"
    ],
@@ -4231,7 +4292,7 @@
    ]
   },
   {
-   "id": "2026-06-12-143",
+   "id": "2026-06-12-140",
    "title": "【计算智能】ES x ADP 打通，成为 ADP 知识库存储企业级首选",
    "topic": "ES x ADP 打通，成为 ADP 知识库存储企业级首选",
    "summary": "全托管海量数据检索分析 + RAG（Elasticsearch 自研内核 + 混合搜索）",
@@ -4249,6 +4310,7 @@
    "link": "https://cloud.tencent.com/developer/article/2687262",
    "verify": "",
    "linkSrc": "腾讯云开发者社区（公众号同步）",
+   "src": "community",
    "products": [
     "ES"
    ],
@@ -4258,7 +4320,7 @@
    ]
   },
   {
-   "id": "2026-06-23-144",
+   "id": "2026-06-23-141",
    "title": "腾讯云大数据计算智能：从结构化 SQL 到多模态 AI Workload 的融合范式",
    "topic": "计算智能：从结构化 SQL 到多模态 AI Workload 的融合范式",
    "summary": "面向 Data+AI 的数据智能平台（Hadoop/Spark/Meson/Xpark/TCRay，CPU+GPU 混合调度）",
@@ -4276,6 +4338,7 @@
    "link": "https://cloud.tencent.com/developer/article/2696192",
    "verify": "",
    "linkSrc": "腾讯云开发者社区（公众号同步）",
+   "src": "community",
    "products": [
     "Meson",
     "ES",
@@ -4289,7 +4352,7 @@
    ]
   },
   {
-   "id": "2026-06-23-145",
+   "id": "2026-06-23-142",
    "title": "腾讯云TBDS面向AI时代的多模态智算平台，助力企业AI转型",
    "topic": "TBDS面向AI时代的多模态智算平台，助力企业AI转型",
    "summary": "企业级私有化大数据处理套件（湖仓一体 + 金融信创）",
@@ -4307,6 +4370,7 @@
    "link": "https://cloud.tencent.com/developer/article/2696189",
    "verify": "https://blog.csdn.net/cloudbigdata/article/details/162635388",
    "linkSrc": "腾讯云开发者社区（公众号同步）",
+   "src": "community",
    "products": [
     "TBDS"
    ],
@@ -4318,7 +4382,7 @@
    "planDate": "2026-06-18"
   },
   {
-   "id": "2026-07-06-146",
+   "id": "2026-07-06-143",
    "title": "让数据平台为Agent而生：存储智能与下一代Agentic Lakehouse",
    "topic": "让数据平台为Agent而生：存储智能与下一代Agentic Lakehouse",
    "summary": "腾讯云大数据跨中心内容（品牌 / 综述 / 行业观点 / 活动）",
@@ -4336,6 +4400,7 @@
    "link": "https://cloud.tencent.com/developer/article/2703775",
    "verify": "",
    "linkSrc": "腾讯云开发者社区（公众号同步）",
+   "src": "community",
    "products": [
     "TCLake"
    ],
@@ -4345,7 +4410,7 @@
    ]
   },
   {
-   "id": "2026-07-06-147",
+   "id": "2026-07-06-144",
    "title": "你的AI为什么总落不了地？腾讯云DataBuddy用DIOps给了一种解法",
    "topic": "你的AI为什么总落不了地？腾讯云DataBuddy用DIOps给了一种解法",
    "summary": "面向 Data+AI 的一站式数据开发治理智能体平台（WeData 旗下，DIOps 体系）",
@@ -4363,6 +4428,7 @@
    "link": "https://cloud.tencent.com/developer/article/2703727",
    "verify": "",
    "linkSrc": "腾讯云开发者社区（公众号同步）",
+   "src": "community",
    "products": [
     "DataBuddy"
    ],
@@ -4372,7 +4438,7 @@
    ]
   },
   {
-   "id": "2026-07-06-148",
+   "id": "2026-07-06-145",
    "title": "腾讯云大数据携手工商银行——存算分离架构落地实践，共绘数智金融新蓝图",
    "topic": "携手工商银行——存算分离架构落地实践，共绘数智金融新蓝图",
    "summary": "企业级私有化大数据处理套件（湖仓一体 + 金融信创）",
@@ -4390,6 +4456,7 @@
    "link": "https://cloud.tencent.com/developer/article/2703721",
    "verify": "",
    "linkSrc": "腾讯云开发者社区（公众号同步）",
+   "src": "community",
    "products": [
     "TBDS"
    ],
@@ -4399,7 +4466,7 @@
    ]
   },
   {
-   "id": "2026-07-06-149",
+   "id": "2026-07-06-146",
    "title": "腾讯云数据智能：构建可信、可控、可演进的Data Agent",
    "topic": "数据智能：构建可信、可控、可演进的Data Agent",
    "summary": "数据分析智能体（NL2SQL 全球前三、国内第一）",
@@ -4416,6 +4483,7 @@
    "link": "https://cloud.tencent.com/developer/article/2703714",
    "verify": "https://blog.csdn.net/cloudbigdata/article/details/162556410",
    "linkSrc": "腾讯云开发者社区（公众号同步）",
+   "src": "community",
    "products": [
     "TCDataAgent"
    ],
@@ -4427,7 +4495,7 @@
    "planDate": "7月3日"
   },
   {
-   "id": "2026-07-06-150",
+   "id": "2026-07-06-147",
    "title": "2026 Elastic Meetup 深圳站报名开启",
    "topic": "2026 Elastic Meetup 深圳站报名开启",
    "summary": "腾讯云大数据跨中心内容（品牌 / 综述 / 行业观点 / 活动）",
@@ -4445,6 +4513,7 @@
    "link": "https://cloud.tencent.com/developer/article/2703711",
    "verify": "",
    "linkSrc": "腾讯云开发者社区（公众号同步）",
+   "src": "community",
    "products": [
     "综合"
    ],
@@ -4454,7 +4523,7 @@
    ]
   },
   {
-   "id": "2026-07-13-151",
+   "id": "2026-07-13-148",
    "title": "国内首个生产级Spark+Ray智能数据湖平台来了！",
    "topic": "国内首个生产级Spark+Ray智能数据湖平台来了！",
    "summary": "Serverless 数据湖分析与计算服务（Spark + TC-Iceberg + Alluxio）",
@@ -4472,6 +4541,7 @@
    "link": "https://cloud.tencent.com/developer/article/2708037",
    "verify": "",
    "linkSrc": "腾讯云开发者社区（公众号同步）",
+   "src": "community",
    "products": [
     "DLC"
    ],
@@ -4483,7 +4553,7 @@
    "planDate": "7月10日"
   },
   {
-   "id": "2026-07-13-152",
+   "id": "2026-07-13-149",
    "title": "别再写SQL了！DataBuddy数据工程实践指南来了",
    "topic": "别再写SQL了！DataBuddy数据工程实践指南来了",
    "summary": "面向 Data+AI 的一站式数据开发治理智能体平台（WeData 旗下，DIOps 体系）",
@@ -4501,6 +4571,7 @@
    "link": "https://cloud.tencent.com/developer/article/2708032",
    "verify": "https://blog.csdn.net/cloudbigdata/article/details/162768677",
    "linkSrc": "腾讯云开发者社区（公众号同步）",
+   "src": "community",
    "products": [
     "DataBuddy",
     "WeData"
@@ -4513,7 +4584,7 @@
    "planDate": "7月10日"
   },
   {
-   "id": "2026-07-20-153",
+   "id": "2026-07-20-150",
    "title": "从「人操作工具」到「Agent替人干活」：拆解DataBuddy的三大设计哲学",
    "topic": "从「人操作工具」到「Agent替人干活」：拆解DataBuddy的三大设计哲学",
    "summary": "面向 Data+AI 的一站式数据开发治理智能体平台（WeData 旗下，DIOps 体系）",
@@ -4531,6 +4602,7 @@
    "link": "https://cloud.tencent.com/developer/article/2712712",
    "verify": "https://blog.csdn.net/cloudbigdata/article/details/163035693",
    "linkSrc": "腾讯云开发者社区（公众号同步）",
+   "src": "community",
    "products": [
     "DataBuddy"
    ],
@@ -4542,7 +4614,7 @@
    "planDate": "7月17日"
   },
   {
-   "id": "2026-07-20-154",
+   "id": "2026-07-20-151",
    "title": "越智能，越难运维？数据平台需要新一代系统智能升级",
    "topic": "越智能，越难运维？数据平台需要新一代系统智能升级",
    "summary": "AI 驱动大数据自治运维（调优/运维/预测三 Agent）",
@@ -4559,6 +4631,7 @@
    "link": "https://cloud.tencent.com/developer/article/2712710",
    "verify": "https://blog.csdn.net/cloudbigdata/article/details/163040173",
    "linkSrc": "腾讯云开发者社区（公众号同步）",
+   "src": "community",
    "products": [
     "TCInsight"
    ],
@@ -4570,7 +4643,7 @@
    "planDate": "7月17日"
   },
   {
-   "id": "2026-07-20-155",
+   "id": "2026-07-20-152",
    "title": "让Spark和Ray跑在同一平台：腾讯云AI DLC即将发布",
    "topic": "让Spark和Ray跑在同一平台：腾讯云AI DLC即将发布",
    "summary": "Serverless 数据湖分析与计算服务（Spark + TC-Iceberg + Alluxio）",
@@ -4588,6 +4661,7 @@
    "link": "https://cloud.tencent.com/developer/article/2712709",
    "verify": "",
    "linkSrc": "腾讯云开发者社区（公众号同步）",
+   "src": "community",
    "products": [
     "DLC"
    ],
@@ -4597,7 +4671,7 @@
    ]
   },
   {
-   "id": "2026-07-27-156",
+   "id": "2026-07-27-153",
    "title": "腾讯云发布智能数据湖计算AI DLC  支持Spark和Ray同一平台运行",
    "topic": "发布智能数据湖计算AI DLC  支持Spark和Ray同一平台运行",
    "summary": "Serverless 数据湖分析与计算服务（Spark + TC-Iceberg + Alluxio）",
@@ -4615,6 +4689,7 @@
    "link": "https://cloud.tencent.com/developer/article/2716202",
    "verify": "https://blog.csdn.net/cloudbigdata/article/details/163233087",
    "linkSrc": "腾讯云开发者社区（公众号同步）",
+   "src": "community",
    "products": [
     "DLC"
    ],
@@ -4626,7 +4701,7 @@
    "planDate": "7月25日"
   },
   {
-   "id": "2026-07-28-157",
+   "id": "2026-07-28-154",
    "title": "DataBuddy正式面向海外开放免费体验！",
    "topic": "DataBuddy正式面向海外开放免费体验！",
    "summary": "面向 Data+AI 的一站式数据开发治理智能体平台（WeData 旗下，DIOps 体系）",
@@ -4644,6 +4719,7 @@
    "link": "https://blog.csdn.net/cloudbigdata/article/details/163266062",
    "verify": "https://blog.csdn.net/cloudbigdata/article/details/163266062",
    "linkSrc": "CSDN 官方账号（公众号发布）",
+   "src": "csdn",
    "products": [
     "DataBuddy"
    ],
@@ -4655,7 +4731,7 @@
    "planDate": "7月27日"
   },
   {
-   "id": "2026-08-05-158",
+   "id": "2026-08-05-155",
    "title": "基于Ray构建企业级多模态数据智算平台与一体化实践",
    "topic": "基于Ray构建企业级多模态数据智算平台与一体化实践",
    "summary": "企业级私有化大数据处理套件（湖仓一体 + 金融信创）",
@@ -4673,6 +4749,7 @@
    "link": "https://cloud.tencent.com/developer/article/2721326",
    "verify": "https://blog.csdn.net/cloudbigdata/article/details/163431665",
    "linkSrc": "腾讯云开发者社区（公众号同步）",
+   "src": "community",
    "products": [
     "TBDS"
    ],
@@ -4684,7 +4761,7 @@
    "planDate": "7月31日"
   },
   {
-   "id": "2026-08-05-159",
+   "id": "2026-08-05-156",
    "title": "从多模态数据处理到模型训练：腾讯云EMR-Ray打通Data+AI全流程",
    "topic": "从多模态数据处理到模型训练：腾讯云EMR-Ray打通Data+AI全流程",
    "summary": "面向 Data+AI 的数据智能平台（Hadoop/Spark/Meson/Xpark/TCRay，CPU+GPU 混合调度）",
@@ -4702,6 +4779,7 @@
    "link": "https://cloud.tencent.com/developer/article/2721270",
    "verify": "https://blog.csdn.net/cloudbigdata/article/details/163442196",
    "linkSrc": "腾讯云开发者社区（公众号同步）",
+   "src": "community",
    "products": [
     "EMR",
     "Xpark",
@@ -4715,7 +4793,7 @@
    "planDate": "8月3日"
   },
   {
-   "id": "2026-08-05-160",
+   "id": "2026-08-05-157",
    "title": "腾讯云智能数据湖计算AI DLC发布会回顾：Spark+Ray一体化，面向Agent重构数据底座",
    "topic": "智能数据湖计算AI DLC发布会回顾：Spark+Ray一体化，面向Agent重构数据底座",
    "summary": "Serverless 数据湖分析与计算服务（Spark + TC-Iceberg + Alluxio）",
@@ -4733,6 +4811,7 @@
    "link": "https://cloud.tencent.com/developer/article/2721243",
    "verify": "https://blog.csdn.net/cloudbigdata/article/details/163478756",
    "linkSrc": "腾讯云开发者社区（公众号同步）",
+   "src": "community",
    "products": [
     "DLC",
     "Meson",
@@ -4747,7 +4826,7 @@
    "planDate": "8月4日"
   },
   {
-   "id": "2026-08-07-161",
+   "id": "2026-08-07-158",
    "title": "报名开启｜腾讯云 × Elastic AI搜索技术大会，8月21日深圳见",
    "topic": "报名开启｜腾讯云 × Elastic AI搜索技术大会，8月21日深圳见",
    "summary": "腾讯云大数据跨中心内容（品牌 / 综述 / 行业观点 / 活动）",
@@ -4765,6 +4844,7 @@
    "link": "https://cloud.tencent.com/developer/article/2722478",
    "verify": "",
    "linkSrc": "腾讯云开发者社区（公众号同步）",
+   "src": "community",
    "products": [
     "综合"
    ],
@@ -4776,7 +4856,7 @@
    "planDate": "8月7日"
   },
   {
-   "id": "2026-08-07-162",
+   "id": "2026-08-07-159",
    "title": "腾讯云AI Native数据平台功能发布合集【7月】",
    "topic": "AI Native数据平台功能发布合集【7月】",
    "summary": "腾讯云大数据跨中心内容（品牌 / 综述 / 行业观点 / 活动）",
@@ -4794,6 +4874,7 @@
    "link": "https://cloud.tencent.com/developer/article/2722444",
    "verify": "https://blog.csdn.net/cloudbigdata/article/details/163564463",
    "linkSrc": "腾讯云开发者社区（公众号同步）",
+   "src": "community",
    "products": [
     "TCDataAgent",
     "EMR",
@@ -4807,7 +4888,7 @@
    "planDate": "8月7日"
   },
   {
-   "id": "2026-08-25-163",
+   "id": "2026-08-25-160",
    "title": "腾讯刷新TPC-DS世界纪录，100TB数据分析性能提升10倍",
    "topic": "刷新TPC-DS世界纪录，100TB数据分析性能提升10倍",
    "summary": "腾讯云大数据跨中心内容（品牌 / 综述 / 行业观点 / 活动）",
@@ -4825,6 +4906,7 @@
    "link": "https://cloud.tencent.com/developer/article/2731890",
    "verify": "https://blog.csdn.net/cloudbigdata/article/details/164062042",
    "linkSrc": "腾讯云开发者社区（公众号同步）",
+   "src": "community",
    "products": [
     "DLC"
    ],
@@ -4836,7 +4918,7 @@
    "planDate": "8月18日"
   },
   {
-   "id": "2026-08-25-164",
+   "id": "2026-08-25-161",
    "title": "腾讯云与Elastic战略合作再升级，共筑AI时代上下文基础设施",
    "topic": "与Elastic战略合作再升级，共筑AI时代上下文基础设施",
    "summary": "腾讯云大数据跨中心内容（品牌 / 综述 / 行业观点 / 活动）",
@@ -4854,6 +4936,7 @@
    "link": "https://cloud.tencent.com/developer/article/2731784",
    "verify": "https://blog.csdn.net/cloudbigdata/article/details/164058876",
    "linkSrc": "腾讯云开发者社区（公众号同步）",
+   "src": "community",
    "products": [
     "综合"
    ],
@@ -4865,7 +4948,7 @@
    "planDate": "8月21日"
   },
   {
-   "id": "2026-08-26-165",
+   "id": "2026-08-26-162",
    "title": "AI时代的数据基础设施展望",
    "topic": "AI时代的数据基础设施展望",
    "summary": "腾讯云大数据跨中心内容（品牌 / 综述 / 行业观点 / 活动）",
@@ -4883,6 +4966,7 @@
    "link": "https://cloud.tencent.com/developer/article/2732191",
    "verify": "https://blog.csdn.net/cloudbigdata/article/details/164088419",
    "linkSrc": "腾讯云开发者社区（公众号同步）",
+   "src": "community",
    "products": [
     "综合"
    ],
