@@ -753,8 +753,7 @@
    "products": [
     "TCHouse-X"
    ],
-   "needsReview": true,
-   "reviewReason": "正文未获取（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
+   "needsReview": false,
    "mpLink": "https://mp.weixin.qq.com/s/TsxSM0Jh5rOBcau0n4GYzA",
    "centers": [
     "base"
@@ -1033,7 +1032,7 @@
     "综合"
    ],
    "needsReview": true,
-   "reviewReason": "正文未获取（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
+   "reviewReason": "正文未获取且标题无产品名（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
    "centers": [
     "zonghe"
    ]
@@ -1060,8 +1059,7 @@
    "products": [
     "ES"
    ],
-   "needsReview": true,
-   "reviewReason": "正文未获取（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
+   "needsReview": false,
    "mpLink": "https://mp.weixin.qq.com/s/WOF1MwOyas6V1LiJqobrgg",
    "centers": [
     "base"
@@ -1286,7 +1284,7 @@
     "综合"
    ],
    "needsReview": true,
-   "reviewReason": "正文未获取（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
+   "reviewReason": "正文未获取且标题无产品名（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
    "centers": [
     "zonghe"
    ]
@@ -1425,7 +1423,7 @@
     "腾讯云BI"
    ],
    "needsReview": true,
-   "reviewReason": "正文未获取（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
+   "reviewReason": "正文未获取且标题无产品名（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
    "centers": [
     "wedata"
    ]
@@ -1479,7 +1477,7 @@
     "综合"
    ],
    "needsReview": true,
-   "reviewReason": "正文未获取（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
+   "reviewReason": "正文未获取且标题无产品名（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
    "centers": [
     "zonghe"
    ]
@@ -1565,7 +1563,7 @@
     "综合"
    ],
    "needsReview": true,
-   "reviewReason": "正文未获取（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
+   "reviewReason": "正文未获取且标题无产品名（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
    "centers": [
     "zonghe"
    ]
@@ -1592,8 +1590,7 @@
    "products": [
     "TCInsight"
    ],
-   "needsReview": true,
-   "reviewReason": "正文未获取（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
+   "needsReview": false,
    "mpLink": "https://mp.weixin.qq.com/s/J4Uex_IZ7CBAfZO9fyzRWg",
    "centers": [
     "base"
@@ -1650,7 +1647,7 @@
     "TBDS"
    ],
    "needsReview": true,
-   "reviewReason": "正文未获取（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
+   "reviewReason": "正文未获取且标题无产品名（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
    "centers": [
     "tbds"
    ]
@@ -1704,8 +1701,7 @@
    "products": [
     "WeData"
    ],
-   "needsReview": true,
-   "reviewReason": "正文未获取（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
+   "needsReview": false,
    "mpLink": "https://mp.weixin.qq.com/s/yX_l2dNitj8CPWmDWJfB9Q",
    "centers": [
     "wedata"
@@ -1761,7 +1757,7 @@
     "综合"
    ],
    "needsReview": true,
-   "reviewReason": "正文未获取（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
+   "reviewReason": "正文未获取且标题无产品名（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
    "centers": [
     "zonghe"
    ]
@@ -1844,7 +1840,7 @@
     "综合"
    ],
    "needsReview": true,
-   "reviewReason": "正文未获取（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
+   "reviewReason": "正文未获取且标题无产品名（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
    "centers": [
     "zonghe"
    ]
@@ -1900,7 +1896,7 @@
     "综合"
    ],
    "needsReview": true,
-   "reviewReason": "正文未获取（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
+   "reviewReason": "正文未获取且标题无产品名（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
    "centers": [
     "zonghe"
    ]
@@ -1956,7 +1952,7 @@
     "综合"
    ],
    "needsReview": true,
-   "reviewReason": "正文未获取（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
+   "reviewReason": "正文未获取且标题无产品名（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
    "centers": [
     "zonghe"
    ]
@@ -2000,8 +1996,8 @@
     "RAG",
     "混合搜索"
    ],
-   "productCenter": "wedata",
-   "product": "Oceanus",
+   "productCenter": "base",
+   "product": "ES",
    "date": "2025-05-28",
    "abc": "A",
    "platform": "腾讯云大数据 公众号",
@@ -2009,11 +2005,13 @@
    "verify": "",
    "linkSrc": "企微排期文档（公众号原文）",
    "products": [
+    "ES",
     "Oceanus"
    ],
    "needsReview": false,
    "mpLink": "https://mp.weixin.qq.com/s/kMBleeJ_1ddWCSqu5II9sQ",
    "centers": [
+    "base",
     "wedata"
    ]
   },
@@ -2040,7 +2038,7 @@
     "综合"
    ],
    "needsReview": true,
-   "reviewReason": "正文未获取（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
+   "reviewReason": "正文未获取且标题无产品名（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
    "centers": [
     "zonghe"
    ]
@@ -2068,7 +2066,7 @@
     "综合"
    ],
    "needsReview": true,
-   "reviewReason": "正文未获取（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
+   "reviewReason": "正文未获取且标题无产品名（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
    "centers": [
     "zonghe"
    ]
@@ -2096,7 +2094,7 @@
     "综合"
    ],
    "needsReview": true,
-   "reviewReason": "正文未获取（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
+   "reviewReason": "正文未获取且标题无产品名（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
    "centers": [
     "zonghe"
    ]
@@ -2152,7 +2150,7 @@
     "综合"
    ],
    "needsReview": true,
-   "reviewReason": "正文未获取（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
+   "reviewReason": "正文未获取且标题无产品名（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
    "centers": [
     "zonghe"
    ]
@@ -2180,8 +2178,7 @@
     "TCHouse",
     "TBDS"
    ],
-   "needsReview": true,
-   "reviewReason": "正文未获取（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
+   "needsReview": false,
    "centers": [
     "tbds"
    ]
@@ -2209,7 +2206,7 @@
     "综合"
    ],
    "needsReview": true,
-   "reviewReason": "正文未获取（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
+   "reviewReason": "正文未获取且标题无产品名（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
    "mpLink": "https://mp.weixin.qq.com/s/1aMZay9mUcg6PCe_A2CSxA",
    "centers": [
     "zonghe"
@@ -2266,7 +2263,7 @@
     "DLC"
    ],
    "needsReview": true,
-   "reviewReason": "正文未获取（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
+   "reviewReason": "正文未获取且标题无产品名（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
    "centers": [
     "base"
    ]
@@ -2321,8 +2318,7 @@
    "products": [
     "ChatBI"
    ],
-   "needsReview": true,
-   "reviewReason": "正文未获取（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
+   "needsReview": false,
    "centers": [
     "wedata"
    ]
@@ -2350,7 +2346,7 @@
     "综合"
    ],
    "needsReview": true,
-   "reviewReason": "正文未获取（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
+   "reviewReason": "正文未获取且标题无产品名（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
    "centers": [
     "zonghe"
    ]
@@ -2429,8 +2425,7 @@
    "products": [
     "TCDataAgent"
    ],
-   "needsReview": true,
-   "reviewReason": "正文未获取（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
+   "needsReview": false,
    "centers": [
     "base"
    ]
@@ -2485,7 +2480,7 @@
     "综合"
    ],
    "needsReview": true,
-   "reviewReason": "正文未获取（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
+   "reviewReason": "正文未获取且标题无产品名（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
    "centers": [
     "zonghe"
    ]
@@ -2513,7 +2508,7 @@
     "综合"
    ],
    "needsReview": true,
-   "reviewReason": "正文未获取（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
+   "reviewReason": "正文未获取且标题无产品名（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
    "centers": [
     "zonghe"
    ]
@@ -2654,7 +2649,7 @@
     "TCInsight"
    ],
    "needsReview": true,
-   "reviewReason": "正文未获取（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
+   "reviewReason": "正文未获取且标题无产品名（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
    "centers": [
     "base"
    ]
@@ -2679,8 +2674,7 @@
    "products": [
     "TCHouse"
    ],
-   "needsReview": true,
-   "reviewReason": "正文未获取（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
+   "needsReview": false,
    "centers": [
     "base"
    ]
@@ -2705,8 +2699,7 @@
    "products": [
     "RayData"
    ],
-   "needsReview": true,
-   "reviewReason": "正文未获取（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
+   "needsReview": false,
    "centers": [
     "wedata"
    ]
@@ -2734,7 +2727,7 @@
     "综合"
    ],
    "needsReview": true,
-   "reviewReason": "正文未获取（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
+   "reviewReason": "正文未获取且标题无产品名（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
    "centers": [
     "zonghe"
    ]
@@ -2760,8 +2753,7 @@
    "products": [
     "ChatBI"
    ],
-   "needsReview": true,
-   "reviewReason": "正文未获取（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
+   "needsReview": false,
    "centers": [
     "wedata"
    ]
@@ -2788,8 +2780,7 @@
    "products": [
     "TCHouse-C"
    ],
-   "needsReview": true,
-   "reviewReason": "正文未获取（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
+   "needsReview": false,
    "centers": [
     "base"
    ]
@@ -2817,7 +2808,7 @@
     "综合"
    ],
    "needsReview": true,
-   "reviewReason": "正文未获取（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
+   "reviewReason": "正文未获取且标题无产品名（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
    "centers": [
     "zonghe"
    ]
@@ -2845,7 +2836,7 @@
     "综合"
    ],
    "needsReview": true,
-   "reviewReason": "正文未获取（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
+   "reviewReason": "正文未获取且标题无产品名（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
    "centers": [
     "zonghe"
    ]
@@ -2873,7 +2864,7 @@
     "综合"
    ],
    "needsReview": true,
-   "reviewReason": "正文未获取（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
+   "reviewReason": "正文未获取且标题无产品名（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
    "centers": [
     "zonghe"
    ]
@@ -2901,7 +2892,7 @@
     "综合"
    ],
    "needsReview": true,
-   "reviewReason": "正文未获取（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
+   "reviewReason": "正文未获取且标题无产品名（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
    "centers": [
     "zonghe"
    ]
@@ -2928,8 +2919,7 @@
    "products": [
     "TBDS"
    ],
-   "needsReview": true,
-   "reviewReason": "正文未获取（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
+   "needsReview": false,
    "centers": [
     "tbds"
    ]
@@ -3011,7 +3001,7 @@
     "综合"
    ],
    "needsReview": true,
-   "reviewReason": "正文未获取（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
+   "reviewReason": "正文未获取且标题无产品名（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
    "centers": [
     "zonghe"
    ]
@@ -3038,8 +3028,7 @@
    "products": [
     "TCHouse-C"
    ],
-   "needsReview": true,
-   "reviewReason": "正文未获取（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
+   "needsReview": false,
    "centers": [
     "base"
    ]
@@ -3066,7 +3055,7 @@
     "TCLake"
    ],
    "needsReview": true,
-   "reviewReason": "正文未获取（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
+   "reviewReason": "正文未获取且标题无产品名（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
    "centers": [
     "base"
    ]
@@ -3094,7 +3083,7 @@
     "综合"
    ],
    "needsReview": true,
-   "reviewReason": "正文未获取（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
+   "reviewReason": "正文未获取且标题无产品名（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
    "centers": [
     "zonghe"
    ]
@@ -3121,8 +3110,7 @@
    "products": [
     "WeData"
    ],
-   "needsReview": true,
-   "reviewReason": "正文未获取（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
+   "needsReview": false,
    "centers": [
     "wedata"
    ]
@@ -3150,7 +3138,7 @@
     "综合"
    ],
    "needsReview": true,
-   "reviewReason": "正文未获取（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
+   "reviewReason": "正文未获取且标题无产品名（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
    "centers": [
     "zonghe"
    ]
@@ -3178,7 +3166,7 @@
     "综合"
    ],
    "needsReview": true,
-   "reviewReason": "正文未获取（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
+   "reviewReason": "正文未获取且标题无产品名（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
    "centers": [
     "zonghe"
    ]
@@ -3206,7 +3194,7 @@
     "综合"
    ],
    "needsReview": true,
-   "reviewReason": "正文未获取（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
+   "reviewReason": "正文未获取且标题无产品名（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
    "centers": [
     "zonghe"
    ]
@@ -3233,8 +3221,7 @@
    "products": [
     "TCHouse-C"
    ],
-   "needsReview": true,
-   "reviewReason": "正文未获取（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
+   "needsReview": false,
    "centers": [
     "base"
    ]
@@ -3287,8 +3274,7 @@
    "products": [
     "Meson"
    ],
-   "needsReview": true,
-   "reviewReason": "正文未获取（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
+   "needsReview": false,
    "centers": [
     "base"
    ]
@@ -3315,7 +3301,7 @@
     "TCDataAgent"
    ],
    "needsReview": true,
-   "reviewReason": "正文未获取（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
+   "reviewReason": "正文未获取且标题无产品名（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
    "centers": [
     "base"
    ]
@@ -3342,8 +3328,7 @@
    "products": [
     "TBDS"
    ],
-   "needsReview": true,
-   "reviewReason": "正文未获取（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
+   "needsReview": false,
    "centers": [
     "tbds"
    ]
@@ -3397,8 +3382,7 @@
    "products": [
     "TBDS"
    ],
-   "needsReview": true,
-   "reviewReason": "正文未获取（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
+   "needsReview": false,
    "centers": [
     "tbds"
    ]
@@ -3426,7 +3410,7 @@
     "综合"
    ],
    "needsReview": true,
-   "reviewReason": "正文未获取（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
+   "reviewReason": "正文未获取且标题无产品名（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
    "centers": [
     "zonghe"
    ]
@@ -3454,7 +3438,7 @@
     "综合"
    ],
    "needsReview": true,
-   "reviewReason": "正文未获取（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
+   "reviewReason": "正文未获取且标题无产品名（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
    "centers": [
     "zonghe"
    ]
@@ -3482,7 +3466,7 @@
     "综合"
    ],
    "needsReview": true,
-   "reviewReason": "正文未获取（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
+   "reviewReason": "正文未获取且标题无产品名（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
    "centers": [
     "zonghe"
    ]
@@ -3510,7 +3494,7 @@
     "综合"
    ],
    "needsReview": true,
-   "reviewReason": "正文未获取（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
+   "reviewReason": "正文未获取且标题无产品名（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
    "centers": [
     "zonghe"
    ]
@@ -3538,7 +3522,7 @@
     "综合"
    ],
    "needsReview": true,
-   "reviewReason": "正文未获取（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
+   "reviewReason": "正文未获取且标题无产品名（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
    "centers": [
     "zonghe"
    ]
@@ -3566,7 +3550,7 @@
     "WeData"
    ],
    "needsReview": true,
-   "reviewReason": "正文未获取（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
+   "reviewReason": "正文未获取且标题无产品名（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
    "centers": [
     "wedata"
    ]
@@ -3593,8 +3577,7 @@
     "TCLake",
     "EMR"
    ],
-   "needsReview": true,
-   "reviewReason": "正文未获取（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
+   "needsReview": false,
    "centers": [
     "base"
    ]
@@ -3648,8 +3631,7 @@
    "products": [
     "WeData"
    ],
-   "needsReview": true,
-   "reviewReason": "正文未获取（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
+   "needsReview": false,
    "centers": [
     "wedata"
    ]
@@ -3677,7 +3659,7 @@
     "ES"
    ],
    "needsReview": true,
-   "reviewReason": "正文未获取（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
+   "reviewReason": "正文未获取且标题无产品名（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
    "centers": [
     "base"
    ]
@@ -3731,8 +3713,7 @@
    "products": [
     "WeData"
    ],
-   "needsReview": true,
-   "reviewReason": "正文未获取（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
+   "needsReview": false,
    "centers": [
     "wedata"
    ]
@@ -3758,8 +3739,7 @@
    "products": [
     "TCDataAgent"
    ],
-   "needsReview": true,
-   "reviewReason": "正文未获取（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
+   "needsReview": false,
    "centers": [
     "base"
    ]
@@ -3786,8 +3766,7 @@
    "products": [
     "WeData"
    ],
-   "needsReview": true,
-   "reviewReason": "正文未获取（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
+   "needsReview": false,
    "centers": [
     "wedata"
    ]
@@ -3814,8 +3793,7 @@
    "products": [
     "TCHouse-D"
    ],
-   "needsReview": true,
-   "reviewReason": "正文未获取（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
+   "needsReview": false,
    "centers": [
     "base"
    ]
@@ -3842,8 +3820,7 @@
    "products": [
     "ES"
    ],
-   "needsReview": true,
-   "reviewReason": "正文未获取（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
+   "needsReview": false,
    "centers": [
     "base"
    ]
@@ -3870,8 +3847,7 @@
    "products": [
     "WeData"
    ],
-   "needsReview": true,
-   "reviewReason": "正文未获取（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
+   "needsReview": false,
    "centers": [
     "wedata"
    ]
@@ -3899,7 +3875,7 @@
     "综合"
    ],
    "needsReview": true,
-   "reviewReason": "正文未获取（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
+   "reviewReason": "正文未获取且标题无产品名（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
    "centers": [
     "zonghe"
    ]
@@ -3954,7 +3930,7 @@
     "综合"
    ],
    "needsReview": true,
-   "reviewReason": "正文未获取（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
+   "reviewReason": "正文未获取且标题无产品名（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
    "centers": [
     "zonghe"
    ]
@@ -4656,8 +4632,7 @@
    "products": [
     "DataBuddy"
    ],
-   "needsReview": true,
-   "reviewReason": "正文未获取（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
+   "needsReview": false,
    "centers": [
     "wedata"
    ]
