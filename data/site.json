@@ -4305,7 +4305,7 @@
    "abc": "B",
    "platform": "腾讯云大数据 公众号",
    "link": "https://cloud.tencent.com/developer/article/2696189",
-   "verify": "",
+   "verify": "https://blog.csdn.net/cloudbigdata/article/details/162635388",
    "linkSrc": "腾讯云开发者社区（公众号同步）",
    "products": [
     "TBDS"
@@ -4313,7 +4313,9 @@
    "needsReview": false,
    "centers": [
     "tbds"
-   ]
+   ],
+   "mpLink": "https://mp.weixin.qq.com/s/Mj60BCNb5dq_ozvYVobH3Q",
+   "planDate": "2026-06-18"
   },
   {
    "id": "2026-07-06-146",
@@ -4412,7 +4414,7 @@
    "abc": "B",
    "platform": "腾讯云大数据 公众号",
    "link": "https://cloud.tencent.com/developer/article/2703714",
-   "verify": "",
+   "verify": "https://blog.csdn.net/cloudbigdata/article/details/162556410",
    "linkSrc": "腾讯云开发者社区（公众号同步）",
    "products": [
     "TCDataAgent"
@@ -4420,7 +4422,9 @@
    "needsReview": false,
    "centers": [
     "base"
-   ]
+   ],
+   "mpLink": "https://mp.weixin.qq.com/s/rBHKGCWiRE-GLe1IWfsXZg",
+   "planDate": "7月3日"
   },
   {
    "id": "2026-07-06-150",
@@ -4474,7 +4478,9 @@
    "needsReview": false,
    "centers": [
     "base"
-   ]
+   ],
+   "mpLink": "https://mp.weixin.qq.com/s/_7FGipp5P6PlMIeGdfIXWQ",
+   "planDate": "7月10日"
   },
   {
    "id": "2026-07-13-152",
@@ -4493,15 +4499,18 @@
    "abc": "B",
    "platform": "腾讯云大数据 公众号",
    "link": "https://cloud.tencent.com/developer/article/2708032",
-   "verify": "",
+   "verify": "https://blog.csdn.net/cloudbigdata/article/details/162768677",
    "linkSrc": "腾讯云开发者社区（公众号同步）",
    "products": [
-    "DataBuddy"
+    "DataBuddy",
+    "WeData"
    ],
    "needsReview": false,
    "centers": [
     "wedata"
-   ]
+   ],
+   "mpLink": "https://mp.weixin.qq.com/s/apxwLtTcpNwJsdw22VTkMA",
+   "planDate": "7月10日"
   },
   {
    "id": "2026-07-20-153",
@@ -4520,7 +4529,7 @@
    "abc": "B",
    "platform": "腾讯云大数据 公众号",
    "link": "https://cloud.tencent.com/developer/article/2712712",
-   "verify": "",
+   "verify": "https://blog.csdn.net/cloudbigdata/article/details/163035693",
    "linkSrc": "腾讯云开发者社区（公众号同步）",
    "products": [
     "DataBuddy"
@@ -4528,7 +4537,9 @@
    "needsReview": false,
    "centers": [
     "wedata"
-   ]
+   ],
+   "mpLink": "https://mp.weixin.qq.com/s/8A4CEo7gVG-AuCvz0ekFDQ",
+   "planDate": "7月17日"
   },
   {
    "id": "2026-07-20-154",
@@ -4546,7 +4557,7 @@
    "abc": "B",
    "platform": "腾讯云大数据 公众号",
    "link": "https://cloud.tencent.com/developer/article/2712710",
-   "verify": "",
+   "verify": "https://blog.csdn.net/cloudbigdata/article/details/163040173",
    "linkSrc": "腾讯云开发者社区（公众号同步）",
    "products": [
     "TCInsight"
@@ -4554,7 +4565,9 @@
    "needsReview": false,
    "centers": [
     "base"
-   ]
+   ],
+   "mpLink": "https://mp.weixin.qq.com/s/KU3BXnizPVlFxEwXJjVOdg",
+   "planDate": "7月17日"
   },
   {
    "id": "2026-07-20-155",
@@ -4600,7 +4613,7 @@
    "abc": "B",
    "platform": "腾讯云大数据 公众号",
    "link": "https://cloud.tencent.com/developer/article/2716202",
-   "verify": "",
+   "verify": "https://blog.csdn.net/cloudbigdata/article/details/163233087",
    "linkSrc": "腾讯云开发者社区（公众号同步）",
    "products": [
     "DLC"
@@ -4608,7 +4621,9 @@
    "needsReview": false,
    "centers": [
     "base"
-   ]
+   ],
+   "mpLink": "https://mp.weixin.qq.com/s/2fzXphZNs_2NjuQ0SWaM4A",
+   "planDate": "7月25日"
   },
   {
    "id": "2026-07-28-157",
@@ -4627,7 +4642,7 @@
    "abc": "B",
    "platform": "腾讯云大数据 公众号",
    "link": "https://blog.csdn.net/cloudbigdata/article/details/163266062",
-   "verify": "",
+   "verify": "https://blog.csdn.net/cloudbigdata/article/details/163266062",
    "linkSrc": "CSDN 官方账号（公众号发布）",
    "products": [
     "DataBuddy"
@@ -4635,7 +4650,9 @@
    "needsReview": false,
    "centers": [
     "wedata"
-   ]
+   ],
+   "mpLink": "https://mp.weixin.qq.com/s/g2KcQCRBy5S9PXcFvdPh6g",
+   "planDate": "7月27日"
   },
   {
    "id": "2026-08-05-158",
@@ -4654,7 +4671,7 @@
    "abc": "B",
    "platform": "腾讯云大数据 公众号",
    "link": "https://cloud.tencent.com/developer/article/2721326",
-   "verify": "",
+   "verify": "https://blog.csdn.net/cloudbigdata/article/details/163431665",
    "linkSrc": "腾讯云开发者社区（公众号同步）",
    "products": [
     "TBDS"
@@ -4662,7 +4679,9 @@
    "needsReview": false,
    "centers": [
     "tbds"
-   ]
+   ],
+   "mpLink": "https://mp.weixin.qq.com/s/LNt5ucU97foWL2EW_ORqUw?scene=1",
+   "planDate": "7月31日"
   },
   {
    "id": "2026-08-05-159",
@@ -4681,7 +4700,7 @@
    "abc": "B",
    "platform": "腾讯云大数据 公众号",
    "link": "https://cloud.tencent.com/developer/article/2721270",
-   "verify": "",
+   "verify": "https://blog.csdn.net/cloudbigdata/article/details/163442196",
    "linkSrc": "腾讯云开发者社区（公众号同步）",
    "products": [
     "EMR",
@@ -4691,7 +4710,9 @@
    "needsReview": false,
    "centers": [
     "base"
-   ]
+   ],
+   "mpLink": "https://mp.weixin.qq.com/s/Ce6Q6G71O-H6a1azuC_xUA",
+   "planDate": "8月3日"
   },
   {
    "id": "2026-08-05-160",
@@ -4710,7 +4731,7 @@
    "abc": "B",
    "platform": "腾讯云大数据 公众号",
    "link": "https://cloud.tencent.com/developer/article/2721243",
-   "verify": "",
+   "verify": "https://blog.csdn.net/cloudbigdata/article/details/163478756",
    "linkSrc": "腾讯云开发者社区（公众号同步）",
    "products": [
     "DLC",
@@ -4721,7 +4742,9 @@
    "needsReview": false,
    "centers": [
     "base"
-   ]
+   ],
+   "mpLink": "https://mp.weixin.qq.com/s/gUlMqd7N2i8dSOS36IcBbQ",
+   "planDate": "8月4日"
   },
   {
    "id": "2026-08-07-161",
@@ -4748,7 +4771,9 @@
    "needsReview": false,
    "centers": [
     "zonghe"
-   ]
+   ],
+   "mpLink": "https://mp.weixin.qq.com/s/n5JArCNSOIYuODjB5V621g",
+   "planDate": "8月7日"
   },
   {
    "id": "2026-08-07-162",
@@ -4767,7 +4792,7 @@
    "abc": "B",
    "platform": "腾讯云大数据 公众号",
    "link": "https://cloud.tencent.com/developer/article/2722444",
-   "verify": "",
+   "verify": "https://blog.csdn.net/cloudbigdata/article/details/163564463",
    "linkSrc": "腾讯云开发者社区（公众号同步）",
    "products": [
     "TCDataAgent",
@@ -4777,7 +4802,9 @@
    "needsReview": false,
    "centers": [
     "base"
-   ]
+   ],
+   "mpLink": "https://mp.weixin.qq.com/s/4rSFkIEy0nEgqV5uEwl0fg",
+   "planDate": "8月7日"
   },
   {
    "id": "2026-08-25-163",
@@ -4796,7 +4823,7 @@
    "abc": "B",
    "platform": "腾讯云大数据 公众号",
    "link": "https://cloud.tencent.com/developer/article/2731890",
-   "verify": "",
+   "verify": "https://blog.csdn.net/cloudbigdata/article/details/164062042",
    "linkSrc": "腾讯云开发者社区（公众号同步）",
    "products": [
     "DLC"
@@ -4804,7 +4831,9 @@
    "needsReview": false,
    "centers": [
     "base"
-   ]
+   ],
+   "mpLink": "https://mp.weixin.qq.com/s/gYijI2TU_s7mqnXD5Z8UnQ",
+   "planDate": "8月18日"
   },
   {
    "id": "2026-08-25-164",
@@ -4823,7 +4852,7 @@
    "abc": "B",
    "platform": "腾讯云大数据 公众号",
    "link": "https://cloud.tencent.com/developer/article/2731784",
-   "verify": "",
+   "verify": "https://blog.csdn.net/cloudbigdata/article/details/164058876",
    "linkSrc": "腾讯云开发者社区（公众号同步）",
    "products": [
     "综合"
@@ -4831,7 +4860,9 @@
    "needsReview": false,
    "centers": [
     "zonghe"
-   ]
+   ],
+   "mpLink": "https://mp.weixin.qq.com/s/XKyNfDvtGf0uTcTC59swrg",
+   "planDate": "8月21日"
   },
   {
    "id": "2026-08-26-165",
@@ -4850,7 +4881,7 @@
    "abc": "B",
    "platform": "腾讯云大数据 公众号",
    "link": "https://cloud.tencent.com/developer/article/2732191",
-   "verify": "",
+   "verify": "https://blog.csdn.net/cloudbigdata/article/details/164088419",
    "linkSrc": "腾讯云开发者社区（公众号同步）",
    "products": [
     "综合"
@@ -4858,7 +4889,9 @@
    "needsReview": false,
    "centers": [
     "zonghe"
-   ]
+   ],
+   "mpLink": "https://mp.weixin.qq.com/s/nQTjkVCm0nMeM3U8l7AfPA",
+   "planDate": "8月14日"
   }
  ]
 }
