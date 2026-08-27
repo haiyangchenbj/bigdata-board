@@ -428,15 +428,14 @@
       "id": "2024-07-01-006",
       "title": "腾讯云首发大数据高性能计算引擎Meson，支持三大产品线性能升级",
       "topic": "首发大数据高性能计算引擎Meson，支持三大产品线性能升级",
-      "summary": "面向 Data+AI 的数据智能平台（Hadoop/Spark/Meson/Xpark/TCRay，CPU+GPU 混合调度）",
+      "summary": "自研高性能向量化查询引擎（Spark 无感加速，TPCDS 2.7x）",
       "tags": [
         "品牌发布",
-        "存算分离",
-        "弹性伸缩",
-        "Meson引擎"
+        "向量化引擎",
+        "Spark加速"
       ],
       "productCenter": "base",
-      "product": "EMR",
+      "product": "Meson",
       "date": "2024-07-01",
       "abc": "B",
       "platform": "腾讯云大数据 公众号",
@@ -2420,15 +2419,14 @@
       "id": "2025-10-17-107",
       "title": "腾讯云助力火花思维成功升级高性能向量化计算引擎Meson",
       "topic": "助力火花思维成功升级高性能向量化计算引擎Meson",
-      "summary": "Serverless 数据湖分析与计算服务（Spark + TC-Iceberg + Alluxio）　渠道：腾讯云大大数据",
+      "summary": "自研高性能向量化查询引擎（Spark 无感加速，TPCDS 2.7x）　渠道：腾讯云大大数据",
       "tags": [
         "技术干货",
-        "实时湖仓",
-        "Iceberg",
-        "Serverless"
+        "向量化引擎",
+        "Spark加速"
       ],
       "productCenter": "base",
-      "product": "DLC",
+      "product": "Meson",
       "date": "2025-10-17",
       "abc": "C",
       "platform": "腾讯云大数据 公众号",
