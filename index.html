@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>腾讯云大数据 · 内容营销参考看板（内部参考）</title>
+<style>
+  :root{
+    --blue:#0052D9; --blue-2:#2b6fe0; --blue-soft:#E8F0FE; --ink:#1f2329; --sub:#646a73;
+    --line:#e5e6eb; --bg:#f5f7fa; --card:#fff; --weak:#c9cdd4; --gray:#86909c;
+    --green:#00a870; --orange:#ff8800; --purple:#6f42c1; --red:#e34d59;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:-apple-system,"PingFang SC","Microsoft YaHei",Segoe UI,Roboto,sans-serif;
+    color:var(--ink);background:var(--bg);font-size:14px;line-height:1.6}
+  header{background:linear-gradient(135deg,#0052D9,#2b6fe0);color:#fff;padding:18px 28px}
+  header h1{font-size:19px;font-weight:600;letter-spacing:.4px;display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+  header .src{font-size:12px;background:rgba(255,255,255,.16);padding:3px 11px;border-radius:12px}
+  header .sub{font-size:13px;opacity:.92;margin-top:6px;max-width:980px;line-height:1.55}
+  /* 统计条（内容库参考，弱化大数字） */
+  .stats{display:flex;gap:18px;flex-wrap:wrap;padding:10px 28px 0;color:var(--sub)}
+  .stat{display:flex;align-items:baseline;gap:5px;background:none;border:none;padding:0;min-width:0}
+  .stat .n{font-size:15px;font-weight:600;color:var(--ink);line-height:1.1}
+  .stat .l{font-size:12px;color:var(--sub)}
+  /* 主体两栏 */
+  .body{display:grid;grid-template-columns:260px 1fr;gap:0;align-items:start;margin-top:14px}
+  @media(max-width:860px){.body{grid-template-columns:1fr}}
+  /* 左侧产品中心树 */
+  aside{background:#fff;border-right:1px solid var(--line);padding:14px 10px;align-self:stretch;min-height:calc(100vh - 170px);position:sticky;top:0;overflow:auto}
+  @media(max-width:860px){aside{position:static;border-right:none;border-bottom:1px solid var(--line);min-height:auto}}
+  .tree-h{font-size:12px;color:var(--sub);font-weight:600;padding:4px 10px 8px}
+  .pc{margin-bottom:4px}
+  .pc-btn{width:100%;text-align:left;background:none;border:none;font-family:inherit;font-size:13.5px;
+    color:var(--ink);padding:9px 10px;border-radius:8px;cursor:pointer;display:flex;justify-content:space-between;align-items:center;font-weight:600}
+  .pc-btn:hover{background:var(--blue-soft)}
+  .pc-btn.on{background:var(--blue);color:#fff}
+  .pc-btn .cnt{font-size:11px;opacity:.8;font-weight:600}
+  .pc-children{margin:2px 0 6px 8px;border-left:2px solid var(--line);padding-left:6px;display:none}
+  .pc.open .pc-children{display:block}
+  .prod-btn{width:100%;text-align:left;background:none;border:none;font-family:inherit;font-size:12.5px;
+    color:var(--sub);padding:6px 10px;border-radius:7px;cursor:pointer;display:flex;justify-content:space-between;align-items:center}
+  .prod-btn:hover{background:var(--bg);color:var(--blue)}
+  .prod-btn.on{background:var(--blue-soft);color:var(--blue);font-weight:600}
+  .prod-btn .cnt{font-size:10.5px;opacity:.85}
+  .all-btn{width:100%;text-align:left;background:none;border:none;font-family:inherit;font-size:13.5px;
+    color:var(--ink);padding:9px 10px;border-radius:8px;cursor:pointer;font-weight:600;margin-bottom:8px;display:flex;justify-content:space-between}
+  .all-btn:hover{background:var(--blue-soft);color:var(--blue)}
+  .all-btn.on{background:var(--blue);color:#fff}
+  /* 综合（跨中心，高于产品中心）分组 */
+  .tree-sep{font-size:11px;color:var(--weak);text-align:center;margin:10px 4px 6px;letter-spacing:1px}
+  .pc-zonghe > .pc-btn{background:#f3f5f9;color:var(--ink);border:1px dashed var(--line)}
+  .pc-zonghe > .pc-btn.on{background:var(--blue);color:#fff;border-style:solid}
+  /* 右侧内容 */
+  main{padding:4px 22px 40px}
+  .toolbar{background:#fff;border:1px solid var(--line);border-radius:10px;padding:12px 14px;margin-bottom:14px;
+    display:flex;gap:10px;flex-wrap:wrap;align-items:center;position:sticky;top:0;z-index:10}
+  .toolbar input[type=search]{flex:1;min-width:200px;font-family:inherit;font-size:13.5px;padding:9px 12px;
+    border:1px solid var(--line);border-radius:8px;color:var(--ink)}
+  .toolbar input[type=search]:focus{outline:none;border-color:var(--blue)}
+  .toolbar .sort{font-family:inherit;font-size:13px;padding:9px 11px;border:1px solid var(--line);border-radius:8px;background:#fff;color:var(--ink);cursor:pointer}
+  .toolbar .reset{font-size:12.5px;padding:9px 13px;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--sub);cursor:pointer}
+  .toolbar .cnt{font-size:12.5px;color:var(--sub);margin-left:auto;white-space:nowrap}
+  .crumb{font-size:13px;color:var(--sub);margin:2px 2px 12px}
+  .crumb b{color:var(--blue)}
+  /* 标签筛选区 */
+  .tagbar{display:flex;gap:7px;flex-wrap:wrap;margin-bottom:14px}
+  .tagbar .tag{font-size:12px;background:#fff;border:1px solid var(--line);color:var(--sub);padding:4px 11px;border-radius:12px;cursor:pointer}
+  .tagbar .tag:hover{border-color:var(--blue);color:var(--blue)}
+  .tagbar .tag.on{background:var(--blue);color:#fff;border-color:var(--blue)}
+  /* 卡片网格 */
+  .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(330px,1fr));gap:14px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:11px;padding:16px 17px;transition:.15s;display:flex;flex-direction:column}
+  .card:hover{border-color:var(--blue);box-shadow:0 3px 12px rgba(0,82,217,.10)}
+  .card .pcbadge{display:inline-block;font-size:11px;font-weight:600;color:var(--blue);background:var(--blue-soft);padding:2px 9px;border-radius:10px;margin-bottom:8px;align-self:flex-start}
+  .card h3{font-size:15px;font-weight:600;line-height:1.45;margin-bottom:7px}
+  .card h3 a{color:var(--ink);text-decoration:none}
+  .card h3 a:hover{color:var(--blue)}
+  .card .topic{font-size:12.5px;color:var(--purple);font-weight:600;margin-bottom:7px}
+  .card .sum{font-size:13px;color:var(--sub);line-height:1.7;flex:1;margin-bottom:11px;
+    display:-webkit-box;-webkit-line-clamp:4;-webkit-box-orient:vertical;overflow:hidden}
+  .card .tags{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:11px}
+  .card .tags span{font-size:11px;background:#f2f3f5;color:var(--gray);padding:2px 9px;border-radius:10px}
+  .card .foot{display:flex;justify-content:space-between;align-items:center;font-size:12px;color:var(--gray);border-top:1px dashed var(--line);padding-top:10px}
+  .card .foot .pl{background:#eafaf2;color:var(--green);padding:1px 8px;border-radius:9px;font-weight:600}
+  .card .foot a{color:var(--blue);text-decoration:none;font-weight:600}
+  .card .foot a:hover{text-decoration:underline}
+  .card .foot .links{display:flex;gap:12px;align-items:center}
+  .card .foot a.vrf{color:var(--green);font-weight:600}
+  .card .foot a.vrf:hover{text-decoration:underline}
+  .empty{color:var(--sub);padding:40px;text-align:center;font-size:14px}
+  footer{text-align:center;color:var(--gray);font-size:12px;padding:22px}
+  .badge-upd{font-size:11px;color:var(--gray);margin-left:6px}
+  /* 视图切换 */
+  .viewbar{display:flex;gap:8px;padding:0 28px 12px}
+  .viewbar .vbtn{font-family:inherit;font-size:13px;padding:8px 16px;border:1px solid var(--line);
+    background:#fff;color:var(--sub);border-radius:8px;cursor:pointer;font-weight:600;display:flex;align-items:center;gap:6px}
+  .viewbar .vbtn:hover{color:var(--blue);border-color:var(--blue)}
+  .viewbar .vbtn.on{background:var(--blue);color:#fff;border-color:var(--blue)}
+  /* 统计看板 */
+  .statsview{display:none;padding:6px 22px 40px}
+  .statsview.on{display:block}
+  .panel{background:#fff;border:1px solid var(--line);border-radius:12px;padding:18px 20px;margin-bottom:16px}
+  .panel h2{font-size:15px;font-weight:600;margin-bottom:4px;display:flex;align-items:center;gap:8px}
+  .panel .ph-sub{font-size:12px;color:var(--sub);margin-bottom:14px}
+  .cards2{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+  @media(max-width:860px){.cards2{grid-template-columns:1fr}}
+  .charts{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px}
+  .chartbox{background:#fff;border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+  .chartbox h3{font-size:14px;font-weight:600;margin-bottom:10px}
+  .legend{display:flex;gap:14px;flex-wrap:wrap;margin-top:10px;font-size:12px;color:var(--sub)}
+  .legend i{display:inline-block;width:11px;height:11px;border-radius:3px;margin-right:5px;vertical-align:middle}
+  .hbar{display:flex;flex-direction:column;gap:9px}
+  .hbar .row{display:grid;grid-template-columns:108px 1fr 38px;align-items:center;gap:10px;font-size:12.5px}
+  .hbar .row .nm{color:var(--ink);text-align:right;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .hbar .row .bar{height:16px;background:var(--blue-soft);border-radius:8px;position:relative;overflow:hidden}
+  .hbar .row .bar > span{position:absolute;left:0;top:0;bottom:0;background:var(--blue);border-radius:8px}
+  .hbar .row .ct{color:var(--sub);font-weight:600;text-align:right}
+  .donut-wrap{display:flex;align-items:center;gap:18px}
+  .donut-center{font-size:12px;color:var(--sub);text-anchor:middle}
+  .donut-center .big{font-size:21px;font-weight:700;fill:var(--ink)}
+  .tagcloud{display:flex;gap:9px;flex-wrap:wrap}
+  .tagcloud .t{font-size:12.5px;border:1px solid var(--line);border-radius:14px;padding:4px 13px;color:var(--sub);cursor:pointer}
+  .tagcloud .t:hover{border-color:var(--blue);color:var(--blue)}
+  .tagcloud .t.on{background:var(--blue);color:#fff;border-color:var(--blue)}
+  svg text{font-family:inherit}
+</style>
+</head>
+<body>
+<header>
+  <h1>腾讯云大数据 · 内容营销参考看板 <span class="src" id="srcBadge">腾讯云大数据 公众号</span></h1>
+  <p class="sub" id="subText"></p>
+</header>
+
+<div class="stats" id="stats"></div>
+
+<div class="viewbar">
+  <button class="vbtn on" id="vCards" onclick="switchView('cards')">🗂 卡片看板</button>
+  <button class="vbtn" id="vStats" onclick="switchView('stats')">📊 统计看板</button>
+</div>
+
+<!-- 统计看板（图示） -->
+<div class="statsview" id="statsView"></div>
+
+<div class="body">
+  <aside>
+    <div class="tree-h">按产品中心 / 跨中心综合</div>
+    <button class="all-btn" id="allBtn">全部文章 <span class="cnt" id="allCnt"></span></button>
+    <div id="tree"></div>
+  </aside>
+
+  <main>
+    <div class="toolbar">
+      <input type="search" id="search" placeholder="搜索标题 / 主题 / 摘要 / 标签…" oninput="applyFilters()">
+      <select class="sort" id="sort" onchange="applyFilters()">
+        <option value="date_desc">最新发布</option>
+        <option value="date_asc">最早发布</option>
+        <option value="title">标题 A→Z</option>
+      </select>
+      <button class="reset" onclick="resetFilters()">重置筛选</button>
+      <span class="cnt" id="resultCnt"></span>
+    </div>
+    <div class="crumb" id="crumb"></div>
+    <div class="tagbar" id="tagbar"></div>
+    <div class="grid" id="grid"></div>
+  </main>
+</div>
+
+<footer>腾讯云大数据 · 内容营销参考看板（内部参考）｜ 内容严格限定腾讯云大数据官方发布渠道（公众号 / 开发者社区 / CSDN 官方账号）</footer>
+
+<script>
+let DATA=null, state={pc:null, prod:null, tag:null, q:""};
+
+fetch('./data/site.json')
+  .then(r=>r.json())
+  .then(D=>{DATA=D; boot();})
+  .catch(e=>{document.body.innerHTML='<p style="padding:40px">数据加载失败：'+e.message+'。请通过本地服务器或云托管访问（data/site.json 需同域可访问）。</p>';});
+
+const PC_NAME = ()=>{const m=Object.fromEntries(DATA.productCenters.map(p=>[p.id,p.name])); if(DATA.comprehensive) m[DATA.comprehensive.id]=DATA.comprehensive.name; return m;};
+const PROD_NAME = ()=>{const m={};const all=(DATA.comprehensive?[DATA.comprehensive]:[]).concat(DATA.productCenters); all.forEach(p=>p.products.forEach(pr=>m[pr.id]=pr.name));return m;};
+// 链接按真实渠道命名（不写模糊的"交叉验证"）
+function chLabel(url){
+  if(!url) return '暂无原文链接';
+  if(url.indexOf('mp.weixin.qq.com')>=0) return '微信公众号原文';
+  if(url.indexOf('cloud.tencent.com/developer/article')>=0) return '腾讯云开发者社区';
+  if(url.indexOf('cloud.tencent.com/developer')>=0) return '腾讯云开发者社区';
+  if(url.indexOf('blog.csdn.net/cloudbigdata')>=0) return 'CSDN 官方账号';
+  try{ return new URL(url).hostname.replace('www.',''); }catch(e){ return url; }
+}
+
+function boot(){
+  document.getElementById('srcBadge').textContent = DATA.meta.source || '腾讯云大数据 公众号';
+  document.getElementById('subText').textContent = DATA.meta.subtitle + (DATA.meta.updated?('　|　更新于 '+DATA.meta.updated):'');
+  buildStats();
+  buildTree();
+  buildTagBar();
+  buildStatsView();
+  applyFilters();
+}
+
+function switchView(v){
+  const cards = v==='cards';
+  document.getElementById('vCards').classList.toggle('on', cards);
+  document.getElementById('vStats').classList.toggle('on', !cards);
+  document.querySelector('.body').style.display = cards ? 'grid' : 'none';
+  document.getElementById('statsView').classList.toggle('on', !cards);
+}
+
+function buildStats(){
+  const arts=DATA.articles;
+  const tags=new Set(); arts.forEach(a=>(a.tags||[]).forEach(t=>tags.add(t)));
+  const centers=DATA.productCenters.length;
+  const products=DATA.productCenters.reduce((n,p)=>n+p.products.length,0);
+  const stats=[
+    {n:arts.length, l:'文章总数'},
+    {n:centers, l:'产品中心'},
+    {n:products, l:'产品线'},
+    {n:tags.size, l:'标签数'}
+  ];
+  document.getElementById('stats').innerHTML = stats.map(s=>
+    `<div class="stat"><div class="n">${s.n}</div><div class="l">${s.l}</div></div>`).join('');
+}
+
+function buildStatsView(){
+  const arts=DATA.articles;
+  const pcN=PC_NAME();
+  // 1) 内容分布（环形）：3 产品中心 + 跨中心综合
+  const groups=(DATA.comprehensive?[DATA.comprehensive]:[]).concat(DATA.productCenters);
+  const cc={}; groups.forEach(g=>cc[g.id]=0);
+  arts.forEach(a=>{cc[a.productCenter]=(cc[a.productCenter]||0)+1;});
+  const palette={'base':'#0052D9','wedata':'#00a870','tbds':'#ff8800','zonghe':'#86909c'};
+  const colors=groups.map(g=>palette[g.id]||'#86909c');
+  const total=arts.length;
+  let acc=0, R=52, r=34, cx=70, cy=70, segs='';
+  groups.forEach((g,i)=>{
+    const v=cc[g.id]||0, frac=v/total;
+    const a0=acc*2*Math.PI - Math.PI/2, a1=(acc+frac)*2*Math.PI - Math.PI/2;
+    acc+=frac;
+    if(v===0) return;
+    const large = frac>0.5?1:0;
+    const x0=cx+R*Math.cos(a0), y0=cy+R*Math.sin(a0);
+    const x1=cx+R*Math.cos(a1), y1=cy+R*Math.sin(a1);
+    const xi1=cx+r*Math.cos(a1), yi1=cy+r*Math.sin(a1);
+    const xi0=cx+r*Math.cos(a0), yi0=cy+r*Math.sin(a0);
+    segs+=`<path d="M${x0} ${y0} A${R} ${R} 0 ${large} 1 ${x1} ${y1} L${xi1} ${yi1} A${r} ${r} 0 ${large} 0 ${xi0} ${yi0} Z" fill="${colors[i]}"/>`;
+  });
+  const donut=`<div class="donut-wrap">
+      <svg width="140" height="140" viewBox="0 0 140 140">${segs}
+        <text class="donut-center" x="70" y="66"><tspan class="big">${total}</tspan></text>
+        <text class="donut-center" x="70" y="84">篇文章</text>
+      </svg>
+      <div class="legend">${groups.map((g,i)=>
+        `<span><i style="background:${colors[i]}"></i>${g.name} · ${cc[g.id]||0}</span>`).join('')}</div>
+    </div>`;
+
+  // 2) Top 产品线（横向条）
+  const pc={};
+  arts.forEach(a=>{pc[a.product]=(pc[a.product]||0)+1;});
+  const prodN=PROD_NAME();
+  const top=Object.entries(pc).sort((x,y)=>y[1]-x[1]).slice(0,12);
+  const maxp=Math.max(1,...top.map(x=>x[1]));
+  const topProd=`<div class="hbar">${top.map(([pid,c])=>
+    `<div class="row"><span class="nm" title="${prodN[pid]||pid}">${prodN[pid]||pid}</span>
+      <span class="bar"><span style="width:${(c/maxp*100).toFixed(1)}%"></span></span>
+      <span class="ct">${c}</span></div>`).join('')}</div>`;
+
+  // 3) 标签热度（标签云，点击可跳转筛选）
+  const tg={};
+  arts.forEach(a=>(a.tags||[]).forEach(t=>tg[t]=(tg[t]||0)+1));
+  const topT=Object.entries(tg).sort((x,y)=>y[1]-x[1]).slice(0,20);
+  const maxt=Math.max(1,...topT.map(x=>x[1]));
+  const tagcloud=`<div class="tagcloud">${topT.map(([t,c])=>{
+    const sz=(12 + (c/maxt)*6).toFixed(1);
+    return `<span class="t" style="font-size:${sz}px" data-tag="${t}">${t} · ${c}</span>`;
+  }).join('')}</div>`;
+
+  document.getElementById('statsView').innerHTML = `
+    <div class="panel"><h2>📦 内容分布（产品中心 / 跨中心综合）</h2>
+      <div class="ph-sub">综合类为跨产品、属腾讯云大数据层面的内容（高于产品中心）</div>${donut}</div>
+    <div class="charts">
+      <div class="chartbox"><h3>🏷 Top 产品线（按文章数）</h3>${topProd}</div>
+      <div class="chartbox"><h3>🔥 标签热度（点击跳转卡片筛选）</h3>${tagcloud}</div>
+    </div>`;
+
+  // 标签云点击 → 切回卡片看板并筛选
+  document.querySelectorAll('#statsView .tagcloud .t').forEach(el=>el.addEventListener('click',()=>{
+    state.tag=el.dataset.tag;
+    switchView('cards');
+    document.querySelectorAll('#tagbar .tag').forEach(x=>x.classList.toggle('on', x.dataset.tag===state.tag));
+    applyFilters();
+    window.scrollTo({top:0,behavior:'smooth'});
+  }));
+}
+
+function countFor(pcId, prodId){
+  return DATA.articles.filter(a=>
+    (!pcId || a.productCenter===pcId) && (!prodId || a.product===prodId)).length;
+}
+
+function buildTree(){
+  const pcN=PC_NAME(), prodN=PROD_NAME();
+  document.getElementById('allCnt').textContent = DATA.articles.length;
+  const tree=document.getElementById('tree');
+  // 分组：跨中心综合（高于产品中心）在前，后接三大产品中心
+  const groups=(DATA.comprehensive?[DATA.comprehensive]:[]).concat(DATA.productCenters);
+  const zid = DATA.comprehensive ? DATA.comprehensive.id : null;
+  tree.innerHTML = groups.map((pc,gi)=>{
+    const prods = pc.products.map(pr=>{
+      const c=countFor(pc.id, pr.id);
+      return `<button class="prod-btn ${state.prod===pr.id?'on':''}" data-pc="${pc.id}" data-prod="${pr.id}">
+        <span>${pr.name}</span><span class="cnt">${c}</span></button>`;
+    }).join('');
+    const pcC=countFor(pc.id);
+    const sep = (gi===0 && groups.length>1) ? `<div class="tree-sep">— 产品中心 —</div>` : '';
+    const wrapCls = (pc.id===zid ? 'pc pc-zonghe' : 'pc');
+    return `${sep}<div class="${wrapCls}" data-pc="${pc.id}">
+      <button class="pc-btn ${state.pc===pc.id&&!state.prod?'on':''}" data-pc="${pc.id}">
+        <span>${pc.name}</span><span class="cnt">${pcC}</span></button>
+      <div class="pc-children">${prods}</div></div>`;
+  }).join('');
+
+  // 交互
+  tree.querySelectorAll('.pc-btn').forEach(b=>b.addEventListener('click',()=>{
+    const id=b.dataset.pc;
+    const wrap=b.parentElement;
+    if(state.pc===id && !state.prod){ // 再次点击收起
+      state.pc=null; wrap.classList.remove('open');
+    } else {
+      state.pc=id; state.prod=null; wrap.classList.add('open');
+    }
+    // 展开当前、收起其他
+    tree.querySelectorAll('.pc').forEach(w=>{if(w.dataset.pc!==id) w.classList.remove('open');});
+    syncTreeActive(); applyFilters();
+  }));
+  tree.querySelectorAll('.prod-btn').forEach(b=>b.addEventListener('click',e=>{
+    e.stopPropagation();
+    const pc=b.dataset.pc, pr=b.dataset.prod;
+    state.pc=pc; state.prod=(state.prod===pr?null:pr);
+    // 展开父级
+    tree.querySelector('.pc[data-pc="'+pc+'"]').classList.add('open');
+    syncTreeActive(); applyFilters();
+  }));
+  // 默认展开含选中项的父级
+  if(state.pc) tree.querySelector('.pc[data-pc="'+state.pc+'"]')?.classList.add('open');
+  document.getElementById('allBtn').classList.toggle('on', !state.pc&&!state.prod);
+}
+
+function syncTreeActive(){
+  const pcN=PC_NAME(), prodN=PROD_NAME();
+  document.querySelectorAll('.pc-btn').forEach(b=>b.classList.toggle('on', b.dataset.pc===state.pc && !state.prod));
+  document.querySelectorAll('.prod-btn').forEach(b=>b.classList.toggle('on', b.dataset.prod===state.prod));
+  document.getElementById('allBtn').classList.toggle('on', !state.pc && !state.prod);
+}
+
+function buildTagBar(){
+  const tags={};
+  DATA.articles.forEach(a=>(a.tags||[]).forEach(t=>tags[t]=(tags[t]||0)+1));
+  const sorted=Object.entries(tags).sort((x,y)=>y[1]-x[1]).slice(0,24);
+  document.getElementById('tagbar').innerHTML = sorted.map(([t,c])=>
+    `<span class="tag ${state.tag===t?'on':''}" data-tag="${t}">${t} · ${c}</span>`).join('');
+  document.querySelectorAll('#tagbar .tag').forEach(el=>el.addEventListener('click',()=>{
+    const t=el.dataset.tag; state.tag=(state.tag===t?null:t);
+    document.querySelectorAll('#tagbar .tag').forEach(x=>x.classList.toggle('on', x.dataset.tag===state.tag));
+    applyFilters();
+  }));
+}
+
+function currentList(){
+  let list=DATA.articles.slice();
+  if(state.pc) list=list.filter(a=>a.productCenter===state.pc);
+  if(state.prod) list=list.filter(a=>a.product===state.prod);
+  if(state.tag) list=list.filter(a=>(a.tags||[]).includes(state.tag));
+  if(state.q){
+    const q=state.q.toLowerCase();
+    list=list.filter(a=>(a.title+' '+(a.topic||'')+' '+(a.summary||'')+' '+(a.tags||[]).join(' ')).toLowerCase().includes(q));
+  }
+  const s=document.getElementById('sort').value;
+  if(s==='date_desc') list.sort((a,b)=>b.date.localeCompare(a.date));
+  else if(s==='date_asc') list.sort((a,b)=>a.date.localeCompare(b.date));
+  else if(s==='title') list.sort((a,b)=>a.title.localeCompare(b.title,'zh'));
+  return list;
+}
+
+function applyFilters(){
+  if(!DATA) return;
+  state.q=document.getElementById('search').value.trim();
+  const pcN=PC_NAME(), prodN=PROD_NAME();
+  // 面包屑
+  let crumb='全部文章';
+  if(state.pc) crumb='<b>'+pcN[state.pc]+'</b>';
+  if(state.prod) crumb='<b>'+pcN[state.pc]+'</b> / <b>'+prodN[state.prod]+'</b>';
+  if(state.tag) crumb+=' · 标签「'+state.tag+'」';
+  if(state.q) crumb+=' · 搜索「'+state.q+'」';
+  document.getElementById('crumb').innerHTML=crumb;
+  // 同步树高亮
+  syncTreeActive();
+  const list=currentList();
+  document.getElementById('resultCnt').textContent='共 '+list.length+' 篇';
+  const grid=document.getElementById('grid');
+  if(!list.length){grid.innerHTML='<div class="empty">该筛选下暂无文章。试试重置筛选，或后续把真实文章灌入 data/site.json。</div>';return;}
+  grid.innerHTML=list.map(a=>{
+    const tags=(a.tags||[]).map(t=>`<span>${t}</span>`).join('');
+    const badge = a.product==='综合' ? (pcN[a.productCenter]||'') : ((pcN[a.productCenter]||'')+' · '+(prodN[a.product]||''));
+    return `<div class="card">
+      <span class="pcbadge">${badge}</span>
+      <h3><a href="${a.link}" target="_blank" rel="noopener">${a.title}</a></h3>
+      <div class="topic">主题：${a.topic||'—'}</div>
+      <div class="sum">${a.summary||''}</div>
+      <div class="tags">${tags}</div>
+      <div class="foot">
+        <span><span class="pl">${a.platform||DATA.meta.source||'公众号'}</span> · ${a.date||'—'}</span>
+        <span class="links">
+          ${a.link?`<a href="${a.link}" target="_blank" rel="noopener">${chLabel(a.link)} ↗</a>`:'<span class="nolink">暂无原文链接（视频号/外部媒体）</span>'}
+          ${a.verify&&a.verify!==a.link?`<a class="vrf" href="${a.verify}" target="_blank" rel="noopener" title="另一官方渠道交叉验证">${chLabel(a.verify)} ↗</a>`:''}
+        </span>
+      </div>
+    </div>`;
+  }).join('');
+}
+
+function resetFilters(){
+  state={pc:null,prod:null,tag:null,q:""};
+  document.getElementById('search').value='';
+  document.getElementById('sort').value='date_desc';
+  document.querySelectorAll('#tagbar .tag').forEach(x=>x.classList.remove('on'));
+  buildTree(); buildTagBar(); applyFilters();
+}
+</script>
+</body>
+</html>
