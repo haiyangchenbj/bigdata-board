@@ -1912,8 +1912,8 @@
     "行业观点",
     "Data+AI"
    ],
-   "productCenter": "zonghe",
-   "product": "综合",
+   "productCenter": "tbds",
+   "product": "TBDS",
    "date": "2025-05-23",
    "abc": "B",
    "platform": "腾讯云大数据 公众号",
@@ -1921,13 +1921,13 @@
    "verify": "",
    "linkSrc": "企微排期文档（公众号原文）",
    "src": "plan",
+   "_fromCsdn": true,
    "products": [
-    "综合"
+    "TBDS"
    ],
-   "needsReview": true,
-   "reviewReason": "正文未获取且标题无产品名（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
+   "needsReview": false,
    "centers": [
-    "zonghe"
+    "tbds"
    ]
   },
   {
@@ -2575,8 +2575,8 @@
     "行业观点",
     "Data+AI"
    ],
-   "productCenter": "zonghe",
-   "product": "综合",
+   "productCenter": "tbds",
+   "product": "TBDS",
    "date": "2025-07-04",
    "abc": "A",
    "platform": "腾讯云大数据 公众号",
@@ -2584,13 +2584,13 @@
    "verify": "",
    "linkSrc": "企微排期文档（公众号原文）",
    "src": "plan",
+   "_fromCsdn": true,
    "products": [
-    "综合"
+    "TBDS"
    ],
-   "needsReview": true,
-   "reviewReason": "正文未获取且标题无产品名（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
+   "needsReview": false,
    "centers": [
-    "zonghe"
+    "tbds"
    ]
   },
   {
@@ -3142,8 +3142,8 @@
     "多模态数据湖",
     "AI数据底座"
    ],
-   "productCenter": "base",
-   "product": "TCLake",
+   "productCenter": "wedata",
+   "product": "WeData",
    "date": "2025-09-19",
    "abc": "B",
    "platform": "腾讯云大数据 公众号",
@@ -3151,13 +3151,15 @@
    "verify": "",
    "linkSrc": "企微排期文档（公众号原文）",
    "src": "plan",
+   "_fromCsdn": true,
    "products": [
-    "TCLake"
+    "WeData",
+    "TBDS"
    ],
-   "needsReview": true,
-   "reviewReason": "正文未获取且标题无产品名（多为视频/访谈/新闻稿/客户案例），当前归属沿用原分类，未经段落描述核验",
+   "needsReview": false,
    "centers": [
-    "base"
+    "wedata",
+    "tbds"
    ]
   },
   {
