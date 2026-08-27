@@ -321,18 +321,22 @@ function buildTree(){
   const groups=(DATA.comprehensive?[DATA.comprehensive]:[]).concat(DATA.productCenters);
   const zid = DATA.comprehensive ? DATA.comprehensive.id : null;
   tree.innerHTML = groups.map((pc,gi)=>{
-    const prods = pc.products.map(pr=>{
+    // 综合分类不展开子产品（它不是真正的产品中心，展开只会出现"大数据品牌/0"和同名"综合/52"等冗余条目）
+    const isZonghe = pc.id===zid;
+    const prods = isZonghe ? '' : pc.products.map(pr=>{
       const c=countFor(pc.id, pr.id);
+      if(c===0) return ''; // 隐藏 0 篇的产品
       return `<button class="prod-btn ${state.prod===pr.id?'on':''}" data-pc="${pc.id}" data-prod="${pr.id}">
         <span>${pr.name}</span><span class="cnt">${c}</span></button>`;
     }).join('');
     const pcC=countFor(pc.id);
     const sep = (gi===0 && groups.length>1) ? `<div class="tree-sep">— 产品中心 —</div>` : '';
-    const wrapCls = (pc.id===zid ? 'pc pc-zonghe' : 'pc');
+    const wrapCls = isZonghe ? 'pc pc-zonghe' : 'pc';
+    const childrenHtml = isZonghe ? '' : `<div class="pc-children">${prods}</div>`;
     return `${sep}<div class="${wrapCls}" data-pc="${pc.id}">
       <button class="pc-btn ${state.pc===pc.id&&!state.prod?'on':''}" data-pc="${pc.id}">
         <span>${pc.name}</span><span class="cnt">${pcC}</span></button>
-      <div class="pc-children">${prods}</div></div>`;
+      ${childrenHtml}</div>`;
   }).join('');
 
   // 交互
