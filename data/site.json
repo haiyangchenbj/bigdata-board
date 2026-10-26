@@ -2,11 +2,11 @@
  "meta": {
   "source": "腾讯云大数据 微信公众号",
   "subtitle": "内容营销参考看板（内部参考）· 严格限定腾讯云大数据官方发布渠道",
-  "updated": "2026-08-27",
-  "range": "2024-02-07 ~ 2026-08-26",
+  "updated": "2026-10-26",
+  "range": "2024-02-07 ~ 2026-10-22",
   "counts": {
-   "total": 162,
-   "withLink": 155,
+   "total": 180,
+   "withLink": 173,
    "noLink": 7
   },
   "sourceChannels": [
@@ -385,7 +385,7 @@
     "tbds"
    ],
    "dates": {
-    "community": "2024-04-24",
+    "community": "2024-04-23",
     "weixin": "2024-04-23"
    },
    "firstDate": "2024-04-23",
@@ -419,7 +419,7 @@
     "tbds"
    ],
    "dates": {
-    "community": "2024-05-13",
+    "community": "2024-05-11",
     "weixin": "2024-05-11"
    },
    "firstDate": "2024-05-11",
@@ -485,7 +485,7 @@
     "wedata"
    ],
    "dates": {
-    "community": "2024-06-24",
+    "community": "2024-06-21",
     "weixin": "2024-06-21"
    },
    "firstDate": "2024-06-21",
@@ -518,7 +518,7 @@
     "base"
    ],
    "dates": {
-    "community": "2024-07-01",
+    "community": "2024-06-28",
     "weixin": "2024-06-28"
    },
    "firstDate": "2024-06-28",
@@ -584,7 +584,7 @@
     "base"
    ],
    "dates": {
-    "community": "2024-09-11",
+    "community": "2024-09-10",
     "weixin": "2024-09-10"
    },
    "firstDate": "2024-09-10",
@@ -653,7 +653,7 @@
     "base"
    ],
    "dates": {
-    "community": "2024-10-18",
+    "community": "2024-10-16",
     "weixin": "2024-10-16"
    },
    "firstDate": "2024-10-16",
@@ -687,7 +687,7 @@
     "wedata"
    ],
    "dates": {
-    "community": "2024-11-18",
+    "community": "2024-11-15",
     "weixin": "2024-11-15"
    },
    "firstDate": "2024-11-15",
@@ -721,7 +721,7 @@
     "wedata"
    ],
    "dates": {
-    "community": "2024-12-09",
+    "community": "2024-12-06",
     "weixin": "2024-12-06"
    },
    "firstDate": "2024-12-06",
@@ -858,8 +858,7 @@
     "tbds"
    ],
    "dates": {
-    "community": "2025-01-10",
-    "weixin": "2025-01-10"
+    "community": "2025-01-10"
    },
    "firstDate": "2025-01-10"
   },
@@ -890,7 +889,8 @@
     "base"
    ],
    "dates": {
-    "community": "2025-01-10"
+    "community": "2025-01-10",
+    "weixin": "2025-01-10"
    },
    "firstDate": "2025-01-10"
   },
@@ -1020,7 +1020,8 @@
     "wedata"
    ],
    "dates": {
-    "community": "2025-01-25"
+    "community": "2025-01-25",
+    "weixin": "2024-04-23"
    },
    "firstDate": "2025-01-25"
   },
@@ -1087,8 +1088,7 @@
     "zonghe"
    ],
    "dates": {
-    "community": "2025-01-25",
-    "weixin": "2024-04-23"
+    "community": "2025-01-25"
    },
    "firstDate": "2025-01-25"
   },
@@ -1220,7 +1220,8 @@
     "base"
    ],
    "dates": {
-    "community": "2025-02-15"
+    "community": "2025-02-15",
+    "weixin": "2024-05-31"
    },
    "firstDate": "2025-02-15"
   },
@@ -1253,8 +1254,7 @@
     "wedata"
    ],
    "dates": {
-    "community": "2025-02-15",
-    "weixin": "2024-05-31"
+    "community": "2025-02-15"
    },
    "firstDate": "2025-02-15"
   },
@@ -1417,7 +1417,7 @@
     "DLC"
    ],
    "needsReview": false,
-   "mpLink": "https://mp.weixin.qq.com/s/b3cnFnvH-Fh4QGFrTvviWg",
+   "mpLink": "https://mp.weixin.qq.com/s/hqmp5PZGHvs5UTutSjo0NQ",
    "centers": [
     "base"
    ],
@@ -1451,7 +1451,7 @@
     "ChatBI"
    ],
    "needsReview": false,
-   "mpLink": "https://mp.weixin.qq.com/s/BDeaQ0NpmHB3bs7RloBNAQ",
+   "mpLink": "https://mp.weixin.qq.com/s/mhSb8IM6BJ2r_D1td_vm0A",
    "centers": [
     "wedata"
    ],
@@ -1588,7 +1588,8 @@
     "wedata"
    ],
    "dates": {
-    "community": "2025-03-21"
+    "community": "2025-03-21",
+    "weixin": "2025-03-21"
    },
    "firstDate": "2025-03-21"
   },
@@ -1685,8 +1686,7 @@
     "base"
    ],
    "dates": {
-    "community": "2025-03-21",
-    "weixin": "2025-03-21"
+    "community": "2025-03-21"
    },
    "firstDate": "2025-03-21"
   },
@@ -1788,7 +1788,8 @@
     "base"
    ],
    "dates": {
-    "community": "2025-04-18"
+    "community": "2025-04-18",
+    "weixin": "2025-02-14"
    },
    "firstDate": "2025-04-18"
   },
@@ -1821,8 +1822,7 @@
     "wedata"
    ],
    "dates": {
-    "community": "2025-04-18",
-    "weixin": "2025-02-14"
+    "community": "2025-04-18"
    },
    "firstDate": "2025-04-18"
   },
@@ -2150,7 +2150,8 @@
     "tbds"
    ],
    "dates": {
-    "community": "2025-05-23"
+    "community": "2025-05-23",
+    "weixin": "2025-05-23"
    },
    "firstDate": "2025-05-23"
   },
@@ -2249,8 +2250,7 @@
     "wedata"
    ],
    "dates": {
-    "community": "2025-05-23",
-    "weixin": "2025-05-23"
+    "community": "2025-05-23"
    },
    "firstDate": "2025-05-23"
   },
@@ -2682,7 +2682,8 @@
     "wedata"
    ],
    "dates": {
-    "community": "2025-06-20"
+    "community": "2025-06-20",
+    "weixin": "2025-10-17"
    },
    "firstDate": "2025-06-20"
   },
@@ -2716,8 +2717,7 @@
     "base"
    ],
    "dates": {
-    "community": "2025-06-20",
-    "weixin": "2025-10-17"
+    "community": "2025-06-20"
    },
    "firstDate": "2025-06-20"
   },
@@ -3044,7 +3044,8 @@
     "base"
    ],
    "dates": {
-    "community": "2025-07-18"
+    "community": "2025-07-18",
+    "weixin": "2024-05-31"
    },
    "firstDate": "2025-07-18"
   },
@@ -3104,13 +3105,12 @@
     "ChatBI"
    ],
    "needsReview": false,
-   "mpLink": "https://mp.weixin.qq.com/s/O5Ghlw2mWR0BCAC0iuaMjw",
+   "mpLink": "https://mp.weixin.qq.com/s/-fBLRpBYSUjB-_3e4EqSkg",
    "centers": [
     "wedata"
    ],
    "dates": {
-    "community": "2025-07-18",
-    "weixin": "2024-05-31"
+    "community": "2025-07-18"
    },
    "firstDate": "2025-07-18"
   },
@@ -4534,7 +4534,7 @@
     "zonghe"
    ],
    "dates": {
-    "community": "2026-04-13",
+    "community": "2026-04-10",
     "weixin": "2026-04-10"
    },
    "firstDate": "2026-04-10",
@@ -4568,7 +4568,7 @@
     "base"
    ],
    "dates": {
-    "community": "2026-04-20",
+    "community": "2026-04-17",
     "weixin": "2026-04-17"
    },
    "firstDate": "2026-04-17",
@@ -4602,7 +4602,7 @@
     "tbds"
    ],
    "dates": {
-    "community": "2026-04-27",
+    "community": "2026-04-24",
     "weixin": "2026-04-24"
    },
    "firstDate": "2026-04-24",
@@ -4636,7 +4636,7 @@
     "base"
    ],
    "dates": {
-    "community": "2026-05-09",
+    "community": "2026-05-08",
     "weixin": "2026-05-08"
    },
    "firstDate": "2026-05-08",
@@ -4669,7 +4669,7 @@
     "base"
    ],
    "dates": {
-    "community": "2026-05-18",
+    "community": "2026-05-15",
     "weixin": "2026-05-15"
    },
    "firstDate": "2026-05-15",
@@ -4703,7 +4703,7 @@
     "wedata"
    ],
    "dates": {
-    "community": "2026-05-22",
+    "community": "2026-05-21",
     "weixin": "2026-05-21"
    },
    "firstDate": "2026-05-21",
@@ -4737,7 +4737,7 @@
     "tbds"
    ],
    "dates": {
-    "community": "2026-05-22",
+    "community": "2026-05-21",
     "weixin": "2026-05-21"
    },
    "firstDate": "2026-05-21",
@@ -4771,7 +4771,7 @@
     "base"
    ],
    "dates": {
-    "community": "2026-06-01",
+    "community": "2026-05-29",
     "weixin": "2026-05-29"
    },
    "firstDate": "2026-05-29",
@@ -4804,7 +4804,7 @@
     "base"
    ],
    "dates": {
-    "community": "2026-06-05",
+    "community": "2026-06-04",
     "weixin": "2026-06-04"
    },
    "firstDate": "2026-06-04",
@@ -4838,7 +4838,7 @@
     "zonghe"
    ],
    "dates": {
-    "community": "2026-06-08",
+    "community": "2026-06-05",
     "weixin": "2026-06-05"
    },
    "firstDate": "2026-06-05",
@@ -4873,7 +4873,7 @@
     "wedata"
    ],
    "dates": {
-    "community": "2026-06-08",
+    "community": "2026-06-05",
     "weixin": "2026-06-05"
    },
    "firstDate": "2026-06-05",
@@ -4907,7 +4907,7 @@
     "base"
    ],
    "dates": {
-    "community": "2026-06-12",
+    "community": "2026-06-11",
     "weixin": "2026-06-11"
    },
    "firstDate": "2026-06-11",
@@ -4940,7 +4940,7 @@
     "base"
    ],
    "dates": {
-    "community": "2026-06-12",
+    "community": "2026-06-11",
     "weixin": "2026-06-11"
    },
    "firstDate": "2026-06-11",
@@ -4976,7 +4976,7 @@
    "mpLink": "https://mp.weixin.qq.com/s/Mj60BCNb5dq_ozvYVobH3Q",
    "planDate": "2026-06-18",
    "dates": {
-    "community": "2026-06-23",
+    "community": "2026-06-18",
     "weixin": "2026-06-18"
    },
    "firstDate": "2026-06-18",
@@ -5014,7 +5014,7 @@
     "base"
    ],
    "dates": {
-    "community": "2026-06-23",
+    "community": "2026-06-18",
     "weixin": "2026-06-18"
    },
    "firstDate": "2026-06-18",
@@ -5048,7 +5048,7 @@
     "wedata"
    ],
    "dates": {
-    "community": "2026-07-06",
+    "community": "2026-06-26",
     "weixin": "2026-06-26"
    },
    "firstDate": "2026-06-26",
@@ -5082,7 +5082,7 @@
     "base"
    ],
    "dates": {
-    "community": "2026-07-06",
+    "community": "2026-06-26",
     "weixin": "2026-06-26"
    },
    "firstDate": "2026-06-26",
@@ -5116,7 +5116,7 @@
     "zonghe"
    ],
    "dates": {
-    "community": "2026-07-06",
+    "community": "2026-07-03",
     "weixin": "2026-07-03"
    },
    "firstDate": "2026-07-03",
@@ -5124,6 +5124,40 @@
   },
   {
    "id": "2026-07-03-146",
+   "title": "腾讯云大数据携手工商银行——存算分离架构落地实践，共绘数智金融新蓝图",
+   "topic": "携手工商银行——存算分离架构落地实践，共绘数智金融新蓝图",
+   "summary": "企业级私有化大数据处理套件（湖仓一体 + 金融信创）",
+   "tags": [
+    "品牌发布",
+    "私有化",
+    "信创",
+    "湖仓一体"
+   ],
+   "productCenter": "tbds",
+   "product": "TBDS",
+   "date": "2026-07-03",
+   "abc": "B",
+   "platform": "腾讯云大数据 公众号",
+   "link": "https://cloud.tencent.com/developer/article/2703721",
+   "verify": "",
+   "linkSrc": "腾讯云开发者社区（公众号同步）",
+   "src": "community",
+   "products": [
+    "TBDS"
+   ],
+   "needsReview": false,
+   "centers": [
+    "tbds"
+   ],
+   "dates": {
+    "community": "2026-07-03",
+    "weixin": "2026-07-03"
+   },
+   "firstDate": "2026-07-03",
+   "prevDate": "2026-07-06"
+  },
+  {
+   "id": "2026-07-03-147",
    "title": "腾讯云数据智能：构建可信、可控、可演进的Data Agent",
    "topic": "数据智能：构建可信、可控、可演进的Data Agent",
    "summary": "数据分析智能体（NL2SQL 全球前三、国内第一）",
@@ -5151,44 +5185,11 @@
    "mpLink": "https://mp.weixin.qq.com/s/rBHKGCWiRE-GLe1IWfsXZg",
    "planDate": "7月3日",
    "dates": {
-    "community": "2026-07-06",
+    "community": "2026-07-03",
     "weixin": "2026-07-03"
    },
    "firstDate": "2026-07-03",
    "prevDate": "2026-07-06"
-  },
-  {
-   "id": "2026-07-06-147",
-   "title": "腾讯云大数据携手工商银行——存算分离架构落地实践，共绘数智金融新蓝图",
-   "topic": "携手工商银行——存算分离架构落地实践，共绘数智金融新蓝图",
-   "summary": "企业级私有化大数据处理套件（湖仓一体 + 金融信创）",
-   "tags": [
-    "品牌发布",
-    "私有化",
-    "信创",
-    "湖仓一体"
-   ],
-   "productCenter": "tbds",
-   "product": "TBDS",
-   "date": "2026-07-06",
-   "abc": "B",
-   "platform": "腾讯云大数据 公众号",
-   "link": "https://cloud.tencent.com/developer/article/2703721",
-   "verify": "",
-   "linkSrc": "腾讯云开发者社区（公众号同步）",
-   "src": "community",
-   "products": [
-    "TBDS"
-   ],
-   "needsReview": false,
-   "centers": [
-    "tbds"
-   ],
-   "dates": {
-    "community": "2026-07-06",
-    "weixin": "2026-07-26"
-   },
-   "firstDate": "2026-07-06"
   },
   {
    "id": "2026-07-10-148",
@@ -5221,7 +5222,7 @@
    "mpLink": "https://mp.weixin.qq.com/s/apxwLtTcpNwJsdw22VTkMA",
    "planDate": "7月10日",
    "dates": {
-    "community": "2026-07-13",
+    "community": "2026-07-10",
     "weixin": "2026-07-10"
    },
    "firstDate": "2026-07-10",
@@ -5257,7 +5258,7 @@
    "mpLink": "https://mp.weixin.qq.com/s/_7FGipp5P6PlMIeGdfIXWQ",
    "planDate": "7月10日",
    "dates": {
-    "community": "2026-07-13",
+    "community": "2026-07-10",
     "weixin": "2026-07-10"
    },
    "firstDate": "2026-07-10",
@@ -5293,7 +5294,7 @@
    "mpLink": "https://mp.weixin.qq.com/s/8A4CEo7gVG-AuCvz0ekFDQ",
    "planDate": "7月17日",
    "dates": {
-    "community": "2026-07-20",
+    "community": "2026-07-17",
     "weixin": "2026-07-17"
    },
    "firstDate": "2026-07-17",
@@ -5327,7 +5328,7 @@
     "base"
    ],
    "dates": {
-    "community": "2026-07-20",
+    "community": "2026-07-17",
     "weixin": "2026-07-17"
    },
    "firstDate": "2026-07-17",
@@ -5362,7 +5363,7 @@
    "mpLink": "https://mp.weixin.qq.com/s/KU3BXnizPVlFxEwXJjVOdg",
    "planDate": "7月17日",
    "dates": {
-    "community": "2026-07-20",
+    "community": "2026-07-17",
     "weixin": "2026-07-17"
    },
    "firstDate": "2026-07-17",
@@ -5398,7 +5399,7 @@
    "mpLink": "https://mp.weixin.qq.com/s/2fzXphZNs_2NjuQ0SWaM4A",
    "planDate": "7月25日",
    "dates": {
-    "community": "2026-07-27",
+    "community": "2026-07-25",
     "weixin": "2026-07-25"
    },
    "firstDate": "2026-07-25",
@@ -5716,6 +5717,590 @@
     "community": "2026-08-26"
    },
    "firstDate": "2026-08-26"
+  },
+  {
+   "id": "2026-08-27-163",
+   "title": "腾讯云大数据接入 WorkBuddy：为 Agent 平台引入 Data+AI 专业智能体",
+   "topic": "接入 WorkBuddy：为 Agent 平台引入 Data+AI 专业智能体",
+   "summary": "腾讯云大数据跨中心内容（品牌 / 综述 / 行业观点 / 活动）",
+   "tags": [
+    "品牌发布",
+    "品牌综述",
+    "行业观点",
+    "Data+AI"
+   ],
+   "productCenter": "zonghe",
+   "product": "综合",
+   "date": "2026-08-27",
+   "abc": "B",
+   "platform": "腾讯云大数据 公众号",
+   "link": "https://cloud.tencent.com/developer/article/2732949",
+   "verify": "",
+   "linkSrc": "腾讯云开发者社区（公众号同步）",
+   "src": "community",
+   "products": [
+    "综合"
+   ],
+   "needsReview": false,
+   "centers": [
+    "zonghe"
+   ],
+   "dates": {
+    "community": "2026-08-27"
+   },
+   "firstDate": "2026-08-27"
+  },
+  {
+   "id": "2026-08-31-164",
+   "title": "腾讯云TCHouse AI Function发布：一行SQL调用大模型，Token成本最高降99.8%",
+   "topic": "TCHouse AI Function发布：一行SQL调用大模型，Token成本最高降99.8%",
+   "summary": "云原生数仓（TCHouse 新成员）",
+   "tags": [
+    "品牌发布",
+    "云原生数仓"
+   ],
+   "productCenter": "base",
+   "product": "TCHouse",
+   "date": "2026-08-31",
+   "abc": "B",
+   "platform": "腾讯云大数据 公众号",
+   "link": "https://cloud.tencent.com/developer/article/2734817",
+   "verify": "",
+   "linkSrc": "腾讯云开发者社区（公众号同步）",
+   "src": "community",
+   "products": [
+    "TCHouse"
+   ],
+   "needsReview": false,
+   "centers": [
+    "base"
+   ],
+   "dates": {
+    "community": "2026-08-31"
+   },
+   "firstDate": "2026-08-31"
+  },
+  {
+   "id": "2026-09-01-165",
+   "title": "AI Native数据湖的Spark+Ray一体化实践",
+   "topic": "AI Native数据湖的Spark+Ray一体化实践",
+   "summary": "腾讯云大数据跨中心内容（品牌 / 综述 / 行业观点 / 活动）",
+   "tags": [
+    "品牌发布",
+    "品牌综述",
+    "行业观点",
+    "Data+AI"
+   ],
+   "productCenter": "base",
+   "product": "TCLake",
+   "date": "2026-09-01",
+   "abc": "B",
+   "platform": "腾讯云大数据 公众号",
+   "link": "https://cloud.tencent.com/developer/article/2735432",
+   "verify": "",
+   "linkSrc": "腾讯云开发者社区（公众号同步）",
+   "src": "community",
+   "products": [
+    "TCLake",
+    "Meson",
+    "Xpark"
+   ],
+   "needsReview": false,
+   "centers": [
+    "base"
+   ],
+   "dates": {
+    "community": "2026-09-01"
+   },
+   "firstDate": "2026-09-01"
+  },
+  {
+   "id": "2026-09-01-166",
+   "title": "DataBuddy数据语义驱动的企业Agent Runtime实践",
+   "topic": "DataBuddy数据语义驱动的企业Agent Runtime实践",
+   "summary": "面向 Data+AI 的一站式数据开发治理智能体平台（WeData 旗下，DIOps 体系）",
+   "tags": [
+    "品牌发布",
+    "Data+AI",
+    "DIOps",
+    "智能体"
+   ],
+   "productCenter": "wedata",
+   "product": "DataBuddy",
+   "date": "2026-09-01",
+   "abc": "B",
+   "platform": "腾讯云大数据 公众号",
+   "link": "https://cloud.tencent.com/developer/article/2735067",
+   "verify": "",
+   "linkSrc": "腾讯云开发者社区（公众号同步）",
+   "src": "community",
+   "products": [
+    "DataBuddy"
+   ],
+   "needsReview": false,
+   "centers": [
+    "wedata"
+   ],
+   "dates": {
+    "community": "2026-09-01"
+   },
+   "firstDate": "2026-09-01"
+  },
+  {
+   "id": "2026-09-01-167",
+   "title": "TBDS+统一推理服务：加速企业级大模型与异构算力的深度融合落地",
+   "topic": "TBDS+统一推理服务：加速企业级大模型与异构算力的深度融合落地",
+   "summary": "企业级私有化大数据处理套件（湖仓一体 + 金融信创）",
+   "tags": [
+    "品牌发布",
+    "私有化",
+    "信创",
+    "湖仓一体"
+   ],
+   "productCenter": "tbds",
+   "product": "TBDS",
+   "date": "2026-09-01",
+   "abc": "B",
+   "platform": "腾讯云大数据 公众号",
+   "link": "https://cloud.tencent.com/developer/article/2735091",
+   "verify": "",
+   "linkSrc": "腾讯云开发者社区（公众号同步）",
+   "src": "community",
+   "products": [
+    "TBDS"
+   ],
+   "needsReview": false,
+   "centers": [
+    "tbds"
+   ],
+   "dates": {
+    "community": "2026-09-01"
+   },
+   "firstDate": "2026-09-01"
+  },
+  {
+   "id": "2026-09-04-168",
+   "title": "腾讯云TCDataAgent助力人民政协报打造智能数据问答系统",
+   "topic": "TCDataAgent助力人民政协报打造智能数据问答系统",
+   "summary": "数据分析智能体（NL2SQL 全球前三、国内第一）",
+   "tags": [
+    "品牌发布",
+    "NL2SQL",
+    "数据分析智能体"
+   ],
+   "productCenter": "base",
+   "product": "TCDataAgent",
+   "date": "2026-09-04",
+   "abc": "B",
+   "platform": "腾讯云大数据 公众号",
+   "link": "https://cloud.tencent.com/developer/article/2737519",
+   "verify": "",
+   "linkSrc": "腾讯云开发者社区（公众号同步）",
+   "src": "community",
+   "products": [
+    "TCDataAgent"
+   ],
+   "needsReview": false,
+   "centers": [
+    "base"
+   ],
+   "dates": {
+    "community": "2026-09-04"
+   },
+   "firstDate": "2026-09-04"
+  },
+  {
+   "id": "2026-09-07-169",
+   "title": "腾讯云AI Native数据平台功能发布合集【8月】",
+   "topic": "AI Native数据平台功能发布合集【8月】",
+   "summary": "腾讯云大数据跨中心内容（品牌 / 综述 / 行业观点 / 活动）",
+   "tags": [
+    "品牌发布",
+    "品牌综述",
+    "行业观点",
+    "Data+AI"
+   ],
+   "productCenter": "base",
+   "product": "EMR",
+   "date": "2026-09-07",
+   "abc": "B",
+   "platform": "腾讯云大数据 公众号",
+   "link": "https://cloud.tencent.com/developer/article/2738374",
+   "verify": "",
+   "linkSrc": "腾讯云开发者社区（公众号同步）",
+   "src": "community",
+   "products": [
+    "EMR",
+    "TCDataAgent"
+   ],
+   "needsReview": false,
+   "centers": [
+    "base"
+   ],
+   "dates": {
+    "community": "2026-09-07"
+   },
+   "firstDate": "2026-09-07"
+  },
+  {
+   "id": "2026-09-08-170",
+   "title": "腾讯云智能数据湖计算AI DLC三大核心引擎解读:TCRay/Xpark/Meson",
+   "topic": "智能数据湖计算AI DLC三大核心引擎解读:TCRay/Xpark/Meson",
+   "summary": "Serverless 数据湖分析与计算服务（Spark + TC-Iceberg + Alluxio）",
+   "tags": [
+    "品牌发布",
+    "实时湖仓",
+    "Iceberg",
+    "Serverless"
+   ],
+   "productCenter": "base",
+   "product": "TCRay",
+   "date": "2026-09-08",
+   "abc": "B",
+   "platform": "腾讯云大数据 公众号",
+   "link": "https://cloud.tencent.com/developer/article/2738960",
+   "verify": "",
+   "linkSrc": "腾讯云开发者社区（公众号同步）",
+   "src": "community",
+   "products": [
+    "TCRay",
+    "Xpark",
+    "Meson",
+    "DLC",
+    "TCLake"
+   ],
+   "needsReview": false,
+   "centers": [
+    "base"
+   ],
+   "dates": {
+    "community": "2026-09-08"
+   },
+   "firstDate": "2026-09-08"
+  },
+  {
+   "id": "2026-09-10-171",
+   "title": "Search AI Engine：腾讯云ES千亿级混合检索架构演进",
+   "topic": "Search AI Engine：腾讯云ES千亿级混合检索架构演进",
+   "summary": "腾讯云大数据跨中心内容（品牌 / 综述 / 行业观点 / 活动）",
+   "tags": [
+    "品牌发布",
+    "品牌综述",
+    "行业观点",
+    "Data+AI"
+   ],
+   "productCenter": "base",
+   "product": "ES",
+   "date": "2026-09-10",
+   "abc": "B",
+   "platform": "腾讯云大数据 公众号",
+   "link": "https://cloud.tencent.com/developer/article/2740661",
+   "verify": "",
+   "linkSrc": "腾讯云开发者社区（公众号同步）",
+   "src": "community",
+   "products": [
+    "ES"
+   ],
+   "needsReview": false,
+   "centers": [
+    "base"
+   ],
+   "dates": {
+    "community": "2026-09-10"
+   },
+   "firstDate": "2026-09-10"
+  },
+  {
+   "id": "2026-09-11-172",
+   "title": "DataBuddy接入WorkBuddy开放平台：把「一个数据团队」搬进了你的聊天框",
+   "topic": "DataBuddy接入WorkBuddy开放平台：把「一个数据团队」搬进了你的聊天框",
+   "summary": "面向 Data+AI 的一站式数据开发治理智能体平台（WeData 旗下，DIOps 体系）",
+   "tags": [
+    "品牌发布",
+    "Data+AI",
+    "DIOps",
+    "智能体"
+   ],
+   "productCenter": "wedata",
+   "product": "DataBuddy",
+   "date": "2026-09-11",
+   "abc": "B",
+   "platform": "腾讯云大数据 公众号",
+   "link": "https://cloud.tencent.com/developer/article/2744237",
+   "verify": "",
+   "linkSrc": "腾讯云开发者社区（公众号同步）",
+   "src": "community",
+   "products": [
+    "DataBuddy"
+   ],
+   "needsReview": false,
+   "centers": [
+    "wedata"
+   ],
+   "dates": {
+    "community": "2026-09-11",
+    "weixin": "2026-09-11"
+   },
+   "firstDate": "2026-09-11",
+   "prevDate": "2026-09-15"
+  },
+  {
+   "id": "2026-09-17-173",
+   "title": "预告｜Data Agent升级发布：从大数据分析到Data+AI数字员工",
+   "topic": "预告｜Data Agent升级发布：从大数据分析到Data+AI数字员工",
+   "summary": "数据分析智能体（NL2SQL 全球前三、国内第一）",
+   "tags": [
+    "品牌发布",
+    "NL2SQL",
+    "数据分析智能体"
+   ],
+   "productCenter": "base",
+   "product": "TCDataAgent",
+   "date": "2026-09-17",
+   "abc": "B",
+   "platform": "腾讯云大数据 公众号",
+   "link": "https://cloud.tencent.com/developer/article/2747409",
+   "verify": "",
+   "linkSrc": "腾讯云开发者社区（公众号同步）",
+   "src": "community",
+   "products": [
+    "TCDataAgent"
+   ],
+   "needsReview": false,
+   "centers": [
+    "base"
+   ],
+   "dates": {
+    "community": "2026-09-17",
+    "weixin": "2026-09-17"
+   },
+   "firstDate": "2026-09-17",
+   "prevDate": "2026-09-20"
+  },
+  {
+   "id": "2026-09-18-174",
+   "title": "ima基于腾讯云ES的千亿级AI知识库架构实践",
+   "topic": "ima基于腾讯云ES的千亿级AI知识库架构实践",
+   "summary": "腾讯云大数据跨中心内容（品牌 / 综述 / 行业观点 / 活动）",
+   "tags": [
+    "品牌发布",
+    "品牌综述",
+    "行业观点",
+    "Data+AI"
+   ],
+   "productCenter": "base",
+   "product": "ES",
+   "date": "2026-09-18",
+   "abc": "B",
+   "platform": "腾讯云大数据 公众号",
+   "link": "https://cloud.tencent.com/developer/article/2747411",
+   "verify": "",
+   "linkSrc": "腾讯云开发者社区（公众号同步）",
+   "src": "community",
+   "products": [
+    "ES"
+   ],
+   "needsReview": false,
+   "centers": [
+    "base"
+   ],
+   "dates": {
+    "community": "2026-09-18",
+    "weixin": "2026-09-18"
+   },
+   "firstDate": "2026-09-18",
+   "prevDate": "2026-09-20"
+  },
+  {
+   "id": "2026-10-13-175",
+   "title": "从辅助驾驶到自主闭环：腾讯云ES的Agentic AIOps实践",
+   "topic": "从辅助驾驶到自主闭环：腾讯云ES的Agentic AIOps实践",
+   "summary": "数据分析智能体（NL2SQL 全球前三、国内第一）",
+   "tags": [
+    "品牌发布",
+    "NL2SQL",
+    "数据分析智能体"
+   ],
+   "productCenter": "base",
+   "product": "ES",
+   "date": "2026-10-13",
+   "abc": "B",
+   "platform": "腾讯云大数据 公众号",
+   "link": "https://cloud.tencent.com/developer/article/2760438",
+   "verify": "",
+   "linkSrc": "腾讯云开发者社区（公众号同步）",
+   "src": "community",
+   "products": [
+    "ES"
+   ],
+   "needsReview": false,
+   "centers": [
+    "base"
+   ],
+   "dates": {
+    "community": "2026-10-13"
+   },
+   "firstDate": "2026-10-13"
+  },
+  {
+   "id": "2026-10-13-176",
+   "title": "本体立骨架，语义供刻度——DataBuddy对企业AI语义架构的一次完整回答",
+   "topic": "本体立骨架，语义供刻度——DataBuddy对企业AI语义架构的一次完整回答",
+   "summary": "面向 Data+AI 的一站式数据开发治理智能体平台（WeData 旗下，DIOps 体系）",
+   "tags": [
+    "品牌发布",
+    "Data+AI",
+    "DIOps",
+    "智能体"
+   ],
+   "productCenter": "wedata",
+   "product": "DataBuddy",
+   "date": "2026-10-13",
+   "abc": "B",
+   "platform": "腾讯云大数据 公众号",
+   "link": "https://cloud.tencent.com/developer/article/2760450",
+   "verify": "",
+   "linkSrc": "腾讯云开发者社区（公众号同步）",
+   "src": "community",
+   "products": [
+    "DataBuddy"
+   ],
+   "needsReview": false,
+   "centers": [
+    "wedata"
+   ],
+   "dates": {
+    "community": "2026-10-13"
+   },
+   "firstDate": "2026-10-13"
+  },
+  {
+   "id": "2026-10-19-177",
+   "title": "DataBuddy私有化版本正式上线",
+   "topic": "DataBuddy私有化版本正式上线",
+   "summary": "面向 Data+AI 的一站式数据开发治理智能体平台（WeData 旗下，DIOps 体系）",
+   "tags": [
+    "品牌发布",
+    "Data+AI",
+    "DIOps",
+    "智能体"
+   ],
+   "productCenter": "wedata",
+   "product": "DataBuddy",
+   "date": "2026-10-19",
+   "abc": "B",
+   "platform": "腾讯云大数据 公众号",
+   "link": "https://cloud.tencent.com/developer/article/2764253",
+   "verify": "",
+   "linkSrc": "腾讯云开发者社区（公众号同步）",
+   "src": "community",
+   "products": [
+    "DataBuddy"
+   ],
+   "needsReview": false,
+   "centers": [
+    "wedata"
+   ],
+   "dates": {
+    "community": "2026-10-19"
+   },
+   "firstDate": "2026-10-19"
+  },
+  {
+   "id": "2026-10-19-178",
+   "title": "腾讯云AI Native数据平台功能发布合集【9月】",
+   "topic": "AI Native数据平台功能发布合集【9月】",
+   "summary": "腾讯云大数据跨中心内容（品牌 / 综述 / 行业观点 / 活动）",
+   "tags": [
+    "品牌发布",
+    "品牌综述",
+    "行业观点",
+    "Data+AI"
+   ],
+   "productCenter": "base",
+   "product": "ES",
+   "date": "2026-10-19",
+   "abc": "B",
+   "platform": "腾讯云大数据 公众号",
+   "link": "https://cloud.tencent.com/developer/article/2764036",
+   "verify": "",
+   "linkSrc": "腾讯云开发者社区（公众号同步）",
+   "src": "community",
+   "products": [
+    "ES"
+   ],
+   "needsReview": false,
+   "centers": [
+    "base"
+   ],
+   "dates": {
+    "community": "2026-10-19"
+   },
+   "firstDate": "2026-10-19"
+  },
+  {
+   "id": "2026-10-20-179",
+   "title": "10月30日深圳｜从数据基础设施到Physical AI：腾讯云大数据专场全景剧透",
+   "topic": "10月30日深圳｜从数据基础设施到Physical AI：腾讯云大数据专场全景剧透",
+   "summary": "腾讯云大数据跨中心内容（品牌 / 综述 / 行业观点 / 活动）",
+   "tags": [
+    "品牌发布",
+    "品牌综述",
+    "行业观点",
+    "Data+AI"
+   ],
+   "productCenter": "zonghe",
+   "product": "综合",
+   "date": "2026-10-20",
+   "abc": "B",
+   "platform": "腾讯云大数据 公众号",
+   "link": "https://cloud.tencent.com/developer/article/2765237",
+   "verify": "",
+   "linkSrc": "腾讯云开发者社区（公众号同步）",
+   "src": "community",
+   "products": [
+    "综合"
+   ],
+   "needsReview": false,
+   "centers": [
+    "zonghe"
+   ],
+   "dates": {
+    "community": "2026-10-20"
+   },
+   "firstDate": "2026-10-20"
+  },
+  {
+   "id": "2026-10-22-180",
+   "title": "打造你的数据虚拟员工：腾讯云TCDataAgent数据智能解决方案",
+   "topic": "打造你的数据虚拟员工：腾讯云TCDataAgent数据智能解决方案",
+   "summary": "数据分析智能体（NL2SQL 全球前三、国内第一）",
+   "tags": [
+    "品牌发布",
+    "NL2SQL",
+    "数据分析智能体"
+   ],
+   "productCenter": "base",
+   "product": "TCDataAgent",
+   "date": "2026-10-22",
+   "abc": "B",
+   "platform": "腾讯云大数据 公众号",
+   "link": "https://cloud.tencent.com/developer/article/2767006",
+   "verify": "",
+   "linkSrc": "腾讯云开发者社区（公众号同步）",
+   "src": "community",
+   "products": [
+    "TCDataAgent",
+    "ES"
+   ],
+   "needsReview": false,
+   "centers": [
+    "base"
+   ],
+   "dates": {
+    "community": "2026-10-22"
+   },
+   "firstDate": "2026-10-22"
   }
  ]
 }
